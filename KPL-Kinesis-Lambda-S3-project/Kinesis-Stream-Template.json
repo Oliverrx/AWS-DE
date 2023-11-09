@@ -1,0 +1,43 @@
+{
+    "Description": "SecondWeekFirstAssignmentKinesisStream",
+    "Parameters": {
+        "StreamName": {
+            "Default": "kinesis-first-assignment",
+            "Description": "Kinesis Stream Name",
+            "Type": "String"
+        }
+    },
+    "Resources": {
+        "SecondWeekFirstAssignmentKinesisStream": {
+            "Type" : "AWS::Kinesis::Stream",
+             "Properties" : {
+             "Name" : {
+                "Ref": "StreamName"
+            },
+             "RetentionPeriodHours" : 24,
+             "ShardCount" : 1,
+             "StreamModeDetails" : {
+                "StreamMode" : "PROVISIONED"
+            },
+             "Tags": [
+                {
+                    "Key": "Developer",
+                    "Value": "ABC"
+                },
+                {
+                    "Key": "Department",
+                    "Value": "DEV"
+                },
+                {
+                    "Key": "SupportEmail",
+                    "Value": "ABC@gmail.com"
+                },
+                {
+                    "Key": "SupportContact",
+                    "Value": "123-456-7890"
+                }
+            ]
+            }
+        }
+    }
+}
