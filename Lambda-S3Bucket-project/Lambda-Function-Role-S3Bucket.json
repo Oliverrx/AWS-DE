@@ -1,0 +1,466 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "AssignmentFour",
+    "Parameters": {
+        "AccountID": {
+            "Default": "823650347705",
+            "Description": "AWS Account ID",
+            "Type": "String"
+        },
+        "FunctionName": {
+            "Default": "Assignment-Four-S3Lambda-complete",
+            "Description": "Lambda Function Name",
+            "Type": "String"
+        },
+        "Account": {
+            "Default": "oliver",
+            "Description": "AWS Account",
+            "Type": "String"
+        },
+        "Region": {
+            "Default": "us-east-2",
+            "Description": "AWS Region",
+            "Type": "String"
+        },
+        "BucketRead": {
+            "Default": "assignment-four-s3bucket-read-complete",
+            "Description": "bucket for read",
+            "Type": "String"
+        },
+        "BucketWrite": {
+            "Default": "assignment-four-s3bucket-write-complete",
+            "Description": "bucket for write",
+            "Type": "String"
+        },
+        "RoleName": {
+            "Default": "DemoLambda-Role-complete",
+            "Description": "Lambda Function Role Name CLI",
+            "Type": "String"
+        }
+    },
+    "Resources": {
+        "AssignmentFourBucketRead": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "BucketName": {
+                    "Fn::Join": [
+                        "-",
+                        [
+                            {
+                                "Ref": "Account"
+                            },
+                            {
+                                "Ref": "Region"
+                            },
+                            {
+                                "Ref": "BucketRead"
+                            }
+                        ]
+                    ]
+                },
+                "ObjectLockConfiguration": {
+                    "ObjectLockEnabled": "Enabled",
+                    "Rule": {
+                        "DefaultRetention": {
+                            "Mode": "COMPLIANCE",
+                            "Days": 1
+                        }
+                    }
+                },
+                "PublicAccessBlockConfiguration": {
+                    "BlockPublicAcls": false,
+                    "BlockPublicPolicy": false,
+                    "IgnorePublicAcls": false,
+                    "RestrictPublicBuckets": false
+                },
+                "ObjectLockEnabled": true,
+                "Tags": [
+                    {
+                        "Key": "Developer",
+                        "Value": "ABC"
+                    },
+                    {
+                        "Key": "Department",
+                        "Value": "DEV"
+                    },
+                    {
+                        "Key": "SupportEmail",
+                        "Value": "Exxx@gmail.com"
+                    },
+                    {
+                        "Key": "SupportContact",
+                        "Value": "123-456-7890"
+                    }
+                ],
+                "VersioningConfiguration": {
+                    "Status": "Enabled"
+                }
+            }
+        },
+        "AssignmentFourBucketWrite": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "BucketName": {
+                    "Fn::Join": [
+                        "-",
+                        [
+                            {
+                                "Ref": "Account"
+                            },
+                            {
+                                "Ref": "Region"
+                            },
+                            {
+                                "Ref": "BucketWrite"
+                            }
+                        ]
+                    ]
+                },
+                "ObjectLockConfiguration": {
+                    "ObjectLockEnabled": "Enabled",
+                    "Rule": {
+                        "DefaultRetention": {
+                            "Mode": "COMPLIANCE",
+                            "Days": 1
+                        }
+                    }
+                },
+                "PublicAccessBlockConfiguration": {
+                    "BlockPublicAcls": false,
+                    "BlockPublicPolicy": false,
+                    "IgnorePublicAcls": false,
+                    "RestrictPublicBuckets": false
+                },
+                "ObjectLockEnabled": true,
+                "Tags": [
+                    {
+                        "Key": "Developer",
+                        "Value": "ABC"
+                    },
+                    {
+                        "Key": "Department",
+                        "Value": "ENG"
+                    },
+                    {
+                        "Key": "SupportEmail",
+                        "Value": "Exxx@qq.com"
+                    },
+                    {
+                        "Key": "SupportContact",
+                        "Value": "098-765-4321"
+                    }
+                ],
+                "VersioningConfiguration": {
+                    "Status": "Enabled"
+                }
+            }
+        },
+        "AssignmentFourReadBucketPolicy": {
+            "Type": "AWS::S3::BucketPolicy",
+            "Properties": {
+                "Bucket": {
+                    "Fn::Join": [
+                        "-",
+                        [
+                            {
+                                "Ref": "Account"
+                            },
+                            {
+                                "Ref": "Region"
+                            },
+                            {
+                                "Ref": "BucketRead"
+                            }
+                        ]
+                    ]
+                },
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Action": [
+                                "s3:GetObject",
+                                "s3:PutObject"
+                            ],
+                            "Effect": "Allow",
+                            "Resource": [
+                                {
+                                    "Fn::GetAtt": [
+                                        "AssignmentFourBucketRead",
+                                        "Arn"
+                                    ]
+                                },
+                                {
+                                    "Fn::Join": [
+                                        "",
+                                        [
+                                            "arn:aws:s3:::",
+                                            {
+                                                "Fn::Join": [
+                                                    "-",
+                                                    [
+                                                        {
+                                                            "Ref": "Account"
+                                                        },
+                                                        {
+                                                            "Ref": "Region"
+                                                        },
+                                                        {
+                                                            "Ref": "BucketRead"
+                                                        }
+                                                    ]
+                                                ]
+                                            },
+                                            "/*"
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "Principal": "*"
+                        }
+                    ]
+                }
+            }
+        },
+        "AssignmentFourWriteBucketPolicy": {
+            "Type": "AWS::S3::BucketPolicy",
+            "Properties": {
+                "Bucket": {
+                    "Fn::Join": [
+                        "-",
+                        [
+                            {
+                                "Ref": "Account"
+                            },
+                            {
+                                "Ref": "Region"
+                            },
+                            {
+                                "Ref": "BucketWrite"
+                            }
+                        ]
+                    ]
+                },
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Action": [
+                                "s3:GetObject",
+                                "s3:PutObject"
+                            ],
+                            "Effect": "Allow",
+                            "Resource": [
+                                {
+                                    "Fn::GetAtt": [
+                                        "AssignmentFourBucketWrite",
+                                        "Arn"
+                                    ]
+                                },
+                                {
+                                    "Fn::Join": [
+                                        "",
+                                        [
+                                            "arn:aws:s3:::",
+                                            {
+                                                "Fn::Join": [
+                                                    "-",
+                                                    [
+                                                        {
+                                                            "Ref": "Account"
+                                                        },
+                                                        {
+                                                            "Ref": "Region"
+                                                        },
+                                                        {
+                                                            "Ref": "BucketWrite"
+                                                        }
+                                                    ]
+                                                ]
+                                            },
+                                            "/*"
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "Principal": "*"
+                        }
+                    ]
+                }
+            }
+        },
+        "DemoLambdaFunction": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "Architectures": [
+                    "arm64"
+                ],
+                "Code": {
+                    "S3Bucket": "assignment4-object-test",
+                    "S3Key": "lambda_function.zip"
+                },
+                "Description": "This is a complete demo lambda template",
+                "EphemeralStorage": {
+                    "Size": 1024
+                },
+                "FunctionName": {
+                    "Ref": "FunctionName"
+                },
+                "Handler": "lambda_function.lambda_handler",
+                "MemorySize": 128,
+                "PackageType": "Zip",
+                "Role": {
+                    "Fn::GetAtt": [
+                        "DemoLambdaRole",
+                        "Arn"
+                    ]
+                },
+                "Runtime": "python3.11",
+                "Tags": [
+                    {
+                        "Key": "Developer",
+                        "Value": "A"
+                    },
+                    {
+                        "Key": "SupportEmail",
+                        "Value": "aaaa@gmail.com"
+                    }
+                ],
+                "Timeout": 100
+            }
+        },
+        "DemoLambdaRole": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "AssumeRolePolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": [
+                                    "lambda.amazonaws.com"
+                                ]
+                            },
+                            "Action": [
+                                "sts:AssumeRole"
+                            ]
+                        }
+                    ]
+                },
+                "Path": "/",
+                "Policies": [
+                    {
+                        "PolicyName": "DemoLambdaS3Policy",
+                        "PolicyDocument": {
+                            "Version": "2012-10-17",
+                            "Statement": [
+                                {
+                                    "Sid": "ReadAccess",
+                                    "Action": [
+                                        "s3:GetObject",
+                                        "s3:GetObjectVersion"
+                                    ],
+                                    "Effect": "Allow",
+                                    "Resource": [
+                                        {
+                                            "Fn::Join": [
+                                                "",
+                                                [
+                                                    "arn:aws:s3:::",
+                                                    {
+                                                        "Fn::Join": [
+                                                            "-",
+                                                            [
+                                                                {
+                                                                    "Ref": "Account"
+                                                                },
+                                                                {
+                                                                    "Ref": "Region"
+                                                                },
+                                                                {
+                                                                    "Ref": "BucketRead"
+                                                                }
+                                                            ]
+                                                        ]
+                                                    },
+                                                    "/*"
+                                                ]
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Sid": "WriteAccess",
+                                    "Action": [
+                                        "s3:PutObject"
+                                    ],
+                                    "Effect": "Allow",
+                                    "Resource": [
+                                        {
+                                            "Fn::Join": [
+                                                "",
+                                                [
+                                                    "arn:aws:s3:::",
+                                                    {
+                                                        "Fn::Join": [
+                                                            "-",
+                                                            [
+                                                                {
+                                                                    "Ref": "Account"
+                                                                },
+                                                                {
+                                                                    "Ref": "Region"
+                                                                },
+                                                                {
+                                                                    "Ref": "BucketRead"
+                                                                }
+                                                            ]
+                                                        ]
+                                                    },
+                                                    "/*"
+                                                ]
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "PolicyName": "DemoLambdaLogPolicy",
+                        "PolicyDocument": {
+                            "Version": "2012-10-17",
+                            "Statement": [
+                                {
+                                    "Sid": "LogAccess",
+                                    "Effect": "Allow",
+                                    "Action": [
+                                        "logs:*"
+                                    ],
+                                    "Resource": "arn:aws:logs:*:*:*"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "RoleName": {
+                    "Fn::Join": [
+                        "-",
+                        [
+                            {
+                                "Ref": "Account"
+                            },
+                            {
+                                "Ref": "AWS::Region"
+                            },
+                            {
+                                "Ref": "RoleName"
+                            }
+                        ]
+                    ]
+                }
+            }
+        }
+    }
+}
