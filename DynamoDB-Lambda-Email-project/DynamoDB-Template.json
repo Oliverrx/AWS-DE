@@ -1,0 +1,131 @@
+{
+    "Description": "Third Week first Assignment DynamoBD",
+    "Parameters": {
+        "AccountID": {
+            "Default": "823650347705",
+            "Description": "AWS Account ID",
+            "Type": "String"
+        },
+        "FunctionName": {
+            "Default": "data_processing_dynamodb_lambda",
+            "Description": "Lambda Function Name",
+            "Type": "String"
+        },
+        "Account": {
+            "Default": "oliver",
+            "Description": "AWS Account",
+            "Type": "String"
+        },
+        "Region": {
+            "Default": "us-east-2",
+            "Description": "AWS Region",
+            "Type": "String"
+        },
+        "StreamName": {
+            "Default": "Kinesis-Lambda-second-assignment",
+            "Description": "Kinesis Stream Name",
+            "Type": "String"
+        },
+        "RawBucketName": {
+            "Default": "kinesislambda-second-assignment-s3bucket",
+            "Description": "bucket for kinesis_lambda",
+            "Type": "String"
+        },
+        "RoleName": {
+            "Default": "Kinesis-Lambda-Role",
+            "Description": "Lambda Function Role Name",
+            "Type": "String"
+        }
+    },
+    "Resources": {
+        "MyDynamoDBTable": {
+            "Type": "AWS::DynamoDB::Table",
+            "Properties": {
+                "AttributeDefinitions": [
+                    {
+                        "AttributeName": "Id",
+                        "AttributeType": "S"
+                    },
+                    {
+                        "AttributeName": "Name",
+                        "AttributeType": "S"
+                    },
+                    {
+                        "AttributeName": "Department",
+                        "AttributeType": "S"
+                    },
+                    {
+                        "AttributeName": "Age",
+                        "AttributeType": "N"
+                    }
+                ],
+                "BillingMode": "PROVISIONED",
+                "ContributorInsightsSpecification": {
+                    "Enabled": true
+                },
+                "KeySchema": [
+                    {
+                        "AttributeName": "Id",
+                        "KeyType": "HASH" 
+                    },
+                    {
+                        "AttributeName": "Name", 
+                        "KeyType": "RANGE" 
+                    }
+                ],
+                "GlobalSecondaryIndexes": [
+                    {
+                        "IndexName": "GSI",
+                        "KeySchema": [
+                            {
+                                "AttributeName": "Id",
+                                "KeyType": "HASH"
+                            }
+                        ],
+                        "Projection": {
+                            "ProjectionType": "KEYS_ONLY"
+                        },
+                        "ProvisionedThroughput": {
+                            "ReadCapacityUnits": 10,
+                            "WriteCapacityUnits": 10
+                        }
+                    }
+                ],
+                "PointInTimeRecoverySpecification": {
+                    "PointInTimeRecoveryEnabled": true
+                },
+                "ProvisionedThroughput": {
+                    "ReadCapacityUnits": 10,
+                    "WriteCapacityUnits": 10
+                },
+                "StreamSpecification": {
+                    "StreamViewType": "NEW_AND_OLD_IMAGES"
+                },
+                "TableClass": "STANDARD",
+                "TableName": "Staff",
+                "Tags": [
+                    {
+                        "Key": "Developer",
+                        "Value": "A"
+                    },
+                    {
+                        "Key": "Department",
+                        "Value": "Eng"
+                    },
+                    {
+                        "Key": "Project",
+                        "Value": "DynamoDB"
+                    },
+                    {
+                        "Key": "SupportEmail",
+                        "Value": "xxx@gmail.com"
+                    },
+                    {
+                        "Key": "Version",
+                        "Value": 1.0
+                    }
+                ]
+            }
+        }
+    }
+}
