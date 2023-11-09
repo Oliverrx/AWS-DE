@@ -1,0 +1,530 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "Fourth Week Assignment SNS SQS Lambda EventSourceMapping Send Email",
+    "Parameters": {
+        "AccountID": {
+            "Default": "823650347705",
+            "Description": "AWS Account ID",
+            "Type": "String"
+        },
+        "Account": {
+            "Default": "oliver",
+            "Description": "AWS Account",
+            "Type": "String"
+        },
+        "Region": {
+            "Default": "us-east-2",
+            "Description": "AWS Region",
+            "Type": "String"
+        },
+        "SendEmailSNSName": {
+            "Default": "send_Email_SNS_topic",
+            "Description": "send Email SNS Topic Name",
+            "Type": "String"
+        },
+        "SNSName": {
+            "Default": "receive_event_SNS_topic",
+            "Description": "receive event SNS Topic Name",
+            "Type": "String"
+        },
+        "SQSName": {
+            "Default": "test_SQS",
+            "Description": "SQS Queue Name",
+            "Type": "String"
+        },
+        "FunctionName": {
+            "Default": "sns_sqs_lambda_send_email_updated",
+            "Description": "Lambda Function Name",
+            "Type": "String"
+        },
+        "StreamName": {
+            "Default": "Kinesis-Lambda-third-assignment",
+            "Description": "Kinesis Stream Name",
+            "Type": "String"
+        },
+        "RawBucketName": {
+            "Default": "kinesislambda-assignment-dynamodb",
+            "Description": "bucket for kinesis_lambda",
+            "Type": "String"
+        },
+        "RoleName": {
+            "Default": "Kinesis-Lambda-DynamoDB-Role",
+            "Description": "Lambda Function Role Name",
+            "Type": "String"
+        }
+    },
+    "Resources": {
+        "MySNSEmailSubscription": {
+            "Type": "AWS::SNS::Subscription",
+            "Properties": {
+                "Endpoint": "oliverxcl9821@gmail.com",
+                "Protocol": "email",
+                "TopicArn": {
+                    "Ref": "SendEmailSNSTopic"
+                }
+            }
+        },
+        "SendEmailSNSTopic": {
+            "Type": "AWS::SNS::Topic",
+            "Properties": {
+                "DisplayName": "Send Email Topic",
+                "FifoTopic": false,
+                "Subscription": [
+                    {
+                        "Endpoint": 1234567890,
+                        "Protocol": "sms"
+                    },
+                    {
+                        "Endpoint": "oooooo@gmail.com",
+                        "Protocol": "email"
+                    }
+                ],
+                "Tags": [
+                    {
+                        "Key": "Developer",
+                        "Value": "ABC"
+                    },
+                    {
+                        "Key": "Department",
+                        "Value": "DEV"
+                    },
+                    {
+                        "Key": "SupportEmail",
+                        "Value": "ABC@gmail.com"
+                    },
+                    {
+                        "Key": "SupportContact",
+                        "Value": "123-456-7890"
+                    }
+                ],
+                "TopicName": {
+                    "Ref": "SendEmailSNSName"
+                }
+            }
+        },
+        "SendEmailSNSPolicy": {
+            "Type": "AWS::SNS::TopicPolicy",
+            "Properties": {
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Id": "default_policy_ID",
+                    "Statement": [
+                        {
+                            "Sid": "AccountAccess",
+                            "Effect": "Allow",
+                            "Principal": {
+                                "AWS": "*"
+                            },
+                            "Action": [
+                                "SNS:Publish",
+                                "SNS:RemovePermission",
+                                "SNS:SetTopicAttributes",
+                                "SNS:DeleteTopic",
+                                "SNS:ListSubscriptionsByTopic",
+                                "SNS:GetTopicAttributes",
+                                "SNS:AddPermission",
+                                "SNS:Subscribe",
+                                "SNS:Receive"
+                            ],
+                            "Resource": [
+                                {
+                                    "Ref": "SendEmailSNSTopic"
+                                }
+                            ],
+                            "Condition": {
+                                "StringEquals": {
+                                    "AWS:SourceOwner": {
+                                        "Ref": "AWS::AccountId"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "Sid": "LambdaAccess",
+                            "Effect": "Allow",
+                            "Action": [
+                                "sns:Publish"
+                            ],
+                            "Principal": {
+                                "Service": "lambda.amazonaws.com"
+                            },
+                            "Resource": [
+                                {
+                                    "Ref": "SendEmailSNSTopic"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Topics": [
+                    {
+                        "Ref": "SendEmailSNSTopic"
+                    }
+                ]
+            }
+        },
+        "ReceiveEventSNSTopic": {
+            "Type": "AWS::SNS::Topic",
+            "Properties": {
+                "DisplayName": "Receive Event Topic",
+                "Subscription": [
+                    {
+                        "Endpoint": "1234567890",
+                        "Protocol": "sms"
+                    },
+                    {
+                        "Endpoint": "qqqqq@gmail.com",
+                        "Protocol": "email"
+                    },
+                    {
+                        "Endpoint": {
+                            "Fn::Join": [
+                                ":",
+                                [
+                                    "arn:aws:sqs",
+                                    {
+                                        "Ref": "Region"
+                                    },
+                                    {
+                                        "Ref": "AccountID"
+                                    },
+                                    {
+                                        "Ref": "SQSName"
+                                    }
+                                ]
+                            ]
+                        },
+                        "Protocol": "sqs"
+                    }
+                ],
+                "Tags": [
+                    {
+                        "Key": "Developer",
+                        "Value": "Jake"
+                    },
+                    {
+                        "Key": "Department",
+                        "Value": "Engineering"
+                    }
+                ],
+                "TopicName": {
+                    "Ref": "SNSName"
+                }
+            }
+        },
+        "ReceiveEventSNSPolicy": {
+            "Type": "AWS::SNS::TopicPolicy",
+            "Properties": {
+                "PolicyDocument": {
+                    "Statement": [
+                        {
+                            "Action": [
+                                "sns:AddPermission",
+                                "sns:DeleteTopic",
+                                "sns:GetTopicAttributes",
+                                "sns:ListSubscriptionsByTopic",
+                                "sns:Publish",
+                                "sns:SetTopicAttributes",
+                                "sns:Subscribe",
+                                "sns:Receive",
+                                "sns:RemovePermission"
+                            ],
+                            "Condition": {
+                                "StringEquals": {
+                                    "AWS:SourceOwner": {
+                                        "Ref": "AWS::AccountId"
+                                    }
+                                }
+                            },
+                            "Effect": "Allow",
+                            "Principal": {
+                                "AWS": "*"
+                            },
+                            "Resource": [
+                                {
+                                    "Ref": "ReceiveEventSNSTopic"
+                                }
+                            ],
+                            "Sid": "SNSPolicy"
+                        },
+                        {
+                            "Action": [
+                                "sns:Publish"
+                            ],
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": "events.amazonaws.com"
+                            },
+                            "Resource": [
+                                {
+                                    "Ref": "ReceiveEventSNSTopic"
+                                }
+                            ],
+                            "Sid": "EventAccess"
+                        }
+                    ],
+                    "Version": "2012-10-17"
+                },
+                "Topics": [
+                    {
+                        "Ref": "ReceiveEventSNSTopic"
+                    }
+                ]
+            }
+        },
+        "MySQS": {
+            "Type": "AWS::SQS::Queue",
+            "Properties": {
+                "QueueName": {
+                    "Ref": "SQSName"
+                },
+                "Tags": [
+                    {
+                        "Key": "Developer",
+                        "Value": "Mike"
+                    },
+                    {
+                        "Key": "Department",
+                        "Value": "Engineering"
+                    }
+                ],
+                "VisibilityTimeout": 120
+            }
+        },
+        "MySQSPolicy": {
+            "Type": "AWS::SQS::QueuePolicy",
+            "Properties": {
+                "PolicyDocument": {
+                    "Statement": [
+                        {
+                            "Action": [
+                                "sqs:*"
+                            ],
+                            "Effect": "Allow",
+                            "Principal": {
+                                "AWS": {
+                                    "Fn::Join": [
+                                        "",
+                                        [
+                                            "arn:aws:iam::",
+                                            {
+                                                "Ref": "AWS::AccountId"
+                                            },
+                                            ":root"
+                                        ]
+                                    ]
+                                }
+                            },
+                            "Resource": {
+                                "Fn::GetAtt": [
+                                    "MySQS",
+                                    "Arn"
+                                ]
+                            },
+                            "Sid": "RootAccountAccess"
+                        },
+                        {
+                            "Action": [
+                                "sqs:SendMessage"
+                            ],
+                            "Condition": {
+                                "ArnLike": {
+                                    "aws:SourceArn": {
+                                        "Fn::Sub": "arn:aws:sns:${AWS::Region}:${AWS::AccountId}:${SNSName}"
+                                    }
+                                }
+                            },
+                            "Effect": "Allow",
+                            "Principal": {
+                                "AWS": "*"
+                            },
+                            "Resource": {
+                                "Fn::GetAtt": [
+                                    "MySQS",
+                                    "Arn"
+                                ]
+                            },
+                            "Sid": "Topic-subscription"
+                        }
+                    ],
+                    "Version": "2012-10-17"
+                },
+                "Queues": [
+                    {
+                        "Ref": "MySQS"
+                    }
+                ]
+            }
+        },
+        "SNSSQSSendEmailLambda": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "Architectures": [
+                    "x86_64"
+                ],
+                "Code": {
+                    "S3Bucket": "assignment4-object-test",
+                    "S3Key": "Lambda_Send_Email_Template.zip"
+                },
+                "Description": "SNS SQS Lambda Send Email using CFT",
+                "EphemeralStorage": {
+                    "Size": 1024
+                },
+                "FunctionName": {
+                    "Ref": "FunctionName"
+                },
+                "Handler": "Lambda_Send_Email_Template.lambda_handler",
+                "MemorySize": 128,
+                "PackageType": "Zip",
+                "Role": {
+                    "Fn::GetAtt": [
+                        "SNSSQSSendEmailLambdaRole",
+                        "Arn"
+                    ]
+                },
+                "Runtime": "python3.10",
+                "Tags": [
+                    {
+                        "Key": "Developer",
+                        "Value": "Jake"
+                    },
+                    {
+                        "Key": "SupportEmail",
+                        "Value": "aaaa@gmail.com"
+                    }
+                ],
+                "Timeout": 120
+            }
+        },
+        "SNSSQSSendEmailLambdaRole": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "AssumeRolePolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": [
+                                    "lambda.amazonaws.com"
+                                ]
+                            },
+                            "Action": [
+                                "sts:AssumeRole"
+                            ]
+                        }
+                    ]
+                },
+                "Path": "/",
+                "Policies": [
+                    {
+                        "PolicyName": "EmailLambdaAccess",
+                        "PolicyDocument": {
+                            "Version": "2012-10-17",
+                            "Statement": [
+                                {
+                                    "Sid": "LogAccess",
+                                    "Effect": "Allow",
+                                    "Action": [
+                                        "logs:*"
+                                    ],
+                                    "Resource": "arn:aws:logs:*:*:*"
+                                },
+                                {
+                                    "Sid": "SQSAccess",
+                                    "Action": [
+                                        "sqs:DeleteMessage",
+                                        "sqs:GetQueueUrl",
+                                        "sqs:ChangeMessageVisibility",
+                                        "sqs:ReceiveMessage",
+                                        "sqs:GetQueueAttributes"
+                                    ],
+                                    "Effect": "Allow",
+                                    "Resource": {
+                                        "Fn::GetAtt": [
+                                            "MySQS",
+                                            "Arn"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Sid": "SNSPermission",
+                                    "Effect": "Allow",
+                                    "Action": [
+                                        "sns:Publish"
+                                    ],
+                                    "Resource": {
+                                        "Ref": "SendEmailSNSTopic"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "RoleName": {
+                    "Fn::Join": [
+                        "-",
+                        [
+                            {
+                                "Ref": "Account"
+                            },
+                            {
+                                "Ref": "AWS::Region"
+                            },
+                            {
+                                "Ref": "FunctionName"
+                            }
+                        ]
+                    ]
+                }
+            }
+        },
+        "SQSEventSourceMapping": {
+            "Type": "AWS::Lambda::EventSourceMapping",
+            "DependsOn": [
+                "MySQS",
+                "SNSSQSSendEmailLambda"
+            ],
+            "Properties": {
+                "BatchSize": 150,
+                "Enabled": true,
+                "EventSourceArn": {
+                    "Fn::GetAtt": [
+                        "MySQS",
+                        "Arn"
+                    ]
+                },
+                "FunctionName": {
+                    "Fn::GetAtt": [
+                        "SNSSQSSendEmailLambda",
+                        "Arn"
+                    ]
+                },
+                "MaximumBatchingWindowInSeconds": 1
+            }
+        }
+    },
+    "Outputs": {
+        "SendEmailSNSTopic": {
+            "Description": "Send Email SNS Topic",
+            "Value": {
+                "Ref": "SendEmailSNSTopic"
+            }
+        },
+        "ReceiveEventSNSTopic": {
+            "Description": "Receive Event SNS topic",
+            "Value": {
+                "Ref": "ReceiveEventSNSTopic"
+            }
+        },
+        "MySQS": {
+            "Description": "Test SQS",
+            "Value": {
+                "Fn::GetAtt": [
+                    "MySQS",
+                    "QueueName"
+                ]
+            }
+        }
+    }
+}
