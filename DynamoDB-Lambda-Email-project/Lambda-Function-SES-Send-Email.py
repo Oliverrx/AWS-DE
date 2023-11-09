@@ -1,5 +1,5 @@
 import json
-import boto3
+import boto3a
 
 
 client = boto3.client('ses', region_name='us-east-2')
