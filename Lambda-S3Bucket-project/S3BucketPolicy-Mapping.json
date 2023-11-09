@@ -1,0 +1,196 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "AssignmentFiveupdated",
+    "Parameters": {
+        "Account": {
+            "Default": "oliver",
+            "Description": "AWS Account Name",
+            "Type": "String"
+        },
+        "Region": {
+            "Default": "us-east-2",
+            "Description": "AWS Region",
+            "AllowedValues" : ["us-east-2", "us-east-1"],
+            "Type": "String"
+        },
+        "RawBucketName": {
+            "Default": "assignment-five-bucketpolicy-mapping-updated1",
+            "Description": "Bucket Name",
+            "Type": "String"
+        }
+    },
+    "Mappings": {
+        "S3AllPrincipals": {
+            "us-east-2": {
+                "823650347705": [
+                    "arn:aws:iam::823650347705:role/oliver-us-east-2-DemoLambda-Role-complete",
+                    "arn:aws:iam::823650347705:role/oliver-us-east-2-newDemoLambdaRole",
+                    "arn:aws:iam::823650347705:role/oliver-us-east-2-DemoLambdaRole",
+                    "arn:aws:iam::823650347705:role/service-role/third-assignment-lambda2-role-g5icrczx",
+                    "arn:aws:iam::823650347705:role/service-role/third-assignment-lambdafunction-role-l26bn78s",
+                    "arn:aws:iam::823650347705:role/service-role/test3-role-axzp5c6y",
+                    "arn:aws:iam::823650347705:role/service-role/assignment-four-test-role-t28dpeeh"
+                ]
+            },
+            "us-east-1": {
+                "823650347705": [
+                    "arn:aws:iam::823650347705:role/oliver-us-east-2-newDemoLambdaRole",
+                    "arn:aws:iam::823650347705:role/service-role/assignment5-role-78oz1ct9"
+                ]
+            }
+        }
+    },
+    "Resources": {
+        "AssignmentFiveBucketupdated": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "BucketName": {
+                    "Fn::Join": [
+                        "-",
+                        [
+                            {
+                                "Ref": "Account"
+                            },
+                            {
+                                "Ref": "Region"
+                            },
+                            {
+                                "Ref": "RawBucketName"
+                            }
+                        ]
+                    ]
+                },
+                "ObjectLockConfiguration": {
+                    "ObjectLockEnabled": "Enabled",
+                    "Rule": {
+                        "DefaultRetention": {
+                            "Mode": "COMPLIANCE",
+                            "Days": 1
+                        }
+                    }
+                },
+                "PublicAccessBlockConfiguration": {
+                    "BlockPublicAcls": false,
+                    "BlockPublicPolicy": false,
+                    "IgnorePublicAcls": false,
+                    "RestrictPublicBuckets": false
+                },
+                "ObjectLockEnabled": true,
+                "Tags": [
+                    {
+                        "Key": "Developer",
+                        "Value": "ABC"
+                    },
+                    {
+                        "Key": "Department",
+                        "Value": "DEV"
+                    },
+                    {
+                        "Key": "SupportEmail",
+                        "Value": "Exxx@gmail.com"
+                    },
+                    {
+                        "Key": "SupportContact",
+                        "Value": "123-456-7890"
+                    }
+                ],
+                "VersioningConfiguration": {
+                    "Status": "Enabled"
+                }
+            }
+        },
+        "SecondAssignmentBucketPolicy": {
+            "Type": "AWS::S3::BucketPolicy",
+            "Properties": {
+                "Bucket": {
+                    "Ref": "AssignmentFiveBucketupdated"
+                },
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Action": [
+                                "s3:GetObject",
+                                "s3:PutObject",
+                                "s3:ListBucket"
+                            ],
+                            "Effect": "Allow",
+                            "Resource": [
+                                {
+                                    "Fn::GetAtt": [
+                                        "AssignmentFiveBucketupdated",
+                                        "Arn"
+                                    ]
+                                },
+                                {
+                                    "Fn::Join": [
+                                        "",
+                                        [
+                                            "arn:aws:s3:::",
+                                            {
+                                                "Ref": "AssignmentFiveBucketupdated"
+                                            },
+                                            "/*"
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "Principal": {
+                                "Service": [
+                                    "lambda.amazonaws.com"
+                                ]
+                            }
+                        },
+                        {
+                            "Action": [
+                                "s3:GetObject",
+                                "s3:PutObject"
+                            ],
+                            "Effect": "Deny",
+                            "Resource": [
+                                {
+                                    "Fn::GetAtt": [
+                                        "AssignmentFiveBucketupdated",
+                                        "Arn"
+                                    ]
+                                },
+                                {
+                                    "Fn::Join": [
+                                        "",
+                                        [
+                                            "arn:aws:s3:::",
+                                            {
+                                                "Ref": "AssignmentFiveBucketupdated"
+                                            },
+                                            "/*"
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "Principal": {
+                                "Service": [
+                                    "lambda.amazonaws.com"
+                                ]
+                            },
+                            "Condition": {
+                                "ForAnyValue:StringNotLike": {
+                                    "aws:PrincipalArn": {
+                                        "Fn::FindInMap": [
+                                            "S3AllPrincipals",
+                                            {
+                                                "Ref": "Region"
+                                            },
+                                            {
+                                                "Ref": "AWS::AccountId"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
