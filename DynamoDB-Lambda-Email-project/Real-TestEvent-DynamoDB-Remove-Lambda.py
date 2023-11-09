@@ -1,4 +1,4 @@
-import json
+import jsona
 
 # real event obtained from lambda function log
 event = {'Records': [
