@@ -1,0 +1,49 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "FirstAssignment",
+    "Resources": {
+        "firstassignmentbucket": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "BucketName": "myaws-bucket-firstassignment",
+                "ObjectLockConfiguration": {
+                    "ObjectLockEnabled": "Enabled",
+                    "Rule": {
+                        "DefaultRetention": {
+                            "Mode": "COMPLIANCE",
+                            "Days": 1
+                        }
+                    }
+                },
+                "PublicAccessBlockConfiguration": {
+                    "BlockPublicAcls": false,
+                    "BlockPublicPolicy": false,
+                    "IgnorePublicAcls": false,
+                    "RestrictPublicBuckets": false
+                },
+                "ObjectLockEnabled": true,
+                "Tags": [
+                    {
+                        "Key": "Developer",
+                        "Value": "ABC"
+                    },
+                    {
+                        "Key": "Department",
+                        "Value": "DEV"
+                    },
+                    {
+                        "Key": "SupportEmail",
+                        "Value": "Exxx@gmail.com"
+                    },
+                    {
+                        "Key": "SupportContact",
+                        "Value": "123-456-7890"
+                    }
+                ],
+                "VersioningConfiguration": {
+                    "Status": "Enabled"
+                }
+            }
+        }
+    }  
+}
