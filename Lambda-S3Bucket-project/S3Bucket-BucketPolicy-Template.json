@@ -1,0 +1,130 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "SecondAssignment",
+    "Parameters": {
+        "Account": {
+            "Default": "oliver",
+            "Description": "AWS Account Name",
+            "Type": "String"
+        },
+        "Region": {
+            "Default": "us-east-2",
+            "Description": "AWS Region",
+            "Type": "String"
+        },
+        "RawBucketName": {
+            "Default": "second-assignment-bucketpolicy-updated",
+            "Description": "Bucket Name",
+            "Type": "String"
+        }
+    },
+    "Resources": {
+        "SecondAssignmentBucket": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "BucketName": {
+                    "Fn::Join": [
+                        "-",
+                        [
+                            {
+                                "Ref": "Account"
+                            },
+                            {
+                                "Ref": "Region"
+                            },
+                            {
+                                "Ref": "RawBucketName"
+                            }
+                        ]
+                    ]
+                },
+                "ObjectLockConfiguration": {
+                    "ObjectLockEnabled": "Enabled",
+                    "Rule": {
+                        "DefaultRetention": {
+                            "Mode": "COMPLIANCE",
+                            "Days": 1
+                        }
+                    }
+                },
+                "PublicAccessBlockConfiguration": {
+                    "BlockPublicAcls": false,
+                    "BlockPublicPolicy": false,
+                    "IgnorePublicAcls": false,
+                    "RestrictPublicBuckets": false
+                },
+                "ObjectLockEnabled": true,
+                "Tags": [
+                    {
+                        "Key": "Developer",
+                        "Value": "ABC"
+                    },
+                    {
+                        "Key": "Department",
+                        "Value": "DEV"
+                    },
+                    {
+                        "Key": "SupportEmail",
+                        "Value": "Exxx@gmail.com"
+                    },
+                    {
+                        "Key": "SupportContact",
+                        "Value": "123-456-7890"
+                    }
+                ],
+                "VersioningConfiguration": {
+                    "Status": "Enabled"
+                }
+            }
+        },
+        "SecondAssignmentBucketPolicy": {
+            "Type": "AWS::S3::BucketPolicy",
+            "Properties": {
+                "Bucket": {
+                    "Ref": "SecondAssignmentBucket"
+                },
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Action": [
+                                "s3:GetObject",
+                                "s3:PutObject"
+                            ],
+                            "Effect": "Allow",
+                            "Resource": [
+                                {
+                                    "Fn::GetAtt": [
+                                        "SecondAssignmentBucket",
+                                        "Arn"
+                                    ]
+                                },
+                                {
+                                    "Fn::Join": [
+                                        "",
+                                        [
+                                            "arn:aws:s3:::",
+                                            {
+                                                "Ref": "SecondAssignmentBucket"
+                                            },
+                                            "/*"
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "Principal": "*",
+                            "Condition": {
+                                "StringLike": {
+                                    "aws:Referer": [
+                                        "http://www.example.com/*",
+                                        "http://example.net/*"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
