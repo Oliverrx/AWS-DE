@@ -1,5 +1,5 @@
 import json
-import boto3
+import boto3a
 
 def lambda_handler(event, context):
     s3_client = boto3.client('s3')
