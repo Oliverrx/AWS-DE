@@ -49,14 +49,6 @@
                     {
                         "AttributeName": "Name",
                         "AttributeType": "S"
-                    },
-                    {
-                        "AttributeName": "Department",
-                        "AttributeType": "S"
-                    },
-                    {
-                        "AttributeName": "Age",
-                        "AttributeType": "N"
                     }
                 ],
                 "BillingMode": "PROVISIONED",
