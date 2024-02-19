@@ -1,0 +1,521 @@
+{
+    "Description": "GSF DynamoBD Table with EventSourceMapping",
+    "Parameters": {
+        "AccountID": {
+            "Default": "823650347705",
+            "Description": "AWS Account ID",
+            "Type": "String"
+        },
+        "Account": {
+            "Default": "oliver",
+            "Description": "AWS Account",
+            "Type": "String"
+        },
+        "Region": {
+            "Default": "us-east-2",
+            "Description": "AWS Region",
+            "Type": "String"
+        },
+        "StreamName": {
+            "Default": "Kinesis-Lambda",
+            "Description": "Kinesis Stream Name",
+            "Type": "String"
+        },
+        "RawBucketName": {
+            "Default": "gsf-family-info-data-bucket",
+            "Description": "bucket for GSF data",
+            "Type": "String"
+        },
+        "DynamoDBTableName": {
+            "Default": "GSF_Family_Info",
+            "Description": "GSF DynamoDB Table",
+            "Type": "String"
+        },
+        "DataWriteFunctionName": {
+            "Default": "GSF_dynamodb_data_writing_lambda",
+            "Description": "Write Data Lambda Function Name",
+            "Type": "String"
+        },
+        "DataWriteLambdaRoleName": {
+            "Default": "GSF-Lambda-write-data-Role",
+            "Description": "Write Data Lambda Function Role Name",
+            "Type": "String"
+        },
+        "EmailSendFunctionName": {
+            "Default": "GSF_dynamodb_email_sending_lambda",
+            "Description": "Send Email Lambda Function Name",
+            "Type": "String"
+        },
+        "EmailSendLambdaRoleName": {
+            "Default": "GSF-Lambda-send-email-Role",
+            "Description": "Send Email Lambda Function Role Name",
+            "Type": "String"
+        }
+    },
+    "Resources": {
+        "GSFDynamoDBTable": {
+            "Type": "AWS::DynamoDB::Table",
+            "Properties": {
+                "KeySchema": [
+                    {
+                        "AttributeName": "ID",
+                        "KeyType": "HASH"
+                    },
+                    {
+                        "AttributeName": "Year",
+                        "KeyType": "RANGE"
+                    }
+                ],
+                "AttributeDefinitions": [
+                    {
+                        "AttributeName": "ID",
+                        "AttributeType": "S"
+                    },
+                    {
+                        "AttributeName": "Year",
+                        "AttributeType": "S"
+                    }
+                ],
+                "BillingMode": "PROVISIONED",
+                "ContributorInsightsSpecification": {
+                    "Enabled": false
+                },
+                "GlobalSecondaryIndexes": [
+                    {
+                        "IndexName": "GSI",
+                        "KeySchema": [
+                            {
+                                "AttributeName": "ID",
+                                "KeyType": "HASH"
+                            }
+                        ],
+                        "Projection": {
+                            "ProjectionType": "KEYS_ONLY"
+                        },
+                        "ProvisionedThroughput": {
+                            "ReadCapacityUnits": 10,
+                            "WriteCapacityUnits": 10
+                        }
+                    }
+                ],
+                "PointInTimeRecoverySpecification": {
+                    "PointInTimeRecoveryEnabled": true
+                },
+                "ProvisionedThroughput": {
+                    "ReadCapacityUnits": 10,
+                    "WriteCapacityUnits": 10
+                },
+                "StreamSpecification": {
+                    "StreamViewType": "NEW_AND_OLD_IMAGES"
+                },
+                "TableClass": "STANDARD",
+                "TableName": {
+                    "Ref": "DynamoDBTableName"
+                },
+                "Tags": [
+                    {
+                        "Key": "Developer",
+                        "Value": "A"
+                    },
+                    {
+                        "Key": "Version",
+                        "Value": 1.0
+                    }
+                ]
+            }
+        },
+        "GSFDynamoDBEventSourceMapping": {
+            "Type": "AWS::Lambda::EventSourceMapping",
+            "DependsOn": [
+                "GSFDynamoDBTable",
+                "DynmoDBLambdaEmailSending"
+            ],
+            "Properties": {
+                "BatchSize": 150,
+                "Enabled": true,
+                "EventSourceArn": {
+                    "Fn::GetAtt": [
+                        "GSFDynamoDBTable",
+                        "StreamArn"
+                    ]
+                },
+                "FunctionName": {
+                    "Fn::GetAtt": [
+                        "DynmoDBLambdaEmailSending",
+                        "Arn"
+                    ]
+                },
+                "MaximumBatchingWindowInSeconds": 5,
+                "MaximumRetryAttempts": 5,
+                "ParallelizationFactor": 10,
+                "StartingPosition": "LATEST",
+                "FilterCriteria": {
+                    "Filters": [
+                        {
+                            "Pattern": "{ \"eventName\": [\"MODIFY\"]}"
+                        },
+                        {
+                            "Pattern": "{ \"eventName\": [\"REMOVE\"]}"
+                        }
+                    ]
+                }
+            }
+        },
+        "DynmoDBLambdaDataWriting": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "Architectures": [
+                    "x86_64"
+                ],
+                "Code": {
+                    "S3Bucket": "assignment4-object-test",
+                    "S3Key": "lambda_function.zip"
+                },
+                "Description": "dynamodb lambda write data",
+                "EphemeralStorage": {
+                    "Size": 1024
+                },
+                "FunctionName": {
+                    "Ref": "DataWriteFunctionName"
+                },
+                "Handler": "lambda_function.lambda_handler",
+                "MemorySize": 128,
+                "PackageType": "Zip",
+                "Role": {
+                    "Fn::GetAtt": [
+                        "LambdaDataWritingRole",
+                        "Arn"
+                    ]
+                },
+                "Runtime": "python3.10",
+                "Tags": [
+                    {
+                        "Key": "Developer",
+                        "Value": "Money"
+                    },
+                    {
+                        "Key": "SupportEmail",
+                        "Value": "money@gmail.com"
+                    }
+                ],
+                "Timeout": 120
+            }
+        },
+        "LambdaDataWritingRole": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "AssumeRolePolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": [
+                                    "lambda.amazonaws.com"
+                                ]
+                            },
+                            "Action": [
+                                "sts:AssumeRole"
+                            ]
+                        }
+                    ]
+                },
+                "Path": "/",
+                "Policies": [
+                    {
+                        "PolicyName": "S3DynamoDBAccess",
+                        "PolicyDocument": {
+                            "Version": "2012-10-17",
+                            "Statement": [
+                                {
+                                    "Sid": "lambdaallows3",
+                                    "Effect": "Allow",
+                                    "Action": "lambda:InvokeFunction",
+                                    "Resource": {
+                                        "Fn::Sub": "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${DataWriteFunctionName}"
+                                    },
+                                    "Condition": {
+                                        "StringEquals": {
+                                            "AWS:SourceAccount": {
+                                                "Ref": "AccountID"
+                                            }
+                                        },
+                                        "ArnLike": {
+                                            "AWS:SourceArn": {
+                                                "Fn::Join": [
+                                                    "",
+                                                    [
+                                                        "arn:aws:s3:::",
+                                                        {
+                                                            "Fn::Join": [
+                                                                "-",
+                                                                [
+                                                                    {
+                                                                        "Ref": "Account"
+                                                                    },
+                                                                    {
+                                                                        "Ref": "Region"
+                                                                    },
+                                                                    {
+                                                                        "Ref": "RawBucketName"
+                                                                    }
+                                                                ]
+                                                            ]
+                                                        },
+                                                        "/*"
+                                                    ]
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Sid": "LogAccess",
+                                    "Effect": "Allow",
+                                    "Action": [
+                                        "logs:*"
+                                    ],
+                                    "Resource": "arn:aws:logs:*:*:*"
+                                },
+                                {
+                                    "Sid": "S3Access",
+                                    "Action": [
+                                        "s3:GetObject",
+                                        "s3:GetObjectVersion",
+                                        "s3:PutObject"
+                                    ],
+                                    "Effect": "Allow",
+                                    "Resource": [
+                                        {
+                                            "Fn::Join": [
+                                                "",
+                                                [
+                                                    "arn:aws:s3:::",
+                                                    {
+                                                        "Fn::Join": [
+                                                            "-",
+                                                            [
+                                                                {
+                                                                    "Ref": "Account"
+                                                                },
+                                                                {
+                                                                    "Ref": "Region"
+                                                                },
+                                                                {
+                                                                    "Ref": "RawBucketName"
+                                                                }
+                                                            ]
+                                                        ]
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "Fn::Join": [
+                                                "",
+                                                [
+                                                    "arn:aws:s3:::",
+                                                    {
+                                                        "Fn::Join": [
+                                                            "-",
+                                                            [
+                                                                {
+                                                                    "Ref": "Account"
+                                                                },
+                                                                {
+                                                                    "Ref": "Region"
+                                                                },
+                                                                {
+                                                                    "Ref": "RawBucketName"
+                                                                }
+                                                            ]
+                                                        ]
+                                                    },
+                                                    "/*"
+                                                ]
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Sid": "DynamoDBAccess",
+                                    "Action": [
+                                        "dynamodb:GetRecords",
+                                        "dynamodb:GetShardIterator",
+                                        "dynamodb:DescribeStream",
+                                        "dynamodb:ListStreams",
+                                        "dynamodb:BatchWriteItem",
+                                        "dynamodb:PutItem",
+                                        "dynamodb:UpdateItem"
+                                    ],
+                                    "Effect": "Allow",
+                                    "Resource": {
+                                        "Fn::GetAtt": [
+                                            "GSFDynamoDBTable",
+                                            "Arn"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "RoleName": {
+                    "Fn::Join": [
+                        "-",
+                        [
+                            {
+                                "Ref": "Account"
+                            },
+                            {
+                                "Ref": "AWS::Region"
+                            },
+                            {
+                                "Ref": "DataWriteLambdaRoleName"
+                            }
+                        ]
+                    ]
+                }
+            }
+        },
+        "LambdaInvokePermission": {
+            "Type": "AWS::Lambda::Permission",
+            "Properties": {
+                "FunctionName": {
+                    "Fn::GetAtt": [
+                        "DynmoDBLambdaDataWriting",
+                        "Arn"
+                    ]
+                },
+                "Action": "lambda:InvokeFunction",
+                "Principal": "s3.amazonaws.com",
+                "SourceAccount": {
+                    "Ref": "AWS::AccountId"
+                },
+                "SourceArn": {
+                    "Fn::Sub": "arn:aws:s3:::${Account}-${AWS::Region}-${RawBucketName}"
+                }
+            }
+        },
+        "DynmoDBLambdaEmailSending": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "Architectures": [
+                    "x86_64"
+                ],
+                "Code": {
+                    "S3Bucket": "assignment4-object-test",
+                    "S3Key": "lambda_function.zip"
+                },
+                "Description": "dynamodb lambda send email",
+                "EphemeralStorage": {
+                    "Size": 1024
+                },
+                "FunctionName": {
+                    "Ref": "EmailSendFunctionName"
+                },
+                "Handler": "lambda_function.lambda_handler",
+                "MemorySize": 128,
+                "PackageType": "Zip",
+                "Role": {
+                    "Fn::GetAtt": [
+                        "LambdaEmailSendingRole",
+                        "Arn"
+                    ]
+                },
+                "Runtime": "python3.10",
+                "Tags": [
+                    {
+                        "Key": "Developer",
+                        "Value": "Money"
+                    },
+                    {
+                        "Key": "SupportEmail",
+                        "Value": "money@gmail.com"
+                    }
+                ],
+                "Timeout": 120
+            }
+        },
+        "LambdaEmailSendingRole": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "AssumeRolePolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": [
+                                    "lambda.amazonaws.com"
+                                ]
+                            },
+                            "Action": [
+                                "sts:AssumeRole"
+                            ]
+                        }
+                    ]
+                },
+                "Path": "/",
+                "Policies": [
+                    {
+                        "PolicyName": "DynamoDBSESAccess",
+                        "PolicyDocument": {
+                            "Version": "2012-10-17",
+                            "Statement": [
+                                {
+                                    "Sid": "LogAccess",
+                                    "Effect": "Allow",
+                                    "Action": [
+                                        "logs:*"
+                                    ],
+                                    "Resource": "arn:aws:logs:*:*:*"
+                                },
+                                {
+                                    "Sid": "SESAccess",
+                                    "Effect": "Allow",
+                                    "Action": [
+                                        "ses:*"
+                                    ],
+                                    "Resource": "*"
+                                },
+                                {
+                                    "Sid": "DynamoDBAccess",
+                                    "Action": [
+                                        "dynamodb:GetRecords",
+                                        "dynamodb:GetShardIterator",
+                                        "dynamodb:DescribeStream",
+                                        "dynamodb:ListStreams"
+                                    ],
+                                    "Effect": "Allow",
+                                    "Resource": {
+                                        "Fn::GetAtt": [
+                                            "GSFDynamoDBTable",
+                                            "StreamArn"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "RoleName": {
+                    "Fn::Join": [
+                        "-",
+                        [
+                            {
+                                "Ref": "Account"
+                            },
+                            {
+                                "Ref": "AWS::Region"
+                            },
+                            {
+                                "Ref": "EmailSendLambdaRoleName"
+                            }
+                        ]
+                    ]
+                }
+            }
+        }
+    }
+}
