@@ -1,0 +1,157 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "GSF Family Info Data S3 Bucket",
+    "Parameters": {
+        "AccountID": {
+            "Default": "823650347705",
+            "Description": "AWS Account ID",
+            "Type": "String"
+        },
+        "Account": {
+            "Default": "oliver",
+            "Description": "AWS Account",
+            "Type": "String"
+        },
+        "Region": {
+            "Default": "us-east-2",
+            "Description": "AWS Region",
+            "Type": "String"
+        },
+        "RawBucketName": {
+            "Default": "gsf-family-info-data-bucket",
+            "Description": "bucket for GSF data",
+            "Type": "String"
+        },
+        "DataWriteFunctionName": {
+            "Default": "GSF_dynamodb_data_writing_lambda",
+            "Description": "Write Data Lambda Function Name",
+            "Type": "String"
+        }
+    },
+    "Resources": {
+        "GSFS3bucket": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "BucketName": {
+                    "Fn::Join": [
+                        "-",
+                        [
+                            {
+                                "Ref": "Account"
+                            },
+                            {
+                                "Ref": "Region"
+                            },
+                            {
+                                "Ref": "RawBucketName"
+                            }
+                        ]
+                    ]
+                },
+                "NotificationConfiguration": {
+                    "LambdaConfigurations": [
+                        {
+                            "Event": "s3:ObjectCreated:*",
+                            "Function": {
+                                "Fn::Sub": "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${DataWriteFunctionName}"
+                            }
+                        }
+                    ]
+                },
+                "ObjectLockConfiguration": {
+                    "ObjectLockEnabled": "Enabled",
+                    "Rule": {
+                        "DefaultRetention": {
+                            "Mode": "COMPLIANCE",
+                            "Days": 1
+                        }
+                    }
+                },
+                "PublicAccessBlockConfiguration": {
+                    "BlockPublicAcls": false,
+                    "BlockPublicPolicy": false,
+                    "IgnorePublicAcls": false,
+                    "RestrictPublicBuckets": false
+                },
+                "ObjectLockEnabled": true,
+                "Tags": [
+                    {
+                        "Key": "Developer",
+                        "Value": "ABC"
+                    }
+                ],
+                "VersioningConfiguration": {
+                    "Status": "Enabled"
+                }
+            }
+        },
+        "GSFS3bucketPolicy": {
+            "Type": "AWS::S3::BucketPolicy",
+            "Properties": {
+                "Bucket": {
+                    "Fn::Join": [
+                        "-",
+                        [
+                            {
+                                "Ref": "Account"
+                            },
+                            {
+                                "Ref": "Region"
+                            },
+                            {
+                                "Ref": "RawBucketName"
+                            }
+                        ]
+                    ]
+                },
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Action": [
+                                "s3:GetObject",
+                                "s3:GetObjectVersion",
+                                "s3:PutObject"
+                            ],
+                            "Effect": "Allow",
+                            "Resource": [
+                                {
+                                    "Fn::GetAtt": [
+                                        "GSFS3bucket",
+                                        "Arn"
+                                    ]
+                                },
+                                {
+                                    "Fn::Join": [
+                                        "",
+                                        [
+                                            "arn:aws:s3:::",
+                                            {
+                                                "Fn::Join": [
+                                                    "-",
+                                                    [
+                                                        {
+                                                            "Ref": "Account"
+                                                        },
+                                                        {
+                                                            "Ref": "Region"
+                                                        },
+                                                        {
+                                                            "Ref": "RawBucketName"
+                                                        }
+                                                    ]
+                                                ]
+                                            },
+                                            "/*"
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "Principal": "*"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
