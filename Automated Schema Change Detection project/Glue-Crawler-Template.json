@@ -1,0 +1,231 @@
+{
+    "Description": "Glue Crawler",
+    "Parameters": {
+        "AccountID": {
+            "Default": "823650347705",
+            "Description": "AWS Account ID",
+            "Type": "String"
+        },
+        "Account": {
+            "Default": "oliver",
+            "Description": "AWS Account",
+            "Type": "String"
+        },
+        "Region": {
+            "Default": "us-east-2",
+            "Description": "AWS Region",
+            "Type": "String"
+        },
+        "CustomClassifier": {
+            "Default": "",
+            "Description": "Custom String",
+            "Type": "String"
+        },
+        "MyClassifier": {
+            "Default": "",
+            "Description": "Classifier",
+            "Type": "String"
+        },
+        "CronExpression": {
+            "Default": "cron(0 10 * * ? *)",
+            "Description": "crawler running cronExpression",
+            "Type": "String"
+        },
+        "CrawlerBucketName": {
+            "Default": "us-east-2-crawler-bucket",
+            "Description": "crawler bucket name",
+            "Type": "String"
+        }
+    },
+    "Resources": {
+        "Database": {
+            "Type": "AWS::Glue::Database",
+            "Properties": {
+                "CatalogId": {
+                    "Ref": "AWS::AccountId"
+                },
+                "DatabaseInput": {
+                    "Description": "Database for crawler",
+                    "Name": "schema-crawler-test"
+                }
+            }
+        },
+        "GlueRole": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "AssumeRolePolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": [
+                                    "glue.amazonaws.com"
+                                ]
+                            },
+                            "Action": [
+                                "sts:AssumeRole"
+                            ]
+                        }
+                    ]
+                },
+                "Path": "/",
+                "Policies": [
+                    {
+                        "PolicyName": "BucketAccess",
+                        "PolicyDocument": {
+                            "Version": "2012-10-17",
+                            "Statement": [
+                                {
+                                    "Sid": "LogAccess",
+                                    "Effect": "Allow",
+                                    "Action": [
+                                        "logs:*"
+                                    ],
+                                    "Resource": "arn:aws:logs:*:*:*"
+                                },
+                                {
+                                    "Sid": "CloudwatchAccessPolicy",
+                                    "Effect": "Allow",
+                                    "Action": [
+                                        "cloudwatch:Get*",
+                                        "cloudwatch:Put*",
+                                        "cloudwatch:Describe*"
+                                    ],
+                                    "Resource": "*"
+                                },
+                                {
+                                    "Sid": "ReadAccess",
+                                    "Action": [
+                                        "s3:GetObject",
+                                        "s3:GetObjectVersion",
+                                        "s3:List*"
+                                    ],
+                                    "Effect": "Allow",
+                                    "Resource": [
+                                        {
+                                            "Fn::Join": [
+                                                "",
+                                                [
+                                                    "arn:aws:s3:::",
+                                                    {
+                                                        "Ref": "CrawlerBucketName"
+                                                    }
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "Fn::Join": [
+                                                "",
+                                                [
+                                                    "arn:aws:s3:::",
+                                                    {
+                                                        "Ref": "CrawlerBucketName"
+                                                    },
+                                                    "/*"
+                                                ]
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Sid": "GlueAccess",
+                                    "Action": [
+                                        "glue:*"
+                                    ],
+                                    "Effect": "Allow",
+                                    "Resource": "*"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "RoleName": {
+                    "Fn::Join": [
+                        "-",
+                        [
+                            {
+                                "Ref": "Account"
+                            },
+                            {
+                                "Ref": "AWS::Region"
+                            },
+                            "Crawler-Test-Glue-Role"
+                        ]
+                    ]
+                }
+            }
+        },
+        "Crawler": {
+            "Type": "AWS::Glue::Crawler",
+            "Properties": {
+                "Classifiers": {
+                    "Fn::If": [
+                        "HasClassifier",
+                        {
+                            "Ref": "MyClassifier"
+                        },
+                        {
+                            "Ref": "AWS::NoValue"
+                        }
+                    ]
+                },
+                "Configuration": "{\"Version\":1.0,\"CrawlerOutput\":{\"Partitions\":{\"AddOrUpdateBehavior\":\"InheritFromTable\"}},\"Grouping\": {\"TableLevelConfiguration\": 6}}",
+                "DatabaseName": {
+                    "Ref": "Database"
+                },
+                "Description": "AWS Glue Crawler Test",
+                "Name": "GlueTestCrawler",
+                "RecrawlPolicy": {
+                    "RecrawlBehavior": "CRAWL_EVERYTHING"
+                },
+                "Role": {
+                    "Ref": "GlueRole"
+                },
+                "Schedule": {
+                    "ScheduleExpression": {
+                        "Ref": "CronExpression"
+                    }
+                },
+                "SchemaChangePolicy": {
+                    "DeleteBehavior": "LOG",
+                    "UpdateBehavior": "UPDATE_IN_DATABASE"
+                },
+                "Tags": {
+                    "Developer": "ABC",
+                    "SupportEmail": "ABC@gmail.com"
+                },
+                "Targets": {
+                    "S3Targets": [
+                        {
+                            "Path": {
+                                "Fn::Sub": "${CrawlerBucketName}"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "Conditions": {
+        "HasClassifier": {
+            "Fn::Not": [
+                {
+                    "Fn::Equals": [
+                        {
+                            "Ref": "MyClassifier"
+                        },
+                        ""
+                    ]
+                }
+            ]
+        }
+    },
+    "Outputs": {
+        "Crawler": {
+            "Value": {
+                "Ref": "Crawler"
+            }
+        }
+    }
+}
