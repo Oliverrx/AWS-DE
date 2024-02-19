@@ -1,0 +1,4200 @@
+[
+    {
+        "ID": "1",
+        "Year": "2010",
+        "info_note": "Interview\nNo more useful information about Duan Lixia's family and life during school age. Interview focus more about Duan Lixia's current life situation, future plan and her children.\nDuan Lixia got married in 2001.\nDuan Shasha is Duan Lixia's first uncle's daughter."
+    },
+    {
+        "ID": "1",
+        "Year": "2016",
+        "info_note": " talk more about current life and current family",
+        "Family_Composition": "\u7236\u4eb2\u53bb\u4e16\uff0c\u53ea\u6709\u5988\u5988\uff0c\u6709\u4e00\u4e2a\u59b9\u59b9\u51fa\u5916\u6253\u5de5",
+        "family_size": "3",
+        "status_of_guardians": "2",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "Father_Work": "0",
+        "Mother_Work": "1",
+        "Parental_Migration": "0",
+        "Yrs_in_school": "primary edu incomplete\uff084th grade)"
+    },
+    {
+        "ID": "1",
+        "Year": "Aggregation",
+        "family_size": "3",
+        "status_of_guardians": "2",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "Father_Work": "0",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "2",
+        "Year": "2007",
+        "info_note": "\u3000\u5bb65\u53e3\u4eba\uff0c\u7236\u4eb2\u6bb5\u5b9d\u76c8\u30022\u59731\u513f\u90fd\u4e0a\u5b66\u3002\u5927\u5973\u6bb5\u6c99\u6c99\u521d\u4e2d\u4e00\u5e74\u7ea7\uff0c\u4e8c\u5973\u6bb5\u8499\u5c3c\u5c0f\u5b66\u4e09\u5e74\u7ea7\uff0c\u513f\u6bb5\u6d69\u4eae\u5c0f\u5b66\u4e8c\u5e74\u7ea7\u3002\u59e5\u59e5\u5367\u75c5\u591a\u5e74\u75c5\u901d\u4e0d\u4e45\uff0c\u5bb6\u5ead\u8d2b\u5bd2\u3002",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "2"
+    },
+    {
+        "ID": "2",
+        "Year": "2009",
+        "info_note": "GS Stories\ndropped out of school in March 2009 and were introduced through an acquaintance to work temporarily in a textile factory in Xi'an.\nDuan Shasha also thought about her younger brothers and sisters at home. She hopes to migrate to find work to help reduce the financial burden on her family, as well as to support her brothers and sisters in school. ",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "2"
+    },
+    {
+        "ID": "2",
+        "Year": "2010",
+        "info_note": "Interview"
+    },
+    {
+        "ID": "2",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "2"
+    },
+    {
+        "ID": "5",
+        "Year": "2010",
+        "info_note": "Interview\nshe got married in 2006\nDIDfarming work and raised 1000 chicken with husband in 2010\nhad a daughter and a son (son had hearing issues)"
+    },
+    {
+        "ID": "6",
+        "Year": "2006",
+        "Family_Composition": "\u53ea\u63d0\u5230\u7238\u7238",
+        "family_size": "2",
+        "status_of_guardians": "2",
+        "Sibling": "0",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "6",
+        "Year": "2007"
+    },
+    {
+        "ID": "6",
+        "Year": "Aggregation",
+        "family_size": "2",
+        "status_of_guardians": "2",
+        "Sibling": "0",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "9",
+        "Year": "2006"
+    },
+    {
+        "ID": "10",
+        "Year": "2006",
+        "Family_Composition": "\u7237\u7237\u7236\u4eb2\uff0c\u4e24\u4e2a\u59d0\u59d0\uff0c\u4e00\u4e2a\u5f1f\u5f1f\uff1f\n\n\u5927\u59d0\u5728\u65b0\u7586\u6253\u5de5\uff0c\u4e8c\u59d0\u5728\u5357\u65b9\u6253\u5de5\uff0c\u5f1f\u5f1f\u5728\u4e0a\u5b66",
+        "family_size": "6",
+        "status_of_guardians": "2",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "10",
+        "Year": "2007"
+    },
+    {
+        "ID": "10",
+        "Year": "2008"
+    },
+    {
+        "ID": "10",
+        "Year": "2009",
+        "info_note": "she graduated and started working",
+        "Yrs_in_school": "graduated"
+    },
+    {
+        "ID": "10",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "2",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "11",
+        "Year": "2006"
+    },
+    {
+        "ID": "11",
+        "Year": "2007",
+        "Family_Composition": "\u7238\u7238\u8eab\u4f53\u4e0d\u597d\uff1a\u8111\u5b50\u4e0a\u7684\u75c5\u52a0\u4e0a\u9ad8\u8840\u538b\u548c\u6c14\u7ba1\u708e\uff1b\u63d0\u5230\u5988\u5988",
+        "family_size": "3",
+        "status_of_guardians": "3",
+        "Sibling": "0",
+        "#_of_sick_people": "1"
+    },
+    {
+        "ID": "11",
+        "Year": "Aggregation",
+        "family_size": "3",
+        "status_of_guardians": "3",
+        "Sibling": "0",
+        "#_of_sick_people": "1"
+    },
+    {
+        "ID": "13",
+        "Year": "2009"
+    },
+    {
+        "ID": "14",
+        "Year": "2007"
+    },
+    {
+        "ID": "15",
+        "Year": "2007",
+        "info_note": "\u3000\u5bb66\u53e3\u4eba\uff0c\u662f\u5973\u65b9\u4e27\u592b\u540e\u4e0e\u592b\u5f1f\u7ec4\u5408\u7684\u5bb6\u5ead\u3002\u5973\u65b9\u539f\u6709\u4e24\u513f\u4e00\u5973\uff08\u5e9e\u57f9\u57f9\uff09\uff0c\u5927\u513f\u6253\u5de5\uff0c\u4e8c\u513f\u5e9e\u4e16\u6587\u6b63\u8bfb\u5927\u5b66\u4e8c\u5e74\u7ea7\u3002\u592b\u5f1f\u75f4\u5446\u672a\u5a5a\uff0c\u6536\u517b\u4e00\u5973\u5e9e\u838e\u838e\u8bfb\u5c0f\u5b66\u516d\u5e74\u7ea7\u3002\u672c\u6765\u5bb6\u666f\u5c31\u5f88\u56f0\u96be\uff0c\u59d1\u59d108\u5e7410\u6708\u53c8\u8111\u7624\u624b\u672f5\u4e07\u591a\u5143\u672a\u679c\uff0c\u7ed9\u4eb2\u4eba\u53ca\u5bb6\u5ead\u5e26\u6765\u66f4\u5927\u538b\u529b\u3002\u65e0\u5948\u5e9e\u57f9\u57f9\u521d\u4e00\u9000\u5b66\uff0c\u5e9e\u838e\u838e\u73b0\u8bfb\u5c0f\u5b66\u516d\u5e74\u7ea7\u3002",
+        "family_size": "6",
+        "status_of_guardians": "2",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "0"
+    },
+    {
+        "ID": "15",
+        "Year": "2009",
+        "Yrs_in_school": "dropped school"
+    },
+    {
+        "ID": "15",
+        "Year": "2010",
+        "info_note": "Interview"
+    },
+    {
+        "ID": "15",
+        "Year": "2015",
+        "Family_Composition": "\u88ab\u4eba\u6536\u517b\uff08\u4e3a\u4e86\u517b\u8001\uff09\uff1b\u6709\u4e00\u4e2a\u54e5\u54e5",
+        "family_size": "6",
+        "status_of_guardians": "2",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "0"
+    },
+    {
+        "ID": "15",
+        "Year": "2016",
+        "info_note": "there are a lot missing information, more about their current work and current life",
+        "Family_Composition": "There are less information about family"
+    },
+    {
+        "ID": "15",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "2",
+        "#_of_earners": "1.5",
+        "Sibling": "1",
+        "#_of_sick_people": "1.5",
+        "Father_Work": "0"
+    },
+    {
+        "ID": "16",
+        "Year": "2006"
+    },
+    {
+        "ID": "16",
+        "Year": "2007"
+    },
+    {
+        "ID": "16",
+        "Year": "2009"
+    },
+    {
+        "ID": "18",
+        "Year": "2007"
+    },
+    {
+        "ID": "18",
+        "Year": "2008",
+        "Family_Composition": "\u5988\u5988\u8eab\u4f53\u4e0d\u597d\uff0c\u7238\u7238\u662f\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90",
+        "family_size": "3",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "0",
+        "#_of_sick_people": "1",
+        "Father_Work": "1",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "18",
+        "Year": "Aggregation",
+        "family_size": "3",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "0",
+        "#_of_sick_people": "1",
+        "Father_Work": "1",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "19",
+        "Year": "2007",
+        "info_note": "\u7236\u4eb2\u5e9e\u4e09\u4e49\uff0c\u6bcd\u4eb2\u515a\u7c89\u5a25\u90fd\u662f\u52e4\u6073\u5fe0\u539a\u5e84\u7a3c\u4eba\uff0c\u9760\u519c\u95f2\u6253\u5de5\u63a5\u6d4e\u751f\u6d3b\u3002\u5e9e\u5a05\u59ae\u4e5f\u662f\u8be5\u6751\u552f\u4e00\u4e00\u4e2a\u8fdb\u5165\u9ad8\u7ea7\u4e2d\u5b66\u7684\u5b66\u751f\u3002",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "Father_Work": "2",
+        "Mother_Work": "2"
+    },
+    {
+        "ID": "19",
+        "Year": "2008",
+        "info_note": "\u5546\u5dde\u5e02\u7b2c\u4e8c\u804c\u4e1a\u9ad8\u7ea7\u4e2d\u5b66",
+        "Family_Composition": "\u7236\u6bcd",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "Father_Work": "2?",
+        "Mother_Work": "2?"
+    },
+    {
+        "ID": "19",
+        "Year": "2010",
+        "info_note": "Interview",
+        "Family_Composition": "Grandmother and uncle\nHad a younger brother dropped and went to work",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "3",
+        "Sibling": "0",
+        "#_of_sick_people": "1",
+        "Father_Work": "2",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "19",
+        "Year": "2014",
+        "Yrs_in_school": "Colledge graduate 3 years"
+    },
+    {
+        "ID": "19",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "2.33",
+        "Sibling": "0",
+        "#_of_sick_people": "0.33",
+        "Father_Work": "2",
+        "Mother_Work": "1.33"
+    },
+    {
+        "ID": "20",
+        "Year": "2008",
+        "info_note": "\u3000\u5bb6\u6709\u516d\u53e3\u4eba\uff0c\u4e09\u4e2a\u5b69\u5b50\u4e0a\u5b66\uff0c\u5927\u5973\u5e9e\u598d\u598d\u521d\u4e09\u6bd5\u4e1a\uff0c\u5b66\u4e60\u523b\u82e6\u8ba4\u771f\uff0c\u5df2\u7ecf\u62a5\u8003\u9ad8\u4e2d\uff0c\u59b9\u59b9\u5e9e\u598d\u6590\u5c0f\u5b66\u4e09\u5e74\u7ea7\uff0c\u5f1f\u5f1f\u5e9e\u8d85\u5c0f\u5b66\u4e09\u5e74\u7ea7\u3002\u7237\u7237\u98df\u9053\u764c\u5367\u75c5\u4e24\u5e74\u6c42\u533b\u65e0\u6548\u75c5\u901d\uff0c\u59e5\u59e5\u5e74\u8fc8\u3002\u4e3a\u4e86\u5f97\u513f\u8d85\u751f\u66fe\u88ab\u8ba1\u5212\u751f\u80b2\u4e25\u91cd\u7f5a\u6b3e\u7ed9\u5bb6\u5ead\u5e26\u6765\u6781\u5927\u7ecf\u6d4e\u538b\u529b\uff0c\u9760\u79cd\u7530\u548c\u519c\u95f2\u6253\u5de5\u517b\u5bb6\uff0c\u5bb6\u5883\u8d2b\u56f0\u3002",
+        "Family_Composition": "\u5988\u5988\u8eab\u4f53\u4e0d\u597d\uff0c\u7238\u7238\u52a1\u519c\u552f\u4e00\u6536\u5165",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "2",
+        "#_of_sick_people": "2",
+        "Father_Work": "2",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "20",
+        "Year": "2010",
+        "info_note": "Interview",
+        "Family_Composition": "2 parents\nhad a younger sister? and a younger brother",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "2",
+        "#_of_sick_people": "2",
+        "Father_Work": "2",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "20",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "2",
+        "#_of_sick_people": "2",
+        "Father_Work": "2",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "21",
+        "Year": "2007",
+        "info_note": "\u5b9d\u9e21\u6587\u7406\u5b66\u9662"
+    },
+    {
+        "ID": "22",
+        "Year": "2010",
+        "info_note": "Interview",
+        "Family_Composition": "2 parents\nhad 2 younger sisters",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "2",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "22",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "2",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "24",
+        "Year": "2006"
+    },
+    {
+        "ID": "24",
+        "Year": "2007"
+    },
+    {
+        "ID": "24",
+        "Year": "2010",
+        "info_note": "Interview",
+        "Family_Composition": "2 parents, 2 elder brothers (work)",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "4",
+        "Sibling": "0"
+    },
+    {
+        "ID": "24",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "4",
+        "Sibling": "0"
+    },
+    {
+        "ID": "25",
+        "Year": "2006",
+        "Family_Composition": "\u7238\u7238\u5916\u51fa\u6253\u5de5\uff1a\u5efa\u7b51\u5de5\u5730\uff1b\u5988\u5988\u751f\u75c5\uff1b\u4e00\u4e2a\u59d0\u59d0\uff1b\u4e00\u4e2a\u54e5\u54e5\uff1f\n\n\u59d0\u59d0\u9000\u5b66\u5728\u5916\u5730\u8f66\u5e93\u6253\u5de5\uff1b\u5f1f\u5f1f",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "25",
+        "Year": "2007"
+    },
+    {
+        "ID": "25",
+        "Year": "2008",
+        "Family_Composition": "\u7238\u7238\u56e0\u4e3a\u80ba\u7ed3\u6838\u4f4f\u9662\uff1b\u5988\u5988\u5916\u51fa\u6253\u5de5\uff1b\u6709\u4e00\u4e2a\u59d0\u59d0\n\n\u59d0\u59d0\u5916\u51fa\u82cf\u5dde\u5de5\u5382\u6253\u5de5",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "#_of_sick_people": "1",
+        "Father_Work": "0",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "25",
+        "Year": "2009",
+        "info_note": "Graduated from High school",
+        "Yrs_in_school": "Graduated"
+    },
+    {
+        "ID": "25",
+        "Year": "2010",
+        "info_note": "Interview",
+        "Family_Composition": "have a younger brother and a elder sister, both dropped and went out for work",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "4",
+        "Sibling": "0",
+        "#_of_sick_people": "0?",
+        "Father_Work": "3?",
+        "Mother_Work": "3?"
+    },
+    {
+        "ID": "25",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "2.67",
+        "Sibling": "0",
+        "#_of_sick_people": "0.67",
+        "Father_Work": "2",
+        "Mother_Work": "2"
+    },
+    {
+        "ID": "26",
+        "Year": "2006",
+        "info_note": "\u3000\u5bb65\u53e3\u4eba\uff0c\u5976\u5976\u591a\u75c5\u3002\u513f\u5c0f\u5b66\u4e00\u5e74\u7ea7\uff0c\u5973\u5e9e\u79c0\u79c0\u8bfb\u521d\u4e2d\u4e00\u5e74\u7ea7\uff0c\u5b66\u4e60\u523b\u82e6\u8ba4\u771f\uff0c\u5f88\u6709\u57f9\u517b\u524d\u9014\u3002She is in vocational high school now. She has one brother in P 2. Parents are willing to support her study but the family is poor. She wishes to go on study but not very confident. She is very good at Chinese Literature, but feel it's too hard to learn English.",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Yrs_in_school": "Vocational School"
+    },
+    {
+        "ID": "26",
+        "Year": "2007"
+    },
+    {
+        "ID": "26",
+        "Year": "2008",
+        "Family_Composition": "5\u53e3\u4eba",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "1"
+    },
+    {
+        "ID": "26",
+        "Year": "2009",
+        "info_note": "\u5f20\u6751\u4e2d\u5b66\u516b\u5e74\u7ea7\uff08\u521d\u4e8c\uff09"
+    },
+    {
+        "ID": "26",
+        "Year": "2010"
+    },
+    {
+        "ID": "26",
+        "Year": "2011",
+        "info_note": "\u6bd5\u4e1a\u5f20\u6751\u521d\u7ea7\u4e2d\u5b66",
+        "Family_Composition": "\u7236\u6bcd\u90fd\u5728",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "1"
+    },
+    {
+        "ID": "26",
+        "Year": "2012",
+        "info_note": "\u5c31\u8bfb\u5546\u5dde\u7b2c\u4e00\u804c\u4e1a\u9ad8\u7ea7\u4e2d\u5b66"
+    },
+    {
+        "ID": "26",
+        "Year": "2018",
+        "info_note": "younger brother in middle school, and father does farming, and has monthly income of 1800 Yuan as \u6751\u4e3b\u4efb. Mother works  as a cleaner in \u6c99\u6cb3\u5b50\u9547 . hunsaband works in appliance store. She's not working for now, take care of baby at home. ",
+        "Family_Composition": "parents, hunsband, one child",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "3",
+        "Sibling": "1",
+        "#_of_sick_people": "0",
+        "Father_Work": "3",
+        "Mother_Work": "2"
+    },
+    {
+        "ID": "26",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "2.25",
+        "Sibling": "1",
+        "#_of_sick_people": "0.75",
+        "Father_Work": "1.5",
+        "Mother_Work": "1.25"
+    },
+    {
+        "ID": "27",
+        "Year": "2007",
+        "info_note": "\u3000\u5bb64\u53e3\u4eba\uff0c\u7236\u4eb2\u5e9e\u5efa\u4f1a\u3002\u65e9\u5e74\u5bb6\u906d\u706b\u707e\uff0c\u623f\u5c4b\u5c3d\u6bc1\uff0c\u6751\u6c11\u76f8\u5e2e\u5efa\u571f\u623f\uff0c\u5bb6\u5ead\u56f0\u96be\u3002\u4e24\u4e2a\u5973\u513f\u4e0a\u5b66\uff0c\u5927\u5973\u5e9e\u5229\u5229\uff08\u4e73\u540d\u5e9e\u6625\u8273\uff09\u521d\u4e00\uff0c\u4e8c\u5973\u5e9e\u8273\u654f\u5c0f\u5b66\u4e00\u5e74\u7ea7She is a freshmen in vocational high school too. She has one sister in p3 who also gets GS scholarship. Parents support her study, but father is not in good health and cannot do heavy work, she is worried about his health. Grandparents are in good health. . She studies very hard. She has strong wish to go to college, though no very good at English and Physics.",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Yrs_in_school": "Vocational school"
+    },
+    {
+        "ID": "27",
+        "Year": "2008"
+    },
+    {
+        "ID": "27",
+        "Year": "2010"
+    },
+    {
+        "ID": "27",
+        "Year": "2011"
+    },
+    {
+        "ID": "27",
+        "Year": "2012",
+        "info_note": "\u5546\u6d1b\u7b2c\u4e00\u804c\u4e1a\u9ad8\u7ea7\u4e2d\u5b66",
+        "Family_Composition": "\u7236\u6bcd\u5728",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "Sibling": "1"
+    },
+    {
+        "ID": "27",
+        "Year": "2014",
+        "Yrs_in_school": "Graduated from vocational high school"
+    },
+    {
+        "ID": "27",
+        "Year": "2018",
+        "info_note": "married, has parents, younger sister and hunsdband, and one daughter, younger sister in school. father does some part time work in construction site, and mother does work. her husband opens a small store for living. ",
+        "Family_Composition": "\u7236\u6bcd\u548c\u59b9\u59b9",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "Father_Work": "2",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "27",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "1.333333333",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "28",
+        "Year": "2006",
+        "info_note": "\u3000\u5f20\u6751\u4e2d\u5b66\u9648\u5fe0\u52cb\u8001\u5e08\u7684\u5b59\u5973\uff0c\u5bb6\u5ead\u5883\u51b5\u597d\u3002\u9648\u5029\u5df2\u7ecf\u8f6c\u5b66\u6216\u9000\u5b66",
+        "Family_Composition": "\u7238\u7238\u5728\u8f66\u7978\u4e2d\u5931\u53bb\u5de5\u4f5c\u80fd\u529b\uff1b\u5988\u5988\u751f\u75c5\uff1b\n\n\u59b9\u59b9\u60a3\u6709\u766b\u75eb\u7ecf\u5e38\u4f4f\u9662",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "Sibling": "1",
+        "#_of_sick_people": "3",
+        "Father_Work": "0",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "28",
+        "Year": "2007"
+    },
+    {
+        "ID": "28",
+        "Year": "2009",
+        "info_note": "she is the granddaughter of teacher Chen Zhongxun from Zhangcun Middle School. Her family is in good condition. Chen Qian has transferred or dropped out of school. ",
+        "Family_Composition": "In a Letter from Chen Jiaojiao to Penpal Baolin Pan"
+    },
+    {
+        "ID": "28",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "Sibling": "1",
+        "#_of_sick_people": "3",
+        "Father_Work": "0",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "29",
+        "Year": "2007",
+        "info_note": "\u3000\u7236\u4e95\u5ba0\u4e4961\u5c81\uff0c\u817f\u8ddb\u4e25\u91cd\uff0c\u5931\u53bb\u52b3\u52a8\u80fd\u529b\uff0c\u6bcd\u5e9e\u96ea\u517054\u5c81\uff0c\u8033\u804b\u3002\u665a\u5e74\u5f97\u5973\uff0c\u6b32\u9001\u517b\uff0c\u53d7\u4eb2\u53cb\u529d\u8bf4\u540e\u81ea\u517b\u3002\u79cd\u5730\u4e3a\u751f\uff0c\u5bb6\u5ead\u6781\u5176\u8d2b\u7620\u3002",
+        "Family_Composition": "\u5bb6\u91cc3\u53e3\u4eba\uff1a\u7238\u7238\u5988\u5988\uff1b\u7238\u7238\u4e0d\u80fd\u5de5\u4f5c\uff0c\u5988\u5988\u662f\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "0",
+        "#_of_sick_people": "2",
+        "Father_Work": "0",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "29",
+        "Year": "2008"
+    },
+    {
+        "ID": "29",
+        "Year": "2009",
+        "info_note": "Dropped out of school",
+        "Yrs_in_school": "dropped out of school"
+    },
+    {
+        "ID": "29",
+        "Year": "2010",
+        "info_note": "Interview",
+        "Family_Composition": "have a elder brother and a elder sister, both much older than her and dropped out very early",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "3",
+        "Sibling": "0",
+        "#_of_sick_people": "2",
+        "Father_Work": "0",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "29",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "#_of_sick_people": "2",
+        "Father_Work": "0",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "30",
+        "Year": "2008",
+        "info_note": "She was in M3 last year and dIDwell in study. However, she didn't perform well in the high-school entrance exam this Jun. so she decided to repeat M3 for one year and wanta to get into a good high school. She has one brother in P4, Parents strongly support her study, but the family needs money because her grandmother is chronically ill and spend a lot on medicine. \u5f20\u6751\u4e2d\u5b66\u516b\u5e74\u7ea7",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "3",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "30",
+        "Year": "2009",
+        "Family_Composition": "\u7238\u7238\u5988\u5988",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "3",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "30",
+        "Year": "2011",
+        "info_note": "\u4e2d\u8003\u590d\u8bfb",
+        "Family_Composition": "\u7236\u6bcd\u5728\u5bb6\u52a1\u519c\uff1b\n\n\u5f1f\u5f1f\u5c0f\u5b66\u4e94\u5e74\u7ea7",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "3",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "30",
+        "Year": "2012",
+        "info_note": "\u5c31\u8bfb\u5546\u6d1b\u4e2d\u5b66"
+    },
+    {
+        "ID": "30",
+        "Year": "2013",
+        "Family_Composition": "\u5f1f\u5f1f\u5c0f\u5b66\u521a\u6bd5\u4e1a\u8fdb\u5165\u521d\u4e2d\uff1b\u7236\u6bcd\u5728\u5bb6\u52a1\u519c\uff1b\u7236\u4eb2\u8170\u6709\u95ee\u9898\uff0c\u6b8b\u75be\uff0c\u4e0d\u80fd\u5e72\u592a\u591a\u6d3b\uff0c\u6bcd\u4eb2\u5e38\u5e74\u591a\u75c5",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "3",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "30",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "3",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "31",
+        "Year": "2006",
+        "Family_Composition": "\u7236\u4eb2\u6b7b\u4e8e\u4e00\u573a\u8f66\u7978\uff1b\u6bcd\u4eb2\u7684\u7cbe\u795e\u75c5\u65e5\u76ca\u4e25\u91cd\uff0c\u5b8c\u5168\u4e27\u5931\u751f\u6d3b\u80fd\u529b\uff1b\n\n\u54e5\u54e5\u8f8d\u5b66\u4f46\u624d16\u5c81\u65e0\u6cd5\u5de5\u4f5c\u8fd8\u503a",
+        "family_size": "3",
+        "status_of_guardians": "2",
+        "#_of_earners": "1?",
+        "Sibling": "0",
+        "#_of_sick_people": "1",
+        "Father_Work": "0",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "31",
+        "Year": "2007",
+        "info_note": "\u5f20\u6751\u4e2d\u5b66"
+    },
+    {
+        "ID": "31",
+        "Year": "2008"
+    },
+    {
+        "ID": "31",
+        "Year": "Aggregation",
+        "family_size": "3",
+        "status_of_guardians": "2",
+        "#_of_earners": "1",
+        "Sibling": "0",
+        "#_of_sick_people": "1",
+        "Father_Work": "0",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "32",
+        "Year": "2006",
+        "Family_Composition": "\u7236\u4eb2\u5e74\u8fc8\u56e0\u5fc3\u8111\u8840\u7ba1\u75be\u75c5\u5931\u53bb\u52b3\u52a8\u80fd\u529b\uff1b\u6bcd\u4eb2\u4e45\u75c5\u7f20\u8eab",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "Sibling": "0",
+        "#_of_sick_people": "3",
+        "Father_Work": "0",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "32",
+        "Year": "2007",
+        "Family_Composition": "\u7236\u6bcd",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_sick_people": "3"
+    },
+    {
+        "ID": "32",
+        "Year": "2010",
+        "info_note": "Interview",
+        "Family_Composition": "2 parents not in good health, had an elder sister (in work) and an elder brother (brother had mental issues and passed away later)",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "0",
+        "#_of_sick_people": "2"
+    },
+    {
+        "ID": "32",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "Sibling": "0",
+        "#_of_sick_people": "2.67"
+    },
+    {
+        "ID": "33",
+        "Year": "2008",
+        "info_note": "She is in M1 and is very interested in study. There are four family members, including the grandpa. ",
+        "Family_Composition": "\u7236\u6bcd",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "Father_Work": "3?",
+        "Yrs_in_school": "M1"
+    },
+    {
+        "ID": "33",
+        "Year": "2010"
+    },
+    {
+        "ID": "33",
+        "Year": "2011",
+        "Family_Composition": "\u6bcd\u4eb2\u5728\u5bb6\uff0c\u7236\u4eb2\u662f\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7236\u4eb2\u5728\u5916\u6253\u5de5"
+    },
+    {
+        "ID": "33",
+        "Year": "2013 \u7f3a\u4e00\u9875\uff1f"
+    },
+    {
+        "ID": "33",
+        "Year": "2016",
+        "Family_Composition": "current age 18. live with 1 sister(20, go to work), 1brother(18, go to school)",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "33",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1.33",
+        "Sibling": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "34",
+        "Year": "2007",
+        "info_note": "\u3000\u7236\u4e95\u5c0f\u5e73\u5728\u54e5\u5ac2\u7167\u987e\u4e0b\u6210\u5bb6\uff0c\u5bb6\u4f4f\u534a\u5c71\u8170\uff0c\u8001\u5b9e\u5fe0\u539a\uff0c\u5bb6\u5ead\u6781\u4e3a\u56f0\u96be\u3002She is in M3 and isn't doing well in some subjects. So she worrys about the high-school entrance exam next Jun. But she is determined to continue study, no matter going to a high school or a vocational school. She wants to be a nurse or doctor and cure all the surrounding people who are sick but don't have money to go to hospital.",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "Father_Work": "2",
+        "Mother_Work": "1",
+        "Yrs_in_school": "M3"
+    },
+    {
+        "ID": "34",
+        "Year": "2008",
+        "Family_Composition": "\u7236\u6bcd",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "Father_Work": "2",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "34",
+        "Year": "2010"
+    },
+    {
+        "ID": "34",
+        "Year": "2011",
+        "info_note": "\u521d\u4e09\u5907\u8003\n\u5bb6\u79bb\u5b66\u6821\u8fdc",
+        "Family_Composition": "\u6709\u4e2a\u4f4e\u4e00\u5e74\u7ea7\u7684\u59b9\u59b9",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "Father_Work": "2",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "34",
+        "Year": "2012"
+    },
+    {
+        "ID": "34",
+        "Year": "2013"
+    },
+    {
+        "ID": "34",
+        "Year": "2014",
+        "Family_Composition": "\u4fe1\u4ef6\u7f3a\u5931\uff1f\u7236\u6bcd\u90fd\u5728\uff0c\u5988\u5988\u5bb6\u5ead\u4e3b\u5987\uff0c\u5728\u5bb6\u91cc\u79cd\u7530\uff0c\u7238\u7238\u5076\u5c14\u5916\u51fa\u5efa\u7b51\u5de5\u5730\u5e72\u6d3b",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "Father_Work": "2",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "34",
+        "Year": "2016"
+    },
+    {
+        "ID": "34",
+        "Year": "2018",
+        "info_note": "has parents. ",
+        "Family_Composition": "\u7236\u6bcd\u5728\u5e02\u533a\u6253\u5de5(\u5546\u6d1b)",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "34",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "Father_Work": "2.2",
+        "Mother_Work": "1.4"
+    },
+    {
+        "ID": "35",
+        "Year": "2007",
+        "info_note": "\u3000\u5bb65\u53e3\u4eba\uff0c\u7236\u4eb2\u5e9e\u94c1\u519b\uff0c2\u59731\u513f\u3002\u5927\u5973\u5e9e\u5a77\u5a77\u521d\u4e2d\u672a\u6ee1\u53bb\u5e74\u9000\u5b66\uff0c\u4e8c\u5973\u5e9e\u654f\u654f\u5c0f\u5b66\u516d\u5e74\u7ea7\uff0c\u5e9e\u79cb\u9633\u6700\u5c0f\u73b0\u5c0f\u5b66\u56db\u5e74\u7ea7\u3002\u7ecf\u6d4e\u538b\u529b\u5927\u5bb6\u5ead\u56f0\u96be\u3002",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "3?"
+    },
+    {
+        "ID": "35",
+        "Year": "2008",
+        "info_note": "She is in M3 and has a brother in P3. She is very considerate. She does cooking or cleaning for the family, which make her have little time for fun, like watchingTV. She is very diligent, though isn't very good at study. Her father works out of village as a safeguard and sends money back to support the family and children's education. Without Guanlan scholarship, she may have to stop after graduating from Middle sch. ",
+        "Family_Composition": "5\u53e3\u4eba\uff1a\u7237\u723770\u591a\u5c81\uff1b\u5f1f\u5f1f\u5728\u4e0a\u5c0f\u5b66\uff1b\u5988\u5988\u751f\u75c5\uff1b\u7238\u7238\u5de5\u4f5c\uff0c\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "35",
+        "Year": "2011"
+    },
+    {
+        "ID": "35",
+        "Year": "2012"
+    },
+    {
+        "ID": "35",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "36",
+        "Year": "2005",
+        "info_note": "3. She is in M3 and has a brother in P3. She is very considerate. She does cooking or cleaning for the family, which make her have little time for fun, like watchingTV. She is very diligent, though isn't very good at study. Her father works out of village as a safeguard and sends money back to support the family and children's education. Without Guanlan scholarship, she may have to stop after graduating from Middle sch. \n",
+        "Family_Composition": "\u7236\u6bcd\n\n\u6709\u4e00\u4e2a\u54e5\u54e5\u5728\u5317\u5927\uff0c\u4e24\u4e2a\u59d0\u59d0\uff0c\u4e00\u4e2a\u59d0\u59d0\u90fd\u548cmiaomiao\u5728\u540c\u4e00\u4e2a\u9ad8\u4e2d",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "3",
+        "Father_Work": "1",
+        "Mother_Work": "1",
+        "Yrs_in_school": "M3"
+    },
+    {
+        "ID": "36",
+        "Year": "2007",
+        "info_note": "\u88ab\u9655\u897f\u8d22\u7ecf\u804c\u4e1a\u6280\u672f\u5b66\u9662\u5f55\u53d6",
+        "Family_Composition": "\u6709\u4e00\u4e2a\u59d0\u59b9\uff1b \u7236\u6bcd\u90fd\u662f\u519c\u6c11",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "3",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "36",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "3",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "38",
+        "Year": "2008"
+    },
+    {
+        "ID": "39",
+        "Year": "2008"
+    },
+    {
+        "ID": "40",
+        "Year": "2009",
+        "info_note": "Dropped out of school",
+        "Yrs_in_school": "Dropped out of school"
+    },
+    {
+        "ID": "40",
+        "Year": "2010",
+        "info_note": "Interview",
+        "Family_Composition": "have a younger brother (9 years old)",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "Sibling": "1"
+    },
+    {
+        "ID": "40",
+        "Year": "2015"
+    },
+    {
+        "ID": "40",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "Sibling": "1"
+    },
+    {
+        "ID": "41",
+        "Year": "2008",
+        "info_note": "\u6bcd\u4eb2\u5e9e\u6dd1\u7ef5\u5929\u751f\u6c14\u5598\uff0c\u52b3\u529b\u4e0d\u4fbf\u3002\u5bb6\u4f4f\u5c71\u9876\uff0c\u79cd\u7530\u4e3a\u751f\u3002\u7537\u513f\u515a\u51e1\u542f\u8bfb\u5c0f\u5b66\u4e09\u5e74\u7ea7\uff0c\u65e9\u665a\u5f80\u8fd416\u534e\u91cc\u4e0a\u5b66\u3002\u5bb6\u5883\u56f0\u96be\u3002She is in H 1. She is very bright and talktive. She likes reading and enjoys going to school. However, the poverty and her mother disease (mom hasTB) always troubles her. She wishes to change her destiny with education, she is also encouraged by our schoarship. ",
+        "Family_Composition": "4\u53e3\u4eba\uff0c\u7236\u6bcd\u5f1f\u5f1f\uff1b\u5988\u5988\u6c14\u7ba1\u708e\u7ecf\u5e38\u751f\u75c5\u54b3\u55fd\uff1b\u7238\u7238\u52a1\u519c\u5916\u5916\u51fa\u6253\u5de5\uff1b\u5f1f\u5f1f\u8033\u6735\u6709\u6bdb\u75c5\uff0c\u51e0\u7c73\u4e4b\u5916\u542c\u4e0d\u89c1\u58f0\u97f3\uff1b\u515a\u8273\u5cf0\u5de6\u773c\u5148\u5929\u6027\u659c\u89c6",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "3",
+        "Father_Work": "2",
+        "Mother_Work": "0",
+        "Yrs_in_school": "H1"
+    },
+    {
+        "ID": "41",
+        "Year": "2009",
+        "info_note": "\u5546\u5dde\u533a\u4e2d\u5b66\u521d\u4e8c",
+        "Family_Composition": "\u7236\u6bcd\u5728\u5bb6\u52a1\u519c\uff1b\u4e09\u5e74\u7ea7\u65f6\u5728\u53d4\u53d4\u7684\u5e2e\u52a9\u4e0b\u8f6c\u5165\u73b0\u5728\u7684\u5b66\u6821\uff1b\u6709\u4e00\u4e2a\u5f1f\u5f1f\u5728\u519c\u6751\u4e0a\u5b66",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "3",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "41",
+        "Year": "2011",
+        "info_note": "\u8003\u5165\u5546\u6d1b\u4e2d\u5b66\uff1b\u773c\u775b\u659c\u89c6\uff0c\u5df2\u505a\u624b\u672f"
+    },
+    {
+        "ID": "41",
+        "Year": "2012",
+        "Family_Composition": "\u7236\u6bcd\u90fd\u662f\u519c\u6c11",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "3",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "41",
+        "Year": "2013",
+        "Family_Composition": "\u7236\u6bcd\u90fd\u662f\u519c\u6c11\uff0c\u7236\u6bcd\u8eab\u4f53\u4e0d\u597d\uff1b\u5f1f\u5f1f\u521d\u4e2d",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "3",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "41",
+        "Year": "2016",
+        "info_note": "She is in H 1. She is very bright and talktive. She likes reading and enjoys going to school. However, the poverty and her mother disease (mom hasTB) always troubles her. She wishes to change her destiny with education, she is also encouraged by our schoarship. \u5317\u5bbd\u576a\u9547\u521d\u7ea7\u4e2d\u5b66",
+        "Family_Composition": "\u5bb6\u4e2d6\u53e3\u4eba\uff0c\u5976\u5976\u7236\u6bcd\u59d0\u59d0\u5f1f\u5f1f\uff1b\u7236\u6bcd\u8eab\u4f53\u539f\u56e0\u65e0\u6cd5\u5916\u51fa\u6253\u5de5\uff0c\u4f9d\u9760\u79cd\u5730\u517b\u5bb6\uff1b\u59d0\u59d0\u521a\u6bd5\u4e1a\uff0c\u5f1f\u5f1f\u4e0a\u5c0f\u5b66",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "41",
+        "Year": "2018",
+        "info_note": "she is in university (XI'an wenli xueyuan) and study Chinese literature. He dream job would be a Chinese teacher in middle school. She has father, younger brother, and gradmother as family members. ",
+        "Family_Composition": "has father, mother passed away, her father does some construction work in shangluo. ",
+        "family_size": "5",
+        "status_of_guardians": "2",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "2",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "41",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1.5",
+        "Sibling": "1",
+        "#_of_sick_people": "2.5",
+        "Father_Work": "1.33",
+        "Mother_Work": "0.67"
+    },
+    {
+        "ID": "42",
+        "Year": "2009",
+        "info_note": "\u5bb6\u4f4f\u5e7f\u4e1c\u576a\u6751\u4e1c\u5761\u7ec4\u7684\u5c71\u5761\u9876\u4e0a\uff0c\u548c\u77f3\u74ee\u6c9f\u6751\u6bd4\u90bb\u3002\u5bb64\u53e3\u4eba\uff0c\u7236\u6bcd\u90fd\u662f\u8001\u5b9e\u5fe0\u539a\u7684\u519c\u5bb6\u4eba\uff0c\u9664\u4e86\u79cd\u7530\u548c\u8fdb\u57ce\u642c\u7816\u8fd0\u6c34\u6ce5\u5916\u6ca1\u6709\u5176\u5b83\u6280\u80fd\u3002\u5976\u5976\u60a3\u4e73\u817a\u764c\u6cbb\u75c5\u591a\u5e74\u65e0\u6548\u53bb\u5e74\u75c5\u901d\u3002\u7237\u7237\u773c\u75c5\u591a\u6b21\u624b\u672f\u8fd1\u4e4e\u5931\u660e\u3002\u5f1f\u5f1f\u51fa\u751f\u4e0d\u5230\u534a\u5c81\u592d\u6298\u3002\u5973\u513f\u5e9e\u51c0\u6210\u4e3a\u8fd9\u4e00\u8d2b\u82e6\u5bb6\u5ead\u552f\u4e00\u7cbe\u795e\u652f\u67f1\uff0c\u806a\u654f\u597d\u5b66\uff0c\u6210\u7ee9\u4f18\u79c0\uff0c\u4eca\u5e74\u8003\u5165\u5546\u6d1b\u5e02\u57ce\u5173\u4e2d\u5b66\u3002\u867d\u7136\u5bb6\u5883\u8d2b\u5bd2\u53c8\u591a\u906d\u7f79\u96be\uff0c\u4f46\u5176\u7236\u6bcd\u77e2\u5fd7\u4f9b\u517b\u5b69\u5b50\u6c42\u5b66\u5f88\u53d7\u611f\u52a8\u3002\u5e9e\u51c0\u4e5f\u662f\u8be5\u5730\u591a\u5e74\u6765\u552f\u4e00\u4e00\u4e2a\u8fdb\u5165\u9ad8\u7ea7\u4e2d\u5b66\u7684\u5b66\u751f\u3002\u6211\u4eec\u5728\u5e2e\u8be5\u5b66\u751f\u5b8c\u6210\u5b66\u4e1a\u7684\u540c\u65f6\uff0c\u4e5f\u4ee5\u6b64\u6fc0\u52b1\u8d2b\u5bb6\u5b69\u5b50\u523b\u82e6\u8bfb\u4e66\uff0c\u6539\u53d8\u547d\u8fd0\u3002\u5176\u5b66\u8d39\u3001\u4f4f\u5bbf\u8d39\u3001\u4e66\u672c\u53ca\u751f\u6d3b\u7b49\u8d39\u7528\u5171\u8ba1\u9700\u89815000\u5143/\u5b66\u671f",
+        "Family_Composition": "\u7237\u7237\u7238\u7238\u5988\u5988\uff1b\u5976\u5976\u56e0\u75c5\u53bb\u4e16\uff1b\u7237\u7237\u6709\u773c\u75be\u53ea\u6709\u4e00\u53ea\u773c\u775b\u80fd\u770b\u89c1\uff0c\u56e0\u5e74\u8fc8\u5bb9\u6613\u751f\u75c5\uff0c\u4f46\u4f9d\u7136\u5728\u5de5\u4f5c\uff1b\u66fe\u6709\u4e00\u4e2a\u5f1f\u5f1f\u4e00\u5c81\u65f6\u751f\u75c5\u53bb\u4e16\uff1b\u7236\u6bcd\u5916\u51fa\u6253\u5de5\uff0c\u5f88\u5c11\u56de\u5bb6\uff1b\u4e0e\u7237\u7237\u4e00\u8d77\u4f4f",
+        "family_size": "4",
+        "status_of_guardians": "1",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "42",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "1",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "43",
+        "Year": "2009",
+        "info_note": "She is in p4. She has one sister. There are five family members.  \"GS Stories\nthe second grade of primary school\nher father can\u2019t (past tense?) get married because of poverty. He then joined another family.\nNow there are five people in this family, his elderly mother weakened by illnesses, and he has to raise two daughters, Duan Yaxin is the older one. \"",
+        "family_size": "5",
+        "status_of_guardians": "2",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Mother_Work": "0",
+        "Yrs_in_school": "P4"
+    },
+    {
+        "ID": "43",
+        "Year": "2010",
+        "Family_Composition": "second grade of primary school, her father has four brothers and sisters and can\u2019t (past tense?) get married because of poverty. He then joined another family in order to feed the lonely elderly at the foot of a mountain, and then got married, built a house and buried his father. All these made the family extremely poor. ???",
+        "family_size": "5",
+        "status_of_guardians": "2",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1"
+    },
+    {
+        "ID": "43",
+        "Year": "2013"
+    },
+    {
+        "ID": "43",
+        "Year": "2014",
+        "Family_Composition": "\u4fe1\u4ef6\u7f3a\u5931\uff1f\u968f\u540c\u6253\u5de5\u7684\u7236\u4eb2\u5728\u9547\u4e0a\u79df\u623f\u4f4f",
+        "family_size": "5",
+        "status_of_guardians": "2",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "3"
+    },
+    {
+        "ID": "43",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "2",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1"
+    },
+    {
+        "ID": "44",
+        "Year": "2009",
+        "info_note": "She is in p5. She has one sister who dropped out from vocation school last year and one brother in p2. She is quiet but very determined and diligent.  \"GS Stories\nthe third grade of primary school, is the sister of GuanLan  Sister Pang Yanyan.\nThere are six people in this family with three children in school. The oldest daughter Pang Yanyan has entered high school. Younger brother Pang Chao is in the third grade of primary school. \nGrandpa suffered esophageal cancer for two years and died of ineffective treatment. There is an elderly grandmother. \nThey live by farming and doing temporary work and are in real poverty.\nPang Yanfei, who has been funded for 2 years by us, has now been terminated for futher support. \"",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "2",
+        "#_of_sick_people": "1",
+        "Father_Work": "1",
+        "Mother_Work": "1",
+        "Yrs_in_school": "P5"
+    },
+    {
+        "ID": "44",
+        "Year": "2011",
+        "Family_Composition": "\u7236\u6bcd\u90fd\u5728",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "2"
+    },
+    {
+        "ID": "44",
+        "Year": "2013"
+    },
+    {
+        "ID": "44",
+        "Year": "2014",
+        "Family_Composition": "\u4fe1\u4ef6\u7f3a\u5931\uff1f"
+    },
+    {
+        "ID": "44",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "2"
+    },
+    {
+        "ID": "45",
+        "Year": "2011",
+        "info_note": "She is in p5 and very skinny. Her family locates on the top of the mountain. She used to walk for 1-2 hours to school everyday. Now she is boarding in school and only have to walk back home every weekend.",
+        "Family_Composition": "\u7236\u6bcd\u6625\u79cd\u79cb\u6536\u65f6\u5bb6\u4e2d\u52a1\u519c",
+        "family_size": "3",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "Father_Work": "3",
+        "Mother_Work": "3",
+        "Parental_Migration": "\u7236\u6bcd\u79cd\u6536\u5e84\u7a3c\u4e4b\u5916\u5728\u5916\u6253\u5de5",
+        "Yrs_in_school": "P5"
+    },
+    {
+        "ID": "45",
+        "Year": "Aggregation",
+        "family_size": "3",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "46",
+        "Year": "2011",
+        "info_note": "She is in p6 and boarding in school. She has a brother in P4. Her mom is sick. The family is extremely poor.",
+        "Family_Composition": "\u7236\u6bcd\u90fd\u6709\u75c5\uff0c\u4e0d\u80fd\u5916\u51fa\u6253\u5de5\uff1b\u5f1f\u5f1f\u773c\u775b\u4e0d\u597d",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "Sibling": "1",
+        "#_of_sick_people": "3",
+        "Yrs_in_school": "P6"
+    },
+    {
+        "ID": "46",
+        "Year": "2012"
+    },
+    {
+        "ID": "46",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "Sibling": "1",
+        "#_of_sick_people": "3"
+    },
+    {
+        "ID": "48",
+        "Year": "2011",
+        "info_note": "She is in P2. Her father is handicapped and grandparents are chronically sick.",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "3",
+        "Father_Work": "2",
+        "Mother_Work": "1",
+        "Yrs_in_school": "P2"
+    },
+    {
+        "ID": "48",
+        "Year": "2013"
+    },
+    {
+        "ID": "48",
+        "Year": "2014",
+        "Family_Composition": "\u4fe1\u4ef6\u7f3a\u5931\uff1f"
+    },
+    {
+        "ID": "48",
+        "Year": "2016",
+        "info_note": "Age 14\nfamily has 6 people(parents, grandparents, little brother(age 8, grade 2) and me)\n\u5f20\u6751\u4e2d\u5b66\u516b\u5e74\u7ea7 zhangcun middle school grade 8\ngrandpa: heart disease\ngrandmother: not healthy\nmother: take care me, brother, and grandparents at home, no work.\nDad: only person earn money but ran into an accident before.",
+        "Family_Composition": "\u5bb6\u4e2d\u516d\u53e3\u4eba\n\u7237\u723770\u5c81\u6709\u5fc3\u810f\u75c5\u4e0d\u80fd\u5e72\u4f53\u529b\u6d3b\uff0c\u5976\u597666\u5c81\u8eab\u4f53\u4e0d\u597d\uff0c\u9700\u8981\u7167\u987e\n\u5988\u5988\u5728\u5bb6\u7167\u987e\u7237\u7237\u5976\u5976\u201c\u6211\u201d\u5f1f\u5f1f\uff0c\u7238\u7238\u519c\u5fd9\u65f6\u4f1a\u6765\u5e2e\u5fd9\uff0c\u5bb6\u91cc\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90\uff0c\u5728\u5de5\u5730\u6253\u5de5\uff0c\u4e4b\u524d\u5de5\u5730\u51fa\u8fc7\u4e00\u6b21\u95ee\u9898\uff1f\n\n\u5f1f\u5f1f8\u5c81\u949f\u950b\u5c0f\u5b663\u5e74\u7ea7",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "3",
+        "Father_Work": "2",
+        "Mother_Work": "1",
+        "Parental_Migration": "\u7238\u7238\u5728\u5916\u52a1\u5de5\uff0c\u5bb6\u4e2d\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90\uff08\u519c\u5fd9\u65f6\u56de\u5bb6\u5e2e\u5fd9\uff09\n\u5988\u5988\u5bb6\u5ead\u4e3b\u5987\uff0c\u6ca1\u5de5\u4f5c\uff08\u5bb6\u91cc\u519c\u6d3b\uff09\n\u5bb6\u91cc\u79cd\u7389\u7c73\u5c0f\u9ea6",
+        "Yrs_in_school": "middle school grade 8"
+    },
+    {
+        "ID": "48",
+        "Year": "2017"
+    },
+    {
+        "ID": "48",
+        "Year": "2018",
+        "info_note": "\u8003\u5165\u5546\u6d1b\u4e2d\u5b66",
+        "Family_Composition": "\u7237\u7237\u5976\u5976\u8eab\u4f53\u4e0d\u597d\uff0c\u9700\u8981\u7167\u987e",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "2",
+        "Mother_Work": "1",
+        "Yrs_in_school": "H1"
+    },
+    {
+        "ID": "48",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "2.666666667",
+        "Father_Work": "2",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "49",
+        "Year": "2011",
+        "info_note": "She is in P5. She has one brother and one sister who are both in schools now. So the family has heavy financial burden. ",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "Sibling": "2",
+        "Yrs_in_school": "P5"
+    },
+    {
+        "ID": "49",
+        "Year": "2012",
+        "Family_Composition": "\u7236\u6bcd\u90fd\u5728",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "Sibling": "2"
+    },
+    {
+        "ID": "49",
+        "Year": "2013"
+    },
+    {
+        "ID": "49",
+        "Year": "2014",
+        "Family_Composition": "\u5f1f\u5f1f\u4e0a\u521d\u4e2d",
+        "family_size": "5",
+        "Sibling": "1"
+    },
+    {
+        "ID": "49",
+        "Year": "2016",
+        "info_note": "\u5546\u5dde\u533a\u4e2d\u5b66\u9ad8\u4e2d\u90e8\uff0c\u6709\u53c2\u52a0\u5b66\u6821\u5468\u672b\u8865\u4e60\u73ed\uff08\u989d\u5916\u5f00\u652f\uff09",
+        "Family_Composition": "\u5f1f\u5f1f\u4e0a\u521d\u4e09",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "0",
+        "Father_Work": "0",
+        "Mother_Work": "2",
+        "Parental_Migration": "\u7238\u7238\u5728\u8001\u5bb6\u5e2e\u5927\u4f2f\u76d6\u65b0\u623f\uff0c\u6ca1\u6709\u65f6\u95f4\u8d5a\u94b1\n\u5988\u5988\u5728\u4e00\u5bb6\u9910\u9986\u6253\u5de5",
+        "Yrs_in_school": "H2"
+    },
+    {
+        "ID": "49",
+        "Year": "2017",
+        "info_note": "more cram school costs, apt rental cost, household work distracts",
+        "Family_Composition": " letter",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "0",
+        "Father_Work": "2",
+        "Mother_Work": "2",
+        "Yrs_in_school": "TVE U",
+        "ed_attainment_ordinal": "2"
+    },
+    {
+        "ID": "49",
+        "Year": "2018",
+        "info_note": "parents, younger brother and older sister(married)"
+    },
+    {
+        "ID": "49",
+        "Year": "2019",
+        "Family_Composition": "\u7236\u4eb2\u8eab\u4f53\u4e0d\u597d",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "Sibling": "1",
+        "#_of_sick_people": "1"
+    },
+    {
+        "ID": "49",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "0.5",
+        "Sibling": "1.33",
+        "Father_Work": "0.833333333",
+        "Mother_Work": "0.666666667"
+    },
+    {
+        "ID": "50",
+        "Year": "2010",
+        "info_note": "She is 14 years old but in p5. We hope she can stick to studying and at least finish the k-9 education. There are five family members, her elder sistered dropped out of school at 17. Her brother is blind. ",
+        "Family_Composition": "father passed away",
+        "family_size": "4",
+        "status_of_guardians": "2",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "0",
+        "Yrs_in_school": "P5"
+    },
+    {
+        "ID": "50",
+        "Year": "2011"
+    },
+    {
+        "ID": "50",
+        "Year": "2013"
+    },
+    {
+        "ID": "50",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "2",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "0"
+    },
+    {
+        "ID": "51",
+        "Year": "2011",
+        "info_note": "She is in p6. Though being adoped, she is confident and talktive. She is bright and does well in study too. There are 4 family members, her grandfather and mother are both sick.",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "Sibling": "0",
+        "#_of_sick_people": "2",
+        "Yrs_in_school": "P6"
+    },
+    {
+        "ID": "51",
+        "Year": "2013"
+    },
+    {
+        "ID": "51",
+        "Year": "2014",
+        "Family_Composition": "\u7236\u6bcd",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "Sibling": "0",
+        "#_of_sick_people": "2"
+    },
+    {
+        "ID": "51",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "Sibling": "0",
+        "#_of_sick_people": "2"
+    },
+    {
+        "ID": "52",
+        "Year": "2009",
+        "info_note": "She is in M3. She is traditional docile Chinese girl. She does lots of housework for the family and takes care of her younger brother. She studies very hard. Her father works out of village to support the family while mom does all the field work.",
+        "Family_Composition": "\u5bb6\u91cc4\u53e3\u4eba\uff1a\u7238\u7238\u5988\u5988\u5f1f\u5f1f\uff1b\u5988\u5988\u5e38\u5e74\u751f\u75c5\uff0c\u5f00\u9500\u5f88\u5927\uff1b\u7238\u7238\u56e0\u4e3a\u8981\u52a1\u519c\u4e0d\u80fd\u6253\u5de5\uff0c\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "1",
+        "Mother_Work": "0",
+        "Yrs_in_school": "M3"
+    },
+    {
+        "ID": "52",
+        "Year": "2011",
+        "info_note": "\u5f20\u6751\u4e2d\u5b66\u521d\u4e09"
+    },
+    {
+        "ID": "52",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "1",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "53",
+        "Year": "2011",
+        "info_note": "She is in p3 and looks much smaller than kids at her age. Her house was burned a few years ago and parents spent all the money on building a new house. The family is poor.\u949f\u950b\u5c0f\u5b66\u56db\u5e74\u7ea7",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Father_Work": "3",
+        "Mother_Work": "3",
+        "Yrs_in_school": "P3"
+    },
+    {
+        "ID": "53",
+        "Year": "2013",
+        "Family_Composition": "\u7236\u4eb2\u5728\u5efa\u7b51\u5de5\u5730\u505a\u82e6\u529b\u6d3b",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "53",
+        "Year": "2014",
+        "Family_Composition": "\u5988\u5988\u5728\u522b\u4eba\u5bb6\u505a\u949f\u70b9\u5de5\uff0c\u7238\u7238\u5728\u5de5\u5730\u505a\u82e6\u5de5",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "Father_Work": "3",
+        "Mother_Work": "3",
+        "Parental_Migration": "\u7236\u6bcd\u90fd\u5728\u5916\u6253\u5de5"
+    },
+    {
+        "ID": "53",
+        "Year": "2016",
+        "info_note": "third grade of middle school",
+        "Family_Composition": "\u5bb6\u4e2d\u56db\u53e3\u4eba\n\n\u6709\u4e00\u4e2a\u59d0\u59d0, \u59d0\u59d0\u4fe1\u606f\u7f3a\u5931",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "#_of_sick_people": "0",
+        "Father_Work": "3",
+        "Mother_Work": "3",
+        "Parental_Migration": "\u7236\u6bcd\u90fd\u662f\u519c\u6c11\uff0c\u7236\u6bcd\u90fd\u5728\u57ce\u91cc\u6253\u5de5",
+        "Yrs_in_school": "M3"
+    },
+    {
+        "ID": "53",
+        "Year": "2017",
+        "Family_Composition": "\u6bcd\u4eb2\u5728\u5bb6\u52a1\u519c\uff0c\u519c\u95f2\u65f6\u6253\u5de5\uff1b\u7236\u4eb2\u8eab\u4f53\u4e0d\u597d",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "2",
+        "Parental_Migration": "\u7236\u4eb2\u5728\u5916\u6253\u5de5"
+    },
+    {
+        "ID": "53",
+        "Year": "2018",
+        "info_note": "       parents and sister, mainly income is from father. mother now stays home and cook. ",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "#_of_sick_people": "0",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "53",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "1.83",
+        "Sibling": "0",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "1.83"
+    },
+    {
+        "ID": "54",
+        "Year": "2009",
+        "info_note": "She is in M3 and looks malnutritious. She used to suffer from serious decease but has recovered. She has a brother at P3. ",
+        "Family_Composition": "\u5bb6\u91cc5\u53e3\u4eba\uff1a\u5976\u5976\u5988\u5988\u5f1f\u5f1f\u7238\u7238\uff1b\u5988\u5988\u751f\u75c5\u56e0\u8d2b\u56f0\u653e\u5f03\u5c31\u533b\n\n\u6709\u4e00\u4e2a\u5f1f\u5f1f",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Yrs_in_school": "M3"
+    },
+    {
+        "ID": "54",
+        "Year": "2011"
+    },
+    {
+        "ID": "54",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "Sibling": "1",
+        "#_of_sick_people": "1"
+    },
+    {
+        "ID": "55",
+        "Year": "2017",
+        "Family_Composition": "\u5988\u5988\u5728\u5bb6\u79cd\u5730",
+        "family_size": "3",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "#_of_sick_people": "0",
+        "Father_Work": "3",
+        "Mother_Work": "1",
+        "Parental_Migration": "\u7236\u4eb2\u5728\u5916\u6253\u5de5"
+    },
+    {
+        "ID": "55",
+        "Year": "Aggregation",
+        "family_size": "3",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "#_of_sick_people": "0",
+        "Father_Work": "3",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "56",
+        "Year": "2011",
+        "info_note": "She is in M2. She studies in a small city because her parents work there as migrant labor. ",
+        "Family_Composition": "\u6709\u7236\u6bcd\u548c\u4e00\u4e2a\u5f1f\u5f1f",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "Father_Work": "3",
+        "Mother_Work": "3",
+        "Yrs_in_school": "M2"
+    },
+    {
+        "ID": "56",
+        "Year": "2012"
+    },
+    {
+        "ID": "56",
+        "Year": "2018",
+        "info_note": " finished vocational school and works as a office clerk. she has parents and a younger brother as family members. ",
+        "Family_Composition": "brother is in high school. H1; father is an  electrician",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "Father_Work": "3"
+    },
+    {
+        "ID": "56",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "57",
+        "Year": "2009",
+        "info_note": "She is in M2 and studies in the capital city because her father works there as a migrant worker. She has a sister and a brother who are both going to school.",
+        "Family_Composition": "\u6709\u4e00\u4e2a\u59d0\u59d0\u4e00\u4e2a\u5f1f\u5f1f\uff1b\u5988\u5988\u5728\u5de5\u5382\u5de5\u4f5c\n\n\u6709\u4e00\u4e2a\u59d0\u59d0\u4e00\u4e2a\u5f1f\u5f1f",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "2",
+        "Father_Work": "3",
+        "Mother_Work": "3",
+        "Yrs_in_school": "M2"
+    },
+    {
+        "ID": "57",
+        "Year": "2012"
+    },
+    {
+        "ID": "57",
+        "Year": "2013",
+        "Family_Composition": "\u7236\u6bcd\u90fd\u5728\uff0c\u4e00\u5bb6\u59d0\u5f1f\u4e09\u4eba",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "Father_Work": "2",
+        "Mother_Work": "2"
+    },
+    {
+        "ID": "57",
+        "Year": "2014",
+        "Family_Composition": "\u7236\u6bcd\u65e0\u56fa\u5b9a\u5de5\u4f5c",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "Father_Work": "2",
+        "Mother_Work": "2"
+    },
+    {
+        "ID": "57",
+        "Year": "2018",
+        "info_note": "parents, older sister and yonger brother as family members. Study Chinese literature as a freshman in xian guangbodianshi university. mother's leg injured and grandmother has disability",
+        "Family_Composition": "\u7236\u4eb2\u6ef4\u6ef4\uff0c\u59d0\u5f1f\u9500\u552e",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "3",
+        "Sibling": "0",
+        "#_of_sick_people": "2",
+        "Father_Work": "2",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "57",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "2.25",
+        "Sibling": "0.5",
+        "Father_Work": "2.25",
+        "Mother_Work": "1.75"
+    },
+    {
+        "ID": "58",
+        "Year": "2009",
+        "info_note": "She is a sophomore in a vocational high school in the capital city. She dropped out of high school because of poverty last year. Then she was encouraged by the scholarship sponsor, and chose a vocational school to continue study. She is very smart and studies very hard. Her mother was diagnosed with brain cancer in 2009, the surgery and treatment put the family in debt.  \u5546\u5dde\u533a\u4e2d\u5b66\u9ad8\u4e00",
+        "Family_Composition": "\u7236\u6bcd\u5e74\u8001\u591a\u75c5\u52a1\u519c\u517b\u5bb6\uff1b\u54e5\u54e5\u5728\u5916\u6253\u5de5\uff1b\u53bb\u5e74\u6bcd\u4eb2\u8111\u7624\u624b\u672f\n\n\u54e5\u54e5\u5728\u5916\u6253\u5de5",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "#_of_sick_people": "2",
+        "Father_Work": "1",
+        "Mother_Work": "1",
+        "Yrs_in_school": "Vocational school"
+    },
+    {
+        "ID": "58",
+        "Year": "2010",
+        "info_note": "Interview"
+    },
+    {
+        "ID": "58",
+        "Year": "2012"
+    },
+    {
+        "ID": "58",
+        "Year": "2013",
+        "Family_Composition": "\u5988\u5988\u75c5\u60c5\u4e25\u91cd\uff0c\u65e0\u94b1\u624b\u672f\uff0c\u6709\u7238\u7238\u548c\u54e5\u54e5",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "#_of_sick_people": "2",
+        "Father_Work": "1",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "58",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "#_of_sick_people": "2",
+        "Father_Work": "1",
+        "Mother_Work": "0.5"
+    },
+    {
+        "ID": "59",
+        "Year": "2010",
+        "info_note": "She is in M3 and studies very hard. She is also very smart, so she does well in study. She takes care of her young brother at free time. ",
+        "Family_Composition": "mother cannot be exposed to the sunshine because it would cause her headaches, father has a stomach disease. Younger brother got innate cardiac problems, and the father took him to do the cardiac operation in Xi\u2019an last year. He is alright now.",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "Sibling": "2",
+        "#_of_sick_people": "2",
+        "Yrs_in_school": "M3"
+    },
+    {
+        "ID": "59",
+        "Year": "2018 other",
+        "info_note": "She is married. has father. mother and younger sister. parents does farming and grow herbs for livling. ",
+        "Family_Composition": "father's one eye is blind, and does farming and grow herbs for living. Mother take care of grandmother and younger sister in school M1. ",
+        "family_size": "6",
+        "Sibling": "2",
+        "#_of_sick_people": "2",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "59",
+        "Year": "2011"
+    },
+    {
+        "ID": "59",
+        "Year": "2014",
+        "Family_Composition": "Full Family",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "Sibling": "2",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Yrs_in_school": "2 year in Junior college (need 5 years in total)"
+    },
+    {
+        "ID": "59",
+        "Year": "2018",
+        "Family_Composition": "\u7238\u5988\u548c\u59b9\u59b9",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "Sibling": "2",
+        "#_of_sick_people": "2",
+        "Father_Work": "3"
+    },
+    {
+        "ID": "59",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "Sibling": "2",
+        "#_of_sick_people": "2"
+    },
+    {
+        "ID": "60",
+        "Year": "2011",
+        "info_note": "She is in p5. She is adopted by her aunt. Her parents have more than 1 child, which is against the one-child policy, so they give her to the aunt.   ",
+        "Family_Composition": "\u5bb6\u4e2d\u4e00\u4e2a\u59d0\u59d0\u4e00\u4e2a\u59b9\u59b9",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "2",
+        "Father_Work": "3",
+        "Mother_Work": "3",
+        "Yrs_in_school": "P5"
+    },
+    {
+        "ID": "60",
+        "Year": "2014",
+        "Family_Composition": "\u4fe1\u4ef6\u7f3a\u5931\uff1f"
+    },
+    {
+        "ID": "60",
+        "Year": "2016",
+        "info_note": "\u5317\u5bbd\u576a\u521d\u7ea7\u4e2d\u5b66Beikuanping middle school",
+        "Family_Composition": "\u5bb6\u4e2d\u6709\u5976\u5976\u548c\u59b9\u59b9\uff0c\u6bcd\u4eb2\u5728\u5bb6\u7167\u987e\u201c\u6211\u201d\u548c\u59b9\u59b9",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "0",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7236\u4eb2\u5728\u5916\u6253\u5de5\n\u5988\u5988\u5728\u5bb6\u6ca1\u6709\u5de5\u4f5c",
+        "Yrs_in_school": "M attending"
+    },
+    {
+        "ID": "60",
+        "Year": "2017",
+        "Family_Composition": "\u7236\u6bcd\u90fd\u5728\u5bb6",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "60",
+        "Year": "2018",
+        "Family_Composition": "\u6bcd\u4eb2\u5728\u5bb6\u7167\u987e\u5976\u5976\u59b9\u59b9",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7236\u4eb2\u5728\u5916\u6253\u5de5"
+    },
+    {
+        "ID": "60",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1.25",
+        "#_of_sick_people": "0",
+        "Father_Work": "3",
+        "Mother_Work": "0.75"
+    },
+    {
+        "ID": "61",
+        "Year": "2011",
+        "info_note": "She is in p3. Her father was adopted. They got moved and built new home, which made the family poorer.",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "Father_Work": "1",
+        "Mother_Work": "0",
+        "Yrs_in_school": "P3"
+    },
+    {
+        "ID": "61",
+        "Year": "2013"
+    },
+    {
+        "ID": "61",
+        "Year": "2014",
+        "Family_Composition": "\u7238\u7238\u5e72\u82e6\u529b\u6d3b\uff0c\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90\n\n\u5f1f\u5f1f\u5728\u4e0a\u5e7c\u513f\u56ed",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "Father_Work": "2",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "61",
+        "Year": "2016",
+        "info_note": "age 14\nStudy in a school located at central east of Shangluo \u5546\u6d1b\u57ce\u4e2d\u897f\u6821\u533a\nSecond year of middle school\nFamily size: 4 (parents, brother, I)\nMother work and do hoursework.\nFaterh work.\nlittle brother, age 8, primary school grade 2",
+        "Family_Composition": "\u5bb6\u4e2d\u56db\u53e3\u4eba\uff0c\u7236\u6bcd\u548c\u5f1f\u5f1f\uff0c\u7236\u6bcd\u8eab\u4f53\u4e0d\u884c\n\n\u5f1f\u5f1f8\u5c81\u4e0a\u5c0f\u5b662\u5e74\u7ea7\n\n\u5988\u5988\u8eab\u4f53\u4e0d\u597d\uff08\u8eab\u4f53\u4e0d\u597d\uff09\n\u7238\u7238\u8eab\u4f53\u4e0d\u597d\uff0c\u590f\u5929\u4f1a\u5934\u75bc\uff08\u53bb\u5e74\u6691\u5047\u4f4f\u4e86\u9662\uff0c\u5df2\u51fa\u9662\uff09",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "3",
+        "Parental_Migration": "\u5988\u5988\u5e72\u7684\u6253\u626b\u536b\u751f\u7684\u6d3b\uff0c\u6e05\u6d01\u5de5\uff1f\n\u7238\u7238\u6709\u5de5\u4f5c",
+        "Yrs_in_school": "M2"
+    },
+    {
+        "ID": "61",
+        "Year": "2017",
+        "Family_Composition": "\u6bcd\u4eb2\u751f\u4e86\u5927\u75c5\uff0c\u505a\u624b\u672f\uff1b\u7236\u4eb2\u8eab\u4f53\u4e0d\u597d\uff0c\u505a\u82e6\u529b\u517b\u5bb6\n\n\u5f1f\u5f1f\u5728\u4e0a\u5b66",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "61",
+        "Year": "2018",
+        "Family_Composition": "\u5988\u5988\u5728\u5bb6\u6253\u5de5\uff1b\u7236\u4eb2\u8eab\u4f53\u4e0d\u597d\n\n\u5f1f\u5f1f\u5728\u4e0a\u5b66",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "3",
+        "Parental_Migration": "\u7236\u4eb2\u53bb\u5916\u5730\u6253\u5de5"
+    },
+    {
+        "ID": "61",
+        "Year": "2019"
+    },
+    {
+        "ID": "61",
+        "Year": "2020",
+        "Family_Composition": "\u6bcd\u4eb2\u505a\u6e05\u6d01\u5de5\uff0c\u751f\u75c5\u4f4f\u9662\uff08\u5df2\u51fa\u9662\uff0c\u8eab\u4f53\u4e0d\u4f73\uff09",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "2",
+        "Parental_Migration": "\u7236\u4eb2\u5728\u5916\u6253\u5de5"
+    },
+    {
+        "ID": "61",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "1.67",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "2.5",
+        "Mother_Work": "1.333333333"
+    },
+    {
+        "ID": "62",
+        "Year": "2011",
+        "info_note": "She is in p5. She has a brother who goes to school too. She has no birth registration because of the one-child only policy. Her parents work elsewhere to pay for the fine. Her grandma is frequently sick \u5546\u6d1b\u5e02\u5c0f\u5b66",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "1",
+        "Mother_Work": "1",
+        "Yrs_in_school": "P5"
+    },
+    {
+        "ID": "62",
+        "Year": "2016",
+        "info_note": "\u5546\u6d1b\u4e2d\u5b66",
+        "Family_Composition": "\u4e00\u5bb6\u56db\u53e3\uff0c\u7236\u6bcd",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "0",
+        "Father_Work": "1",
+        "Mother_Work": "0",
+        "Yrs_in_school": "M"
+    },
+    {
+        "ID": "62",
+        "Year": "2017",
+        "Family_Composition": "\u7236\u6bcd\u90fd\u662f\u519c\u6c11\uff0c\u6ca1\u4ec0\u4e48\u6587\u5316\uff0c\u5e72\u82e6\u529b\u8d5a\u94b1",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "62",
+        "Year": "2018"
+    },
+    {
+        "ID": "62",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1.67",
+        "Sibling": "1",
+        "#_of_sick_people": "0.33",
+        "Father_Work": "1",
+        "Mother_Work": "0.67"
+    },
+    {
+        "ID": "63",
+        "Year": "2011",
+        "info_note": "She is in p1, her parents work elsewhere to support family, their house got burned few years ago, her grandparents are old and sick, which made the family poorer.\u5546\u6d1b\u5e02\u5c0f\u5b66",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "Sibling": "0",
+        "Father_Work": "3",
+        "Mother_Work": "3",
+        "Yrs_in_school": "P1"
+    },
+    {
+        "ID": "63",
+        "Year": "2012",
+        "Family_Composition": "\u6709\u7236\u6bcd",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "Sibling": "0",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "63",
+        "Year": "2014"
+    },
+    {
+        "ID": "63",
+        "Year": "2016",
+        "info_note": "\u5546\u5dde\u533a\u4e2d\u5b66\u521d\u4e00\uff0c12 years old",
+        "Yrs_in_school": "M1"
+    },
+    {
+        "ID": "63",
+        "Year": "2017",
+        "info_note": "\u5546\u6d1b\u5e02\u4e2d\u5b66\u521d\u4e8c"
+    },
+    {
+        "ID": "63",
+        "Year": "2018",
+        "Family_Composition": "\u7236\u4eb2\u5728\u672c\u5730\u6253\u5de5",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "Sibling": "0",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "63",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "Sibling": "0",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "64",
+        "Year": "2011",
+        "info_note": "She is in p4. Her mom left when she was young, so she grew up in a single-parent family. \u6c99\u6cb3\u5b50\u4e2d\u5fc3\u5c0f\u5b66\u56db\u5e74\u7ea7",
+        "Family_Composition": "\u53ea\u6709\u7236\u4eb2",
+        "family_size": "2",
+        "status_of_guardians": "2",
+        "#_of_earners": "1",
+        "Sibling": "0",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u6bcd\u4eb2\u79bb\u5bb6\u51fa\u8d70\u672a\u5f52, \u7236\u4eb2\u9760\u6253\u5de5\u751f\u6d3b",
+        "Yrs_in_school": "P4"
+    },
+    {
+        "ID": "64",
+        "Year": "Aggregation",
+        "family_size": "2",
+        "status_of_guardians": "2",
+        "#_of_earners": "1",
+        "Sibling": "0",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "65",
+        "Year": "2015",
+        "info_note": "She is in M1, her house crashed because of land slide, her parent rebuilt house and used all the money, her grandparents were sick.",
+        "Family_Composition": "\u7236\u6bcd\u5f1f\u5f1f\uff1b\u7236\u4eb2\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90\uff1b\u7956\u7236\u6bcd\u7236\u6bcd\u8eab\u4f53\u4e0d\u597d\u9700\u8981\u533b\u836f\u8d39\uff1b\u4e3a\u4e86\u5bb6\u5ead\u9000\u5b66",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Yrs_in_school": "M1"
+    },
+    {
+        "ID": "65",
+        "Year": "2018",
+        "info_note": "she works as a manager in a patent consulting company",
+        "Family_Composition": "parents and younger brother",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "Father_Work": "3"
+    },
+    {
+        "ID": "65",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "66",
+        "Year": "2010",
+        "info_note": "She is in p2, her father cannot work because of traffic accident, the family is very poor\n\nShe has step mom who is mentally sick and 2 young sisters who don't have hukou. Her family has heavy economic burden and she has dropped out last year. Pang just explained to us the complexity of the girls' families and saIDscholarship couldn't help much in this situation because she needs to take care of her siblings and mentally-sick mom. 8/14",
+        "#_of_sick_people": "1",
+        "Father_Work": "0",
+        "Mother_Work": "0",
+        "Yrs_in_school": "P2"
+    },
+    {
+        "ID": "66",
+        "Year": "2011",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "66",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "Sibling": "2",
+        "#_of_sick_people": "1",
+        "Father_Work": "0",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "67",
+        "Year": "2011",
+        "info_note": "She is in p6. Her family locates on the top of the mountain, her mother has \"arm sickness\" can't do field work, dad  works elsewhere after harvest. She has young brother in school, and a young sister at pre-school age.",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "2",
+        "#_of_sick_people": "1",
+        "Father_Work": "2",
+        "Mother_Work": "0",
+        "Yrs_in_school": "P6"
+    },
+    {
+        "ID": "67",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "2",
+        "#_of_sick_people": "1",
+        "Father_Work": "2",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "68",
+        "Year": "2011",
+        "info_note": "She is in p4. She has no birth registration because of 3 kids in the family, first two are male twins. The family gets debt because trying to get the girl hukou, her family is poor \u949f\u950b\u5c0f\u5b66\u4e09\u5e74\u7ea7",
+        "Family_Composition": "\u5bb6\u4e2d\u516d\u53e3\u4eba\uff1b\u5976\u5976\u5e74\u9f84\u5927\uff1b\u5988\u5988\u548c\u4e24\u4e2a\u56db\u5c81\u5f1f\u5f1f\uff1b\u7238\u7238\u662f\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "2",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7238\u7238\u5e38\u5e74\u5728\u5916\u6253\u5de5",
+        "Yrs_in_school": "P4"
+    },
+    {
+        "ID": "68",
+        "Year": "2013",
+        "Family_Composition": "\u5988\u5988\u5728\u5bb6\u7167\u987e\u5f1f\u5f1f\u5976\u5976\uff0c\u5976\u5976\u5e74\u5e74\u751f\u75c5\uff0c\u7236\u4eb2\u5728\u5916\u5730\u6253\u5de5\uff0c\u8fc7\u5e74\u6216\u6536\u83b7\u5b63\u8282\u624d\u56de\u5bb6",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "2",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "68",
+        "Year": "2014",
+        "Family_Composition": "\u5976\u5976\u591a\u75c5\n\n\u4e24\u4e2a\u5f1f\u5f1f6\u5c81\uff0c\u4e0a\u4e00\u5e74\u7ea7",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "2",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7238\u7238\u5e38\u5e74\u5728\u5916\u6253\u5de5"
+    },
+    {
+        "ID": "68",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "2",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "69",
+        "Year": "2011",
+        "info_note": "She is in p5. She has a brother in p2, her aunt was sick for a long time and died, her grandparents are sick.",
+        "Family_Composition": "\u5bb6\u4e2d\u519c\u6d3b\u5976\u5976\u4e00\u4e2a\u4eba\u505a",
+        "family_size": "7",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "Father_Work": "3",
+        "Mother_Work": "3",
+        "Parental_Migration": "\u7236\u6bcd\u5728\u5916\u6253\u5de5",
+        "Yrs_in_school": "P5"
+    },
+    {
+        "ID": "69",
+        "Year": "2014",
+        "Family_Composition": "\u7238\u7238\u59d0\u59d0\u5728\u6253\u5de5\uff0c\u5988\u5988\u7167\u987e\u5976\u5976\n\u5f1f\u5f1f\u4e0a\u5b66\n\nsix people in my family: my grandmother, dad, mom, sister, brother, and me. Dad and sister are working, my brother and I go to school. Mom takes care of my grandmother at home.",
+        "family_size": "7",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "69",
+        "Year": "2016",
+        "Family_Composition": "\u5bb6\u4e2d7\u53e3\u4eba\uff0c\u7236\u6bcd\uff0c\u59d0\u59d0\u5f1f\u5f1f\uff0c\u7237\u7237\u5976\u5976\uff1b\u6bcd\u4eb2\u5728\u5bb6\uff0c\u59d0\u59d0\u4e0a\u73ed\uff0c\u5f1f\u5f1f\u4e0a\u5b66",
+        "family_size": "7",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7236\u4eb2\u5728\u5916\u6253\u5de5"
+    },
+    {
+        "ID": "69",
+        "Year": "2017",
+        "info_note": "\u5546\u6d1b\u804c\u4e1a\u6280\u672f\u5b66\u9662"
+    },
+    {
+        "ID": "69",
+        "Year": "2019"
+    },
+    {
+        "ID": "69",
+        "Year": "Aggregation",
+        "family_size": "7",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "Father_Work": "3",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "70",
+        "Year": "2011",
+        "info_note": "She is in p3. Her house got burned and rebuilt, the family is poor.",
+        "Family_Composition": "\u5bb6\u4e2d\u4e09\u53e3\u4eba",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "0",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7236\u5916\u51fa\u6253\u5de5",
+        "Yrs_in_school": "P3"
+    },
+    {
+        "ID": "70",
+        "Year": "2013",
+        "Family_Composition": "\u67092\u5c81\u59b9\u59b9\uff0c\u51fa\u751f\u65f6\u5c31\u6709\u5507\u88c2\uff0c\u505a\u4e86\u4e86\u624b\u672f\uff0c\u4f46\u9700\u8981\u518d\u505a\u4e00\u6b21",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "3"
+    },
+    {
+        "ID": "70",
+        "Year": "2014",
+        "Family_Composition": "3\u5c81\u59b9\u59b9\uff0c\u5634\u90e8\u7f3a\u9677\uff0c\u9700\u8981\u518d\u6b21\u624b\u672f",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "3"
+    },
+    {
+        "ID": "70",
+        "Year": "2016",
+        "Family_Composition": "\u7237\u7237\u5e74\u9f84\u5927\uff0c\u4f24\u6b8b\u591a\u75c5\uff1b\u5988\u5988\u591a\u75c5\uff1b\u7236\u4eb2\u6253\u5de5\u517b\u5bb6",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "70",
+        "Year": "2017"
+    },
+    {
+        "ID": "70",
+        "Year": "2018"
+    },
+    {
+        "ID": "70",
+        "Year": "2019",
+        "Family_Composition": "\u7236\u4eb2\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90\n\n\u59b9\u59b9\u4e0a\u5b66",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "70",
+        "Year": "2020",
+        "Family_Composition": "\u5988\u5988\u8eab\u4f53\u5dee",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "70",
+        "Year": "2021",
+        "Family_Composition": "\u5bb6\u4e2d\u4e94\u53e3\u4eba\uff1b\u7237\u7237\u8eab\u4f53\u4e0d\u597d\uff1b\u7236\u4eb2\u5728\u5bb6\u6253\u5de5\uff08\u5bb6\u4e2d\u552f\u4e00\u52b3\u52a8\u529b\uff09\uff1b\u6bcd\u4eb2\u591a\u75c5\n\n\u59b9\u59b9\u5728\u4e0a\u5b66",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "70",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "0.86",
+        "#_of_sick_people": "2.29",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "71",
+        "Year": "2010",
+        "info_note": "She is in M1. Her dad is sick and cannot work elsewhere, they live on the top of mountain and has no income",
+        "#_of_sick_people": "1",
+        "Father_Work": "0",
+        "Yrs_in_school": "M1"
+    },
+    {
+        "ID": "71",
+        "Year": "Aggregation",
+        "#_of_sick_people": "1",
+        "Father_Work": "0"
+    },
+    {
+        "ID": "72",
+        "Year": "2014",
+        "info_note": "She is in M1, her mom is sick and cannot work, dad cannot work elsewhere for a long time, the family is poor",
+        "Family_Composition": "\u7238\u7238\u5988\u5988\u662f\u519c\u6c11\uff0c\u8eab\u4f53\u4e0d\u597d\uff0c\u59d0\u59d0\u59d0\u592b\uff0c\u59d0\u59d0\u524d\u5e74\u505a\u4e86\u624b\u672f\uff0c\u82b1\u5149\u4e86\u5bb6\u91cc\u79ef\u84c4\uff0c\u4eca\u5e74\u67e5\u51fa\u80ba\u7ed3\u6838\u6b63\u5728\u6cbb\u7597\uff0c\u59d0\u592b\u5728\u5916\u5730\u5de5\u5730\u4e0a\u73ed",
+        "family_size": "7",
+        "status_of_guardians": "3",
+        "#_of_earners": "3",
+        "Sibling": "0",
+        "#_of_sick_people": "3",
+        "Father_Work": "1",
+        "Mother_Work": "1",
+        "Yrs_in_school": "M1"
+    },
+    {
+        "ID": "72",
+        "Year": "2016",
+        "Family_Composition": "\u5988\u5988\u4f4f\u9662\u505a\u624b\u672f\uff0c\u5bb6\u4e2d\u6709\u6b20\u503a\uff1b\u7236\u4eb2\u5728\u5de5\u5730\u6253\u5de5\uff0c\n\n\u6709\u4e00\u4e2a\u59d0\u59d0\uff0c\u75c5\u597d\u4e86\uff0c\u5df2\u751f\u80b2\u4e00\u5bf9\u53cc\u80de\u80ce",
+        "family_size": "7",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7236\u4eb2\u5de5\u5730\u6253\u5de5"
+    },
+    {
+        "ID": "72",
+        "Year": "2017",
+        "Family_Composition": "\u5bb6\u4e2d7\u53e3\u4eba\uff0c\u7236\u6bcd\u59d0\u59d0\u54e5\u54e5\u4ee5\u53ca\u4ed6\u4eec\u7684\u4e24\u4e2a\u5b69\u5b50\uff1b\u7236\u4eb2\u591a\u75c5\uff0c\u65e0\u6cd5\u5916\u51fa\u6253\u5de5\uff1b\u6bcd\u4eb2\u591a\u75c5\uff0c\u505a\u8fc7\u624b\u672f\uff1b\u59d0\u59d0\u521d\u4e2d\u8f8d\u5b66\uff1b\u59d0\u59d0\u54e5\u54e5\u5747\u65e0\u56fa\u5b9a\u5de5\u4f5c",
+        "family_size": "7",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "#_of_sick_people": "2",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "72",
+        "Year": "2018",
+        "info_note": "GS stories telephone interview\nentered Law School"
+    },
+    {
+        "ID": "72",
+        "Year": "Aggregation",
+        "family_size": "7",
+        "status_of_guardians": "3",
+        "#_of_earners": "2.33",
+        "Sibling": "0",
+        "#_of_sick_people": "2",
+        "Father_Work": "1.67",
+        "Mother_Work": "0.67"
+    },
+    {
+        "ID": "73",
+        "Year": "2011",
+        "info_note": "She is in M2. She is recommend by teachers in Zhangcun M to get the scholarship because  she grows up in single-parent family",
+        "Family_Composition": "\u7236\u4eb2\u4f53\u5f31\u591a\u75c5\uff0c\u5355\u4eb2\u5bb6\u5ead",
+        "family_size": "2",
+        "status_of_guardians": "2",
+        "#_of_sick_people": "1",
+        "Yrs_in_school": "M2"
+    },
+    {
+        "ID": "73",
+        "Year": "2013"
+    },
+    {
+        "ID": "73",
+        "Year": "2014",
+        "Family_Composition": "\u7238\u7238\u60a3\u5fc3\u810f\uff0c6\u6708\u75c5\u53bb\u4e16\uff0corphan",
+        "family_size": "1",
+        "status_of_guardians": "0",
+        "#_of_earners": "0",
+        "Sibling": "0",
+        "#_of_sick_people": "0",
+        "Father_Work": "0",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "73",
+        "Year": "Aggregation",
+        "family_size": "2",
+        "status_of_guardians": "2",
+        "#_of_earners": "0",
+        "Sibling": "0",
+        "#_of_sick_people": "0.5",
+        "Father_Work": "0",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "74",
+        "Year": "2011",
+        "info_note": "She is in M3. She is adopted by the family and has low self-esteem. Her grandma is blind, their house is newly built, the family is poor",
+        "Family_Composition": "\u7236\u6bcd\u6ca1\u6709\u6587\u5316\uff0c\u5e72\u529b\u6c14\u6d3b\u4f9b\u5176\u4e0a\u5b66",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "Father_Work": "3",
+        "Mother_Work": "3",
+        "Yrs_in_school": "M3"
+    },
+    {
+        "ID": "74",
+        "Year": "2014",
+        "info_note": "\u5546\u6d1b\u804c\u4e1a\u6280\u672f\u5b66\u9662\u7b2c\u4e8c\u5e74"
+    },
+    {
+        "ID": "74",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "75",
+        "Year": "2011",
+        "info_note": "He is in H1, he is the only male who gets the scholarship. He is good at study. But his family situation is very bad, his mom died of cancer this June, the medical bills is high, his grandparents are sick, now his dad supports the whole family.",
+        "Family_Composition": "\u5355\u4eb2\uff0c\u53ea\u6709\u7238\u7238\uff08\uff1f\uff09",
+        "family_size": "4",
+        "status_of_guardians": "2",
+        "Sibling": "0",
+        "#_of_sick_people": "2",
+        "Yrs_in_school": "H1"
+    },
+    {
+        "ID": "75",
+        "Year": "2014"
+    },
+    {
+        "ID": "75",
+        "Year": "2018",
+        "info_note": " ",
+        "Family_Composition": "\u5355\u4eb2\uff0c\u7236\u4eb2\u6253\u5de5",
+        "family_size": "4",
+        "status_of_guardians": "2",
+        "#_of_earners": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3"
+    },
+    {
+        "ID": "75",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "2",
+        "#_of_earners": "1",
+        "Sibling": "0",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "76",
+        "Year": "2011",
+        "info_note": "Dad imprisoned for 10 years and just came back home, grandpa sick in bed and cannot move, poor; Jiayu dropped out several times and went back because of teachers' persuasion.",
+        "family_size": "3",
+        "status_of_guardians": "1",
+        "#_of_sick_people": "1"
+    },
+    {
+        "ID": "76",
+        "Year": "Aggregation",
+        "family_size": "3",
+        "status_of_guardians": "1",
+        "#_of_sick_people": "1"
+    },
+    {
+        "ID": "77",
+        "Year": "2011",
+        "info_note": " Dad Duan xx.7 persons in family, uncle is physically diabled and had an motorcycle accident in 2009. He borrowed RMB 30000 for operation. The family is in debt also because of building a house. ",
+        "Family_Composition": "\u7236\u6bcd\u90fd\u5728\uff1b\u7236\u4eb2\u65e0\u6b63\u7ecf\u5de5\u4f5c",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "Father_Work": "2"
+    },
+    {
+        "ID": "77",
+        "Year": "2013",
+        "Family_Composition": "\u6bcd\u4eb2\u53bb\u4e16\uff1b\u7531\u5976\u5976\u7167\u987e\uff0c\u7236\u4eb2\u5728\u5916\u5730\u5efa\u7b51\u5de5\u5730\u6253\u5de5",
+        "family_size": "5",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7236\u4eb2\u5728\u5916\u6253\u5de5"
+    },
+    {
+        "ID": "77",
+        "Year": "2016",
+        "Family_Composition": "\u5bb6\u4e2d\u7237\u7237\u5976\u5976\u5927\u4f2f\uff1b\u7237\u7237\u5976\u5976\u75c5\u91cd\uff0c\u5927\u4f2f\u5c0f\u513f\u6b8b\u75be\uff0c\u65e0\u6cd5\u5de5\u4f5c\uff1b\u7236\u4eb2\u5bb6\u4e2d\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90",
+        "family_size": "5",
+        "#_of_earners": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "77",
+        "Year": "2017",
+        "Family_Composition": "\u540c\u4e0a",
+        "family_size": "5",
+        "Father_Work": "3"
+    },
+    {
+        "ID": "77",
+        "Year": "2018",
+        "Family_Composition": "\u7531\u5976\u5976\u7167\u987e",
+        "family_size": "5",
+        "Father_Work": "3"
+    },
+    {
+        "ID": "77",
+        "Year": "2019"
+    },
+    {
+        "ID": "77",
+        "Year": "2020"
+    },
+    {
+        "ID": "77",
+        "Year": "2021",
+        "Family_Composition": "\u7236\u4eb2\u5728\u5bb6\u5de5\u4f5c\uff0c\u552f\u4e00\u6536\u5165\u6765\u6e90",
+        "family_size": "5",
+        "status_of_guardians": "2",
+        "#_of_earners": "1",
+        "#_of_sick_people": "3",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "77",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "0",
+        "#_of_sick_people": "3",
+        "Father_Work": "2.83",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "78",
+        "Year": "2011",
+        "info_note": "Dad Dang xx, Mom mentally disabled, poor family condition.",
+        "Family_Composition": "\u7236\u6bcd\u6ca1\u6709\u6587\u5316",
+        "#_of_sick_people": "1"
+    },
+    {
+        "ID": "78",
+        "Year": "2012",
+        "Family_Composition": "\u5bb6\u4e2d4\u53e3\u4eba\uff0c\u6709\u7238\u7238\u5988\u5988\u54e5\u54e5\uff0c \u7236\u6bcd\u79cd\u5730\uff0c\u7236\u4eb2\u4e00\u5e74\u6709\u5927\u534a\u65f6\u95f4\u5728\u5916\u6253\u5de5\uff0c\u4f46\u6536\u5165\u4e0d\u7a33\u5b9a\uff0c\u54e5\u54e5\u6709\u811a\u75bc\u6c42\u533b\u5bb6\u4e2d\u8d1f\u503a",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "\uff1f/1",
+        "#_of_sick_people": "1",
+        "Father_Work": "2",
+        "Mother_Work": "1",
+        "Parental_Migration": "\u7238\u7238\u5728\u5916\u6253\u5de5"
+    },
+    {
+        "ID": "78",
+        "Year": "2013"
+    },
+    {
+        "ID": "78",
+        "Year": "2014",
+        "Family_Composition": "\u7238\u7238\u5728\u5916\u5de5\u5730\u6253\u5de5\uff0c5\u6708\u751f\u75c5\u4f4f\u9662"
+    },
+    {
+        "ID": "78",
+        "Year": "2016",
+        "Family_Composition": "\u7236\u6bcd\u90fd\u5728\uff1b\u79cd\u7530\u4e3a\u5bb6\u4e2d\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "78",
+        "Year": "2017",
+        "Family_Composition": "\u7236\u6bcd\u90fd\u662f\u519c\u6c11",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "78",
+        "Year": "2018",
+        "info_note": "has father, mother and old brother.",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "2",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "78",
+        "Year": "2019",
+        "info_note": "\u8fdb\u5165\u4e13\u79d1\u5b66\u6821"
+    },
+    {
+        "ID": "78",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "1.25",
+        "Father_Work": "1.5",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "79",
+        "Year": "2007",
+        "info_note": "Dad Pang xx mentally disabled, drives a three-wheel cart in Xi'an to get income, has one sister, 6 people in the family, grandparents sick often, poor ",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "2",
+        "Mother_Work": "2"
+    },
+    {
+        "ID": "79",
+        "Year": "2011",
+        "Family_Composition": "\u5bb6\u4e2d\u56db\u53e3\u4eba\uff1b\u7236\u6bcd\u6ca1\u6709\u6587\u5316",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "2",
+        "Mother_Work": "2"
+    },
+    {
+        "ID": "79",
+        "Year": "2016"
+    },
+    {
+        "ID": "79",
+        "Year": "2017",
+        "info_note": "vocational school/ pre-school education major ",
+        "Family_Composition": "\u7236\u6bcd\u672c\u5730\u6253\u5de5\n\n\u5f1f\u5f1f\u5728\u4e0a\u5b66",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "79",
+        "Year": "2018",
+        "info_note": "she's at  xian pre-school normal vocational school, started in 2017, she has three famaily members: parents and one younger brother. ",
+        "Family_Composition": "mainly income from father, who does inconsist jobs, mom does cleaning service. Younger brother im elementary school, grade 3",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "2",
+        "Mother_Work": "2"
+    },
+    {
+        "ID": "79",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "2.25",
+        "Mother_Work": "2.25"
+    },
+    {
+        "ID": "80",
+        "Year": "2014",
+        "info_note": "Dad Dang xx, 2 girls and 1 son in the family go to school, the second daughter got the hukou last year before going to school, live on growing crops, poor",
+        "Family_Composition": "\u7238\u7238\u5988\u5988\u5f1f\u5f1f\u59b9\u59b9\uff0c\u7238\u5988\u5728\u5bb6\u52a1\u519c\uff0c\u7238\u7238\u5076\u5c14\u51fa\u53bb\u505a\u70b9\u96f6\u6d3b",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "2",
+        "Father_Work": "2",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "80",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "2",
+        "Father_Work": "2",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "81",
+        "Year": "2011",
+        "info_note": "Dad He xx,imprisoned for 5 years, 3 kids go to school, brother He Changchun in p6, sister He Chenhe in p3 and is heihu, poor",
+        "Family_Composition": "\u7236\u6bcd\u90fd\u5728",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "2"
+    },
+    {
+        "ID": "81",
+        "Year": "2014",
+        "Family_Composition": "\u7236\u6bcd",
+        "status_of_guardians": "3",
+        "Sibling": "2"
+    },
+    {
+        "ID": "81",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "2",
+        "#_of_sick_people": "0"
+    },
+    {
+        "ID": "82",
+        "Year": "2011",
+        "info_note": "Dad Yangxx,dementia, never married. Yang adopted by grandpa, who has coronary heart disease and diabetes, poor. is an adopted girl and taken care by grandpa. She is at risk of dropping out this year because her grandpa is not very supportive. Pang visited her family and talked to her grandpa this year. Pang actually asked if we can give her 4000 RMB per year to support her study in a vocational school in Xi'an as we dIDfor Pang Juanjuan.Yang Yuhui is not as determined as Pang Juanjuan to finish vocational school education. She is always on the edge of dropping out even from middle school. I am not sure if it's just because of family reasons or she has no interest in study either. I don't think it is economic reasons because there is not much economic cost. Her family is complicated. Her father has mental illness and she is taken cared by her grandpa who actually doesn't want her to leave the village because he wants her to take care of him when he is older. We will know more about her in the coming year and see how she is doing because she still needs to finish the M3 this year. 8/14\n",
+        "Family_Composition": "\u5bb6\u4e2d\u53ea\u6709\u7237\u7237\u7238\u7238\uff1b\u7237\u7237\u4f53\u5f31\u591a\u75c5\u5e38\u5e74\u5403\u836f",
+        "family_size": "3"
+    },
+    {
+        "ID": "82",
+        "Year": "2012"
+    },
+    {
+        "ID": "82",
+        "Year": "2013"
+    },
+    {
+        "ID": "82",
+        "Year": "2014",
+        "info_note": "\u5f20\u6751\u4e2d\u5b66"
+    },
+    {
+        "ID": "82",
+        "Year": "2016",
+        "Family_Composition": "\u7238\u7238\u667a\u529b\u6709\u95ee\u9898\uff1b\u7237\u7237\u5e74\u9f84\u5927\u6709\u7cd6\u5c3f\u75c5\uff0c\u4e3a\u5bb6\u4e2d\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90",
+        "#_of_sick_people": "2"
+    },
+    {
+        "ID": "82",
+        "Year": "2018",
+        "info_note": "father and her husband in her family. ",
+        "Family_Composition": "married and now works as a pre-school teacher. Husband inconsist job, doing delivery to the local market. He dad is in the village, she and her husband dagong in Xi'an",
+        "family_size": "3",
+        "status_of_guardians": "2",
+        "#_of_earners": "2"
+    },
+    {
+        "ID": "82",
+        "Year": "Aggregation",
+        "family_size": "3",
+        "status_of_guardians": "2",
+        "#_of_earners": "2",
+        "Sibling": "0",
+        "#_of_sick_people": "2"
+    },
+    {
+        "ID": "83",
+        "Year": "2011",
+        "info_note": "Dad Duan xx, 5 persons in family. House was burned because of grandma's mistake in burning Kang. they losed houses, food, furniturn and everything else. Kids was sick and sent to hospital because of fear in the fire accident. Duan Danqing also dropped out because of the accient.She went back to school this Sep.",
+        "Family_Composition": "\u5bb6\u4e2d\u53ea\u6709\u6bcd\u4eb2\u548c\u4e24\u5c81\u7684\u5f1f\u5f1f",
+        "family_size": "3",
+        "status_of_guardians": "2",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "Mother_Work": "3",
+        "Parental_Migration": "\u7236\u4eb2\u5728\u5916\u6253\u5de5"
+    },
+    {
+        "ID": "83",
+        "Year": "2016",
+        "Family_Composition": "\u7236\u6bcd\u90fd\u5728",
+        "family_size": "3",
+        "status_of_guardians": "3"
+    },
+    {
+        "ID": "83",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "84",
+        "Year": "2011",
+        "info_note": "Dad Duan xx, 5 persons in family. House was burned because of grandma's mistake in burning Kang. they losed houses, food, furniturn and everything else. Kids was sick and sent to hospital because of fear in the fire accident. #84 also dropped out because of the accient.She went back to school this Sep.",
+        "Family_Composition": "\u5bb6\u4e2d\u6709\u7236\u6bcd\u548c\u5f1f\u5f1f",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "Sibling": "1",
+        "#_of_sick_people": "2"
+    },
+    {
+        "ID": "85",
+        "Year": "2014",
+        "info_note": "\u5546\u6d1b\u4e2d\u5b66\uff0c\u81ea\u5e7c\u4e27\u7236\u73b0\u5728\u7684\u7ee7\u7236\u7531\u4e8e\u6ca1\u6709\u591a\u5c11\u6587\u5316\u9760\u505a\u70b9\u82e6\u529b\u6765\u8270\u96be\u7684\u7ef4\u6301\u4e00\u5bb6\u4eba\u7684\u751f\u6d3b\u3002\u6bcd\u4eb2\u4f53\u5f31\u591a\u75c5\uff0c\u53ea\u6709\u7ee7\u7236\u4e00\u4eba\u9760\u5fae\u8584\u6536\u5165\u6765\u652f\u6491\u5979\u548c\u59b9\u59b9\u7684\u5b66\u8d39\u548c\u4e00\u5bb6\u4eba\u7684\u751f\u6d3b\u3002\n\nShangluo High Sch.,father died when she was young, her step-father who didn't have much education does labor job to raise the whole family and support her and her sister's schooling. Her mom was weak and sick frequently. ",
+        "Family_Composition": "Lv Xiaofeng",
+        "family_size": "4",
+        "Sibling": " ",
+        "#_of_sick_people": " ",
+        "Father_Work": "3",
+        "Yrs_in_school": "3 year in High school"
+    },
+    {
+        "ID": "85",
+        "Year": "2016",
+        "Family_Composition": "Lv Xiaofeng"
+    },
+    {
+        "ID": "85",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "3"
+    },
+    {
+        "ID": "86",
+        "Year": "2016",
+        "Family_Composition": "\u6bcd\u4eb2\u751f\u75c5\u53bb\u4e16\u8ba9\u5bb6\u4e2d\u8d1f\u503a\uff1b\u4f4f\u5728\u7237\u7237\u5976\u5976\u5bb6\uff0c\u7237\u7237\u5976\u5976\u5fd9\u4e8e\u751f\u8ba1\uff0c\u7236\u4eb2\u5728\u5916\u5730\u505a\u82e6\u529b\u6253\u5de5\u5f88\u5c11\u56de\u5bb6",
+        "family_size": "4",
+        "status_of_guardians": "2",
+        "#_of_earners": "3",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7236\u4eb2\u5728\u5916\u6253\u5de5"
+    },
+    {
+        "ID": "86",
+        "Year": "2017"
+    },
+    {
+        "ID": "86",
+        "Year": "2018",
+        "info_note": "has father ",
+        "Family_Composition": "father "
+    },
+    {
+        "ID": "86",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "2",
+        "#_of_earners": "3",
+        "Sibling": "0",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "88",
+        "Year": "2014"
+    },
+    {
+        "ID": "89",
+        "Year": "2016",
+        "info_note": "\u5546\u5dde\u533a\u4e2d\u5b66\u9ad8\u4e2d\u90e8"
+    },
+    {
+        "ID": "90",
+        "Year": "2016",
+        "Family_Composition": "\u5bb6\u4e2d5\u53e3\u4eba\uff0c\u5976\u5976\u7236\u6bcd\u59b9\u59b9\uff1b\u5976\u5976\u591a\u75c5\uff1b\u7236\u4eb2\u4e3a\u519c\u6c11\uff0c\u591a\u75c5\uff1b\u4e95\u6c38\u5f3a\u6709\u5148\u5929\u6027\u767d\u5185\u969c\uff0c\u521a\u7ed3\u675f\u624b\u672f\uff1b\u5bb6\u4e2d\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90\u662f\u79cd\u5e84\u7a3c\n\n\u59b9\u59b9\u4e0a\u5e7c\u513f\u56ed",
+        "family_size": "5",
+        "#_of_sick_people": "3",
+        "Father_Work": "1"
+    },
+    {
+        "ID": "90",
+        "Year": "2019",
+        "info_note": "\u773c\u775b\u4e0d\u597d\uff0c\u52a8\u8fc7\u4e00\u6b21\u624b\u672f\uff0c\u4f46\u6548\u679c\u5e76\u4e0d\u7406\u60f3\uff0c\u770b\u4e1c\u897f\u4f9d\u65e7\u5403\u529b",
+        "Family_Composition": "\u5bb6\u4e2d5\u53e3\u4eba\uff0c\u5976\u5976\u7236\u6bcd\u59b9\u59b9\uff0c\u5976\u5976\u7236\u4eb2\u8eab\u4f53\u4e0d\u597d\uff1b\u7238\u7238\u5bb6\u4e2d\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "90",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "2.5",
+        "Father_Work": "1",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "91",
+        "Year": "2016",
+        "info_note": "\u62b1\u517b\uff0c\u7236\u4eb2\u52b3\u635f\u75c5",
+        "Family_Composition": "\u5bb6\u4e2d\u7236\u6bcd\u5f1f\u5f1f\uff1b\u7236\u4eb2\u5bb6\u4e2d\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90\uff0c\u5728\u672c\u5730\u6253\u5de5\n\n\u5f1f\u5f1f\u5728\u4e0a\u5b66",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "91",
+        "Year": "2017",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7236\u4eb2\u5916\u51fa\u6253\u5de5"
+    },
+    {
+        "ID": "91",
+        "Year": "2018"
+    },
+    {
+        "ID": "91",
+        "Year": "2019",
+        "Family_Composition": "\u5bb6\u6709\u516d\u53e3\u4eba\uff0c\u7237\u7237\u5976\u5976\u7236\u6bcd\u5f1f\u5f1f\uff1b\u5976\u5976\u5e74\u8001\u591a\u75c5\uff0c\u5988\u5988\u8eab\u4f53\u4e0d\u597d\uff1b\u6bcd\u4eb2\u5728\u672c\u5730\u6253\u5de5",
+        "family_size": "6",
+        "#_of_sick_people": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "91",
+        "Year": "2020",
+        "Family_Composition": "\u7236\u6bcd\u5728\u672c\u5730\u6253\u5de5",
+        "#_of_earners": "2",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "91",
+        "Year": "2021",
+        "Family_Composition": "\u7237\u7237\u5976\u5976\u8eab\u4f53\u4e0d\u597d\uff1b\u7236\u6bcd\u5747\u5728\u5bb6\u6253\u5de5\n\u5f1f\u5f1f\u5728\u4e0a\u5b66",
+        "Sibling": "1",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "91",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1.5",
+        "Sibling": "1",
+        "#_of_sick_people": "3",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "92",
+        "Year": "2016",
+        "info_note": "\u5546\u6d1b\u5e02\u5546\u5dde\u533a\u57ce\u5173\u4e2d\u5fc3\u5c0f\u5b66\u3002\u6bcd\u667a\u969c\u4e0d\u5b55\uff0c\u81ea\u5e7c\u62b1\u517b\u3002",
+        "Family_Composition": "\u5bb6\u4e2d\u6709\u7236\u6bcd\u548c\u5f1f\u5f1f"
+    },
+    {
+        "ID": "92",
+        "Year": "2017",
+        "Family_Composition": "\u7236\u4eb2\u662f\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90\uff1b\u6bcd\u4eb2\u7167\u987e\u5bb6\u5ead",
+        "#_of_earners": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7236\u4eb2\u5916\u51fa\u6253\u5de5"
+    },
+    {
+        "ID": "92",
+        "Year": "2018",
+        "Family_Composition": "\u7237\u7237\u505a\u8fc72\u6b21\u624b\u672f\uff0c\u5976\u5976\u8033\u6735\u542c\u4e0d\u89c1\uff0c\u7236\u4eb2\u8eab\u4f53\u4e5f\u4e0d\u597d"
+    },
+    {
+        "ID": "92",
+        "Year": "2020"
+    },
+    {
+        "ID": "92",
+        "Year": "2021",
+        "Family_Composition": "\u5f1f\u5f1f\u7237\u7237\u5976\u5976\uff1b\u5988\u5988\u6ca1\u6709\u5de5\u4f5c\uff0c\u7167\u987e\u5bb6\uff1b\u7237\u7237\u5976\u5976\u8eab\u4f53\u4e0d\u597d\uff1b\u7236\u4eb2\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90\n\n\u5f1f\u5f1f\u5728\u4e0a\u5b66",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "3",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7236\u4eb2\u5728\u5916\u6253\u5de5"
+    },
+    {
+        "ID": "92",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "3",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "93",
+        "Year": "Aggregation",
+        "info_note": "\u5546\u5dde\u533a\u4e2d\u5b66\u3002\u5355\u4eb2\uff0c\u7236\u766b\u75eb\u75c5\uff0c\u6bcd\u75c5\u901d\u3002",
+        "family_size": "2",
+        "#_of_earners": "1",
+        "#_of_sick_people": "1"
+    },
+    {
+        "ID": "94",
+        "Year": "2017",
+        "Family_Composition": "\u5bb6\u4e2d5\u53e3\u4eba\uff1b\u7236\u4eb2\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90\uff1b\u6bcd\u4eb2\u5728\u5bb6\u7167\u987e\u5f1f\u5f1f\u59b9\u59b9",
+        "#_of_earners": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7236\u4eb2\u5728\u5916\u6253\u5de5"
+    },
+    {
+        "ID": "94",
+        "Year": "2018"
+    },
+    {
+        "ID": "94",
+        "Year": "2019"
+    },
+    {
+        "ID": "94",
+        "Year": "2020",
+        "Family_Composition": "\u7237\u7237\u5976\u5976\u5e74\u7eaa\u5927\u8eab\u4f53\u4e0d\u597d\n\n\u5f1f\u5f1f\u59b9\u59b9\u4e0a\u5b66\u73ed\uff0c\u9a6c\u4e0a\u4e0a\u5c0f\u5b66",
+        "Sibling": "2"
+    },
+    {
+        "ID": "94",
+        "Year": "2021",
+        "Family_Composition": "\u5f1f\u5f1f\u59b9\u59b9\u5976\u5976\uff0c\u5988\u5988\uff08\u76ee\u524d\uff09\u5728\u5bb6\uff0c\u7236\u4eb2\u4e00\u4e2a\u4eba\u8d5a\u94b1\n\n\u5f1f\u5f1f\u59b9\u59b9\u5728\u4e0a\u5b66",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "2",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7236\u6bcd\u5728\u5916\u6253\u5de5"
+    },
+    {
+        "ID": "94",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "2",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "95",
+        "Year": "Aggregation",
+        "info_note": "\u7236\u6454\u65e0\u52b3\u52a8\u80fd\u529b,\u5c71\u9633\u53bf\u9ad8\u4e2d",
+        "family_size": "2",
+        "status_of_guardians": "1",
+        "#_of_sick_people": "1"
+    },
+    {
+        "ID": "98",
+        "Year": "2016",
+        "Family_Composition": "\u5bb6\u4e2d7\u53e3\u4eba\uff0c\u7237\u7237\u5976\u5976\u7236\u6bcd\u5f1f\u5f1f\uff1b\u7237\u7237\u5976\u5976\u5988\u5988\u591a\u75c5\uff0c\u7237\u7237\u53bb\u5e74\u6454\u5012\u817f\u9aa8\u6298\uff0c\u5988\u5988\u4e4b\u524d\u6454\u5012\u817f\u9aa8\u6298\uff0c\u884c\u8d70\u4e0d\u4fbf\uff1b\u7238\u7238\u5bb6\u4e2d\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90\n\n\u5f1f\u5f1f\u4e0a\u5b66",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7236\u4eb2\u5916\u51fa\u6253\u5de5"
+    },
+    {
+        "ID": "98",
+        "Year": "2017",
+        "info_note": "\u5546\u6d1b\u6280\u672f\u804c\u4e1a\u5b9e\u9a8c\u4e2d\u5b66"
+    },
+    {
+        "ID": "98",
+        "Year": "2018",
+        "Family_Composition": "\u7236\u4eb2\u672c\u5730\u505a\u5efa\u7b51\u5de5\u4eba\uff0c\u8eab\u4f53\u4e5f\u4e0d\u597d\uff0c\u5988\u5988\u5728\u996d\u5e97\u5e2e\u5fd9\n\u5f1f\u5f1f\u5728\u4e0a\u5b66",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "98",
+        "Year": "2019",
+        "Family_Composition": "\u7236\u6bcd\u8eab\u4f53\u4e0d\u597d\u8fd8\u5728\u6253\u5de5"
+    },
+    {
+        "ID": "98",
+        "Year": "2020",
+        "Family_Composition": "\u7236\u4eb2\u6253\u5de5\uff0c\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90\uff1b\u7236\u6bcd\u7237\u7237\u5976\u5976\u8eab\u4f53\u90fd\u4e0d\u597d",
+        "#_of_earners": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "98",
+        "Year": "2021",
+        "Family_Composition": "\u5bb6\u4e2d\u516d\u53e3\u4eba\uff1a\u7237\u7237\u5976\u5976\u7236\u6bcd\u5f1f\u5f1f\uff1b\u8eab\u4f53\u90fd\u4e0d\u597d\uff1b\u5bb6\u4e2d\u52a1\u519c\u4e3a\u751f\uff0c\u7ecf\u6d4e\u56f0\u96be\uff1b\u7236\u6bcd\u6253\u5de5\n\u5f1f\u5f1f\u5728\u4e0a\u5b66",
+        "family_size": "6",
+        "Sibling": "1",
+        "#_of_sick_people": "4"
+    },
+    {
+        "ID": "98",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "4",
+        "Father_Work": "3",
+        "Mother_Work": "1.5"
+    },
+    {
+        "ID": "99",
+        "Year": "2018",
+        "Family_Composition": "\u5bb6\u4e2d7\u53e3\u4eba\uff0c\u7237\u7237\u5976\u5976\u7236\u6bcd\u5f1f\u5f1f\u59b9\u59b9\uff1b\u7237\u7237\u817f\u4e0d\u597d\uff0c\u7237\u7237\u5976\u5976\u7236\u6bcd\u8eab\u4f53\u4e0d\u597d\uff1b\u7236\u4eb2\u672c\u5730\u6253\u5de5\uff0c\u6bcd\u4eb2\u7167\u987e\u5bb6\u5ead\n\u5f1f\u5f1f\u5728\u4e0a\u5b66",
+        "family_size": "7",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "4",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "102",
+        "Year": "2017",
+        "info_note": "\u5b64\u513f"
+    },
+    {
+        "ID": "102",
+        "Year": "2019",
+        "info_note": "GS Stories\nShe was adopted by an old single man with Leprosy. The adopted father was later sent to Leprosy hospital and she was raised by her adopted father\u2019s uncle whom she helps with all the housework. Her adopted father and the uncle who raised her both died. \nIn 2016  she enrolled in an academic highschool in Xian, \u897f\u5b89\u7ecf\u53d1\u4e2d\u5b66, and graduated in 2019. she was admitted to a provincial university, Xian Medical College\u897f\u5b89\u533b\u5b66\u9662 in 2019",
+        "family_size": "1",
+        "status_of_guardians": "0",
+        "#_of_earners": "0",
+        "Sibling": "0",
+        "#_of_sick_people": "0",
+        "Father_Work": "0",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "102",
+        "Year": "Aggregation",
+        "family_size": "1",
+        "status_of_guardians": "0",
+        "#_of_earners": "0",
+        "Sibling": "0",
+        "#_of_sick_people": "0",
+        "Father_Work": "0",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "105",
+        "Year": "2017",
+        "info_note": "Adoptive father:Dang xx",
+        "Family_Composition": "\u5bb6\u4e2d4\u53e3\u4eba\uff0c\u7236\u6bcd\u54e5\u54e5\uff1b\u7236\u6bcd\u90fd\u662f\u519c\u6c11\uff1b\u7236\u4eb2\u6323\u94b1\uff08\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90\uff09\uff0c\u6bcd\u4eb2\u591a\u75c5\n\u54e5\u54e5\u6b8b\u75be\uff0c\u751f\u6d3b\u65e0\u6cd5\u81ea\u7406\uff0c\u6ca1\u6709\u4e0a\u5b66",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "105",
+        "Year": "2018",
+        "Family_Composition": "\u7236\u6bcd\u8eab\u4f53\u90fd\u4e0d\u597d",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "3",
+        "Parental_Migration": "\u7236\u6bcd\u4e3a\u4e86\u5b69\u5b50\u4e0a\u5b66\u653e\u5f03\u519c\u6751\u6765\u5230\u57ce\u9547\u6253\u5de5"
+    },
+    {
+        "ID": "105",
+        "Year": "2019",
+        "Family_Composition": "\u7236\u6bcd\u5916\u51fa\u6253\u5de5",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "105",
+        "Year": "2020",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "105",
+        "Year": "2021",
+        "Family_Composition": "\u7236\u6bcd\u662f\u519c\u6c11\uff0c\u6ca1\u6709\u56fa\u5b9a\u7ecf\u6d4e\u6765\u6e90",
+        "Father_Work": "1",
+        "Mother_Work": "1",
+        "Parental_Migration": "\u7236\u6bcd\u90fd\u5728\u5916\u6253\u5de5"
+    },
+    {
+        "ID": "105",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "106",
+        "Year": "2016",
+        "Family_Composition": "\u5bb6\u4e2d7\u53e3\u4eba\uff0c\u7237\u7237\u5976\u5976\u7236\u6bcd\u59d0\u59d0\u5f1f\u5f1f\uff1b\u7237\u7237\u764c\u75c7\uff0c\u6cbb\u7597\u5bb6\u91cc\u6709\u6b20\u503a\uff0c\u6bcf\u5e74\u8fd8\u8981\u590d\u67e5\uff0c\u5976\u5976\u8eab\u4f53\u4e0d\u597d\uff1b\u7238\u7238\u5bb6\u4e2d\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90\n\n\u540c\u5988\u5988\u59d0\u59d0\u5f1f\u5f1f\u88ab\u7238\u7238\u5e26\u5230\u897f\u5b89\u751f\u6d3b\u8bfb\u4e66",
+        "family_size": "7",
+        "#_of_earners": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u540c\u5988\u5988\u59d0\u59d0\u5f1f\u5f1f\u88ab\u7238\u7238\u5e26\u5230\u897f\u5b89\u751f\u6d3b\u8bfb\u4e66"
+    },
+    {
+        "ID": "106",
+        "Year": "2017"
+    },
+    {
+        "ID": "106",
+        "Year": "2019",
+        "Family_Composition": "\u7237\u7237\u53bb\u4e16\uff0c\u79ef\u84c4\u6240\u5269\u65e0\u51e0\uff0c\u5976\u5976\u8eab\u4f53\u53d8\u5dee\uff1b\u5988\u5988\u65e0\u5de5\u4f5c\uff0c\u7167\u987e\u5bb6\u5ead\n\u59d0\u59d0\u5f1f\u5f1f\u5728\u4e0a\u5b66",
+        "family_size": "6",
+        "#_of_earners": "1",
+        "Sibling": "2",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "106",
+        "Year": "2020",
+        "Family_Composition": "\u7236\u4eb2\u5916\u5730\u6253\u5de5",
+        "#_of_earners": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "106",
+        "Year": "2021",
+        "Family_Composition": "\u7236\u6bcd\u52a1\u519c\u4e3a\u751f\uff1b\u7236\u6bcd\u5976\u5976\u8eab\u4f53\u90fd\u4e0d\u597d\n\u59d0\u59d0\u5f1f\u5f1f\u5728\u4e0a\u5b66",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "2",
+        "#_of_sick_people": "3",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "106",
+        "Year": "Aggregation",
+        "family_size": "7",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "2",
+        "#_of_sick_people": "3",
+        "Father_Work": "2.5",
+        "Mother_Work": "0.25"
+    },
+    {
+        "ID": "107",
+        "Year": "2016",
+        "Family_Composition": "\u6bcd\u4eb2\u5fc3\u810f\u75c5\u4e0d\u80fd\u5de5\u4f5c\uff0c\u7236\u4eb2\u5bb6\u4e2d\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90",
+        "family_size": "3",
+        "status_of_guardians": "3",
+        "#_of_sick_people": "1"
+    },
+    {
+        "ID": "107",
+        "Year": "2017",
+        "Family_Composition": "\u6bcd\u4eb2\u751f\u75c5\uff1b\u7236\u4eb2\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90",
+        "#_of_earners": "1"
+    },
+    {
+        "ID": "107",
+        "Year": "2020"
+    },
+    {
+        "ID": "107",
+        "Year": "2021"
+    },
+    {
+        "ID": "107",
+        "Year": "Aggregation",
+        "family_size": "3",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "0",
+        "#_of_sick_people": "1"
+    },
+    {
+        "ID": "108",
+        "Year": "2017",
+        "Family_Composition": "\u7238\u7238\u51fa\u4e8b\uff0c\u5988\u5988\u5728\u5bb6\u7167\u987e\u5bb6\u5ead\uff0c\u6709\u4e00\u4e2a\u5f1f\u5f1f",
+        "family_size": "4",
+        "status_of_guardians": "2",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "0",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "108",
+        "Year": "2018"
+    },
+    {
+        "ID": "108",
+        "Year": "2019"
+    },
+    {
+        "ID": "108",
+        "Year": "2020"
+    },
+    {
+        "ID": "108",
+        "Year": "2021",
+        "Family_Composition": "\u5988\u5988\u5728\u5bb6\u6253\u96f6\u5de5",
+        "Father_Work": "0",
+        "Mother_Work": "2"
+    },
+    {
+        "ID": "108",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "2",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "0",
+        "Mother_Work": "2"
+    },
+    {
+        "ID": "109",
+        "Year": "Aggregation",
+        "info_note": "\u5355\u4eb2\uff0c\u66fe\u623f\u5c4b\u706b\u707e\uff0c\u540e\u7236\u3001\u6bcd\u76f8\u7ee7\u51fa\u8d70\u3002\u7236\u6bb5\u5efa\u826f17189179797",
+        "family_size": "2",
+        "status_of_guardians": "1",
+        "Father_Work": "1",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "110",
+        "Year": "Aggregation",
+        "info_note": "\u5b64\u513f\uff0c\u4e0e\u5976\u5976\u751f\u6d3b",
+        "family_size": "2",
+        "status_of_guardians": "1",
+        "Father_Work": "0",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "111",
+        "Year": "Aggregation",
+        "info_note": "\u5b64\u513f\uff0c\u4e0e\u5976\u5976\u751f\u6d3b",
+        "family_size": "2",
+        "status_of_guardians": "1",
+        "Father_Work": "0",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "112",
+        "Year": "Aggregation",
+        "info_note": "\u5bb67\u53e3\u4eba\uff0c\u7236\u6b8b\u75be\u4e27\u5931\u52b3\u52a8\u80fd\u529b\uff0c\u5976\u8111\u9707\u8361\u540e\u9057\u75c7\u3002\u5988\u5415\u91d1\u73b213474663082",
+        "family_size": "7",
+        "status_of_guardians": "3",
+        "#_of_sick_people": "2",
+        "Father_Work": "0",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "113",
+        "Year": "Aggregation",
+        "info_note": "\u5b64\u513f\uff0c\u6258\u517b\u4eba\u4f59\u5146\u94ed13259149168",
+        "family_size": "2",
+        "status_of_guardians": "1",
+        "Father_Work": "0",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "114",
+        "Year": "Aggregation",
+        "info_note": "\u5b64\u513f\uff0c\u6258\u517b\u4eba\u4f59\u5146\u94ed13259149168",
+        "family_size": "2",
+        "status_of_guardians": "1",
+        "Father_Work": "0",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "115",
+        "Year": "2016",
+        "info_note": "\u9655\u897f\u4ea4\u901a\u804c\u4e1a\u6280\u672f\u5b66\u9662\u5927\u4e8c\u3002\u3000\u5bb6\u5ead\u6761\u4ef6\u4e00\u822c",
+        "Family_Composition": "\u5bb6\u4e2d\u7236\u6bcd\u548c\u5f1f\u5f1f\uff1b\u7236\u6bcd\u591a\u75c5\u4e14\u5728\u6253\u5de5\uff1a\u7236\u4eb2\u5de5\u5730\u6253\u5de5\uff0c\u6709\u8170\u690e\u95f4\u76d8\u7a81\u51fa\u548c\u80c3\u75c5\uff0c\u6bcd\u4eb2\u5728\u533b\u9662\u505a\u6d17\u7897\u5de5\uff0c\u60a3\u8111\u6897\uff0c\u9700\u8981\u836f\u7269\u7ef4\u6301\u5065\u5eb7\uff1b\u5f1f\u5f1f\u5728\u6c7d\u4fee\u5b66\u6821",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "116",
+        "Year": "2016",
+        "info_note": "\u5ef6\u5b89\u5927\u5b66\u5927\u4e8c"
+    },
+    {
+        "ID": "118",
+        "Year": "2017\uff082008\uff09",
+        "Family_Composition": "\u5bb6\u4e2d5\u53e3\u4eba\uff0c\u7236\u6bcd\u59d0\u59d0\u5f1f\u5f1f\uff1b\u6bcd\u4eb2\u5728\u5bb6",
+        "family_size": "5",
+        "#_of_earners": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7236\u4eb2\u5728\u5916\u6253\u5de5"
+    },
+    {
+        "ID": "118",
+        "Year": "2018",
+        "Family_Composition": "\u5976\u5976\u8eab\u4f53\u4e0d\u597d\uff0c\u6bcd\u4eb2\u7167\u987e\u5bb6\uff0c\u7236\u4eb2\u6253\u5de5\u517b\u5bb6\uff08\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90\uff09",
+        "#_of_earners": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "118",
+        "Year": "2019",
+        "Family_Composition": "\u59d0\u59d0\u7ed9\u5bb6\u91cc\u6512\u751f\u6d3b\u8d39"
+    },
+    {
+        "ID": "118",
+        "Year": "2020"
+    },
+    {
+        "ID": "118",
+        "Year": "2021",
+        "Family_Composition": "\u7236\u4eb2\u5728\u5bb6\u6253\u5de5\uff1b\u6bcd\u4eb2\u751f\u75c5\u4f4f\u9662\uff1b\u5976\u5976\u8eab\u4f53\u4e0d\u597d\n\u5f1f\u5f1f\u5b66\u4e60\u4e0d\u597d",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "118",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1.333333333",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "119",
+        "Year": "2017",
+        "Family_Composition": "\u5bb6\u4e2d6\u53e3\u4eba\uff0c\u7237\u7237\u5976\u5976\u7236\u6bcd\u54e5\u54e5\uff0c\u7236\u6bcd\u90fd\u662f\u519c\u6c11\uff1b\u6bcd\u4eb2\u5728\u5bb6\u7167\u987e\u5bb6\u5ead\n\u54e5\u54e5\u5728\u4e0a\u5b66",
+        "Sibling": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7236\u4eb2\u6253\u5de5"
+    },
+    {
+        "ID": "119",
+        "Year": "2018",
+        "Family_Composition": "\u7237\u7237\u8eab\u4f53\u4e0d\u597d\uff0c\u7236\u4eb2\u6253\u5de5\u8d5a\u94b1\uff08\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90\uff09",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "119",
+        "Year": "2020",
+        "Family_Composition": "\u7236\u4eb2\u6253\u5de5\uff0c\u6bcd\u4eb2\u7167\u987e\u5bb6",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "119",
+        "Year": "2021",
+        "Family_Composition": "\u5976\u5976\u53bb\u4e16\uff1b\u7236\u4eb2\u6253\u5de5\u8d5a\u94b1\uff1b\u7237\u7237\u8eab\u4f53\u4e0d\u597d",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "119",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "120",
+        "Year": "2018",
+        "info_note": "mentally disabled mother and physically disabled brother",
+        "Family_Composition": "\u5bb6\u4e2d4\u53e3\u4eba\uff0c\u7236\u6bcd\u54e5\u54e5\u59b9\u59b9\uff1b\u6bcd\u4eb2\u6ca1\u6709\u5de5\u4f5c\n\u59b9\u59b9\u5728\u4e0a\u5b66",
+        "status_of_guardians": "3",
+        "Sibling": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7236\u4eb2\u5728\u5916\u6253\u5de5"
+    },
+    {
+        "ID": "120",
+        "Year": "2019",
+        "Family_Composition": "\u5976\u5976\u751f\u75c5\u4f4f\u9662\uff0c\u7236\u4eb2\u8eab\u4f53\u4e0d\u597d\uff0c\u54e5\u54e5\u773c\u775b\u4e0d\u597d\uff0c\u52a8\u4e86\u624b\u672f\uff0c\u7ed3\u679c\u8fd8\u662f\u4e0d\u7406\u60f3\uff1b\u7236\u4eb2\u9760\u4f53\u529b\u8d5a\u94b1",
+        "Parental_Migration": "\u201c\u5988\u5988\u4e3a\u4e86\u7167\u987e\u54e5\u54e5\u548c\u6211\u53d7\u5230\u826f\u597d\u7684\u6559\u80b2\uff0c\u5728\u53bf\u57ce\u79df\u4e86\u4e00\u95f4\u623f\u5b50\uff0c\u4e13\u95e8\u7167\u987e\u6211\u4eec\u4e0a\u5b66\u201d"
+    },
+    {
+        "ID": "120",
+        "Year": "2020"
+    },
+    {
+        "ID": "120",
+        "Year": "2021",
+        "Family_Composition": "\u5988\u5988\u751f\u75c5\u5728\u5bb6\u5367\u5e8a\u4f11\u606f\uff0c\u7236\u4eb2\u4e0d\u80fd\u5916\u51fa\u6253\u5de5\uff0c\u8eab\u4f53\u4e5f\u4e0d\u597d\uff1b\u5bb6\u91cc\u6ca1\u6709\u4ec0\u4e48\u6536\u5165\uff1b\u54e5\u54e5\u6b8b\u75be\u513f\u7ae5\n\u54e5\u54e5\u4e0a\u516b\u5e74\u7ea7",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "2",
+        "#_of_sick_people": "4",
+        "Father_Work": "0",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "120",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "2",
+        "#_of_sick_people": "4",
+        "Father_Work": "1.5",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "121",
+        "Year": "2017",
+        "Family_Composition": "\u5bb6\u4e2d\u56db\u53e3\u4eba\uff0c\u5976\u5976\u5988\u5988\u8205\u8205\uff1b\u7237\u7237\u7236\u4eb2\u5747\u5df2\u53bb\u4e16\uff1b\u8205\u8205\u6253\u5de5\u53d7\u4f24\uff0c\u5976\u5976\u5988\u5988\u517b\u5bb6",
+        "family_size": "4",
+        "status_of_guardians": "2",
+        "#_of_earners": "2",
+        "#_of_sick_people": "1",
+        "Father_Work": "0",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "121",
+        "Year": "2018"
+    },
+    {
+        "ID": "121",
+        "Year": "2020"
+    },
+    {
+        "ID": "121",
+        "Year": "2021",
+        "Family_Composition": "\u5976\u5976\u5988\u5988\u8205\u8205\u6253\u5de5\u517b\u5bb6",
+        "#_of_earners": "3",
+        "Father_Work": "0",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "121",
+        "Year": "Aggregation",
+        "family_size": "4",
+        "status_of_guardians": "2",
+        "#_of_earners": "2.5",
+        "#_of_sick_people": "0.5",
+        "Father_Work": "0",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "122",
+        "Year": "2017",
+        "Family_Composition": "\u5bb6\u4e2d6\u53e3\u4eba\uff0c\u7237\u7237\u5976\u5976\u7236\u6bcd\u59d0\u59d0\uff1b\u7236\u6bcd\u90fd\u662f\u519c\u6c11\uff1b\u7236\u4eb2\u5728\u672c\u5730\u6253\u5de5\u517b\u5bb6\n\u59d0\u59d0\u5728\u4e0a\u5b66",
+        "status_of_guardians": "3",
+        "Sibling": "1",
+        "Father_Work": "3"
+    },
+    {
+        "ID": "122",
+        "Year": "2018",
+        "Family_Composition": "\u7237\u7237\u67e5\u51fa\u764c\u75c7\uff0c\u5976\u5976\u817f\u4e0d\u597d\uff1b\u7238\u7238\u672c\u5730\u6253\u5de5\uff0c\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90",
+        "family_size": "5",
+        "#_of_earners": "1",
+        "#_of_sick_people": "1"
+    },
+    {
+        "ID": "122",
+        "Year": "2019",
+        "Family_Composition": "5\u53e3\u4eba\uff08\u7237\u7237\u53bb\u4e16\uff1f\uff09"
+    },
+    {
+        "ID": "122",
+        "Year": "2020",
+        "Family_Composition": "\u5988\u5988\u5bb6\u5ead\u4e3b\u5987\n\u59d0\u59d0\u5728\u4e0a\u5b66",
+        "Sibling": "1",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "122",
+        "Year": "2021"
+    },
+    {
+        "ID": "122",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "123",
+        "Year": "2017",
+        "info_note": "\u548c\u5e73\u5c0f\u5b66\u4e8c\u5e74\u7ea7",
+        "Family_Composition": "\u5bb6\u4e2d4\u53e3\u4eba\uff0c\u7236\u6bcd\u54e5\u54e5\uff1b\u6bcd\u4eb2\u5728\u5bb6\n\u54e5\u54e5\u5728\u4e0a\u5b66",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7236\u4eb2\u6253\u5de5"
+    },
+    {
+        "ID": "123",
+        "Year": "2018",
+        "Family_Composition": "\u5976\u5976\u8eab\u4f53\u4e0d\u597d\uff1b\u6bcd\u4eb2\u7167\u987e\u5bb6\uff0c\u7236\u4eb2\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90",
+        "#_of_earners": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "123",
+        "Year": "2019"
+    },
+    {
+        "ID": "123",
+        "Year": "2020",
+        "Family_Composition": "\u5976\u5976\u533b\u836f\u8d39\u5f00\u9500\u5927"
+    },
+    {
+        "ID": "123",
+        "Year": "2021",
+        "Family_Composition": "\u5bb6\u91cc\u9760\u7236\u6bcd\u6323\u94b1\uff0c\u5976\u5976\u521a\u505a\u5b8c\u624b\u672f\uff1b\u7236\u4eb2\u672c\u5730\u6253\u5de5\n\u54e5\u54e5\u5df2\u7ecf\u6210\u5e74\uff0c\u5728\u5916\u6253\u5de5\u8d5a\u94b1",
+        "family_size": "5",
+        "#_of_earners": "3",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "3",
+        "Parental_Migration": "\u6bcd\u4eb2\u5728\u5916\u6253\u5de5"
+    },
+    {
+        "ID": "123",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1.666666667",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "124",
+        "Year": "2017",
+        "info_note": "\u548c\u5e73\u5c0f\u5b66\u4e09\u5e74\u7ea7",
+        "Family_Composition": "\u5bb6\u4e2d5\u53e3\u4eba\uff0c\u5976\u5976\u7236\u6bcd\u59d0\u59d0\uff1b\u5976\u5976\u591a\u75c5\uff0c\u5988\u5988\u6b8b\u75be\uff0c\u7236\u4eb2\u5bb6\u4e2d\u552f\u4e00\u7ecf\u6d4e\u6765\u6e90\uff08\u5728\u672c\u5730\u6253\u5de5\uff09\n\u59d0\u59d0\u5728\u4e0a\u5b66",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "124",
+        "Year": "2018"
+    },
+    {
+        "ID": "124",
+        "Year": "2019"
+    },
+    {
+        "ID": "124",
+        "Year": "2020",
+        "Family_Composition": "\u7236\u4eb2\u672c\u5730\u6253\u5de5\uff1b\u59d0\u59d0\u4e0d\u4e0a\u5b66\u5916\u51fa\u6253\u5de5",
+        "#_of_earners": "2",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "124",
+        "Year": "2021",
+        "Family_Composition": "\u7236\u4eb2\u5728\u5bb6\u6253\u5de5\uff1b\u6bcd\u4eb2\u5e15\u91d1\u68ee\u7efc\u5408\u75c7",
+        "#_of_earners": "2",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "124",
+        "Year": "Aggregation",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "#_of_earners": "1.666666667",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "125",
+        "Year": "Aggregation",
+        "info_note": "A single-parent family where the mother has been missing for many years, and the grandparents are elderly and seriously ill. The father is disabled. Live in a dangerous house",
+        "family_size": "4",
+        "status_of_guardians": "2",
+        "#_of_sick_people": "3",
+        "Father_Work": "1",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "126",
+        "Year": "Aggregation",
+        "info_note": "Adoption into a single-parent family where the father is mentally disabled and unmarried. The adopted girl is responsible for taking care of the father in his old age, and she appears thin.",
+        "family_size": "2",
+        "status_of_guardians": "2",
+        "#_of_sick_people": "1",
+        "Father_Work": "1",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "127",
+        "Year": "Aggregation",
+        "info_note": "a family facing serious illnesses and difficulties. The father suffers from severe anemia and is unable to work. The mother had to undergo a hysterectomy and also has heart disease. The older brother had to drop out of school due to the family's financial difficulties",
+        "family_size": "4",
+        "status_of_guardians": "3",
+        "#_of_sick_people": "2",
+        "Father_Work": "0",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "128",
+        "Year": "Aggregation",
+        "info_note": "Three children in school. The father suffered fractures in his legs and arms from working on a construction site and is unable to do heavy physical labor. The mother takes care of the family and works on the land. The older sister is in her freshman year, the recipient of sponser is in 6th grade, and the younger brother is in 3rd grade of elementary school. The family is facing financial difficulties.",
+        "family_size": "5",
+        "status_of_guardians": "3",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "0",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "129",
+        "Year": "2019",
+        "info_note": "Three children in school. Family lives at the top of Zhongfeng village, and the father has a work-related injury that prevents him from doing heavy physical labor. The family is facing financial difficulties.",
+        "Family_Composition": "\u5168\u5bb66\u53e3\u4eba\uff0c\u7236\u4eb2\u4e00\u4e2a\u4eba\u6253\u5de5\u517b\u5bb6\uff0c\u5988\u5988\u957f\u5e74\u591a\u75c5\uff0c\u81ea\u5df1\u548c\u54e5\u54e5\u5728\u4e0a\u5b66\n\u54e5\u54e5\u5728\u4e0a\u5b66",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "129",
+        "Year": "2021",
+        "Family_Composition": "\u7236\u6bcd\u5e72\u529b\u6c14\u6d3b\u8d5a\u94b1",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "1",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "129",
+        "Year": "Aggregation",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "#_of_earners": "1.5",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "1.5"
+    },
+    {
+        "ID": "130",
+        "Year": "2019",
+        "Family_Composition": "\u5bb6\u6709\u4e03\u53e3\uff0c\u7237\u7237\u5976\u5976\u7236\u6bcd\u5f1f\u5f1f\u59b9\u59b9\uff1b\u7237\u7237\u5976\u5976\u5e74\u8001\u591a\u75c5\uff1b\u7236\u6bcd\u90fd\u662f\u519c\u6c11\uff0c\u5728\u672c\u5730\u6253\u5de5\n\u5f1f\u5f1f\u59b9\u59b9\u5728\u4e0a\u5b66",
+        "family_size": "7",
+        "status_of_guardians": "3",
+        "Sibling": "2",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "130",
+        "Year": "2021",
+        "Family_Composition": "\u7236\u6bcd\u6ca1\u6709\u56fa\u5b9a\u7ecf\u6d4e\u6536\u5165",
+        "status_of_guardians": "3"
+    },
+    {
+        "ID": "130",
+        "Year": "Aggregation",
+        "family_size": "7",
+        "status_of_guardians": "3",
+        "#_of_earners": "2",
+        "Sibling": "2",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "3"
+    },
+    {
+        "ID": "131",
+        "Year": "2021",
+        "Family_Composition": "\u5bb6\u4e2d\u53ea\u6709\u7236\u4eb2\u4e00\u4eba\uff1b\u7236\u4eb2\u5728\u5bb6\u6253\u5de5",
+        "family_size": "2",
+        "status_of_guardians": "2",
+        "#_of_earners": "1",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "131",
+        "Year": "2019",
+        "Family_Composition": "\u5355\u4eb2\u7236\u4eb2\uff0c\u7236\u4eb2\u519c\u6c11\u5de5\uff0c\u65e0\u7a33\u5b9a\u5de5\u4f5c",
+        "family_size": "2",
+        "status_of_guardians": "2",
+        "Father_Work": "2",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "131",
+        "Year": "Aggregation",
+        "family_size": "2",
+        "status_of_guardians": "2",
+        "#_of_earners": "1",
+        "Father_Work": "2.5",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "132",
+        "Year": "2021",
+        "info_note": "Single parent with two children in school. Grandparents are in poor health and the father is responsible for taking care of the family alone. The family is facing financial difficulties.",
+        "Family_Composition": "\u5bb6\u4e2d\u4e94\u53e3\u4eba\uff0c\u7237\u7237\u5976\u5976\u7238\u7238\u5f1f\u5f1f\uff1b\u7237\u7237\u5976\u5976\u8eab\u4f53\u4e0d\u597d",
+        "family_size": "5",
+        "status_of_guardians": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "0",
+        "Parental_Migration": "\u7236\u4eb2\u5728\u5916\u6253\u5de5"
+    },
+    {
+        "ID": "133",
+        "Year": "Aggregation",
+        "info_note": "Single parent with two children in school. Grandparents are in poor health and the father is responsible for taking care of the family alone. The family is facing financial difficulties.",
+        "family_size": "5",
+        "status_of_guardians": "2",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "0"
+    },
+    {
+        "ID": "134",
+        "Year": "2023",
+        "Family_Composition": "3\u4e2a\u5b69\u5b50\uff0c\u7237\u7237\u5e74\u8fc8\u591a\u75c5\uff0c\u751f\u6d3b\u56f0\u96be",
+        "family_size": "6",
+        "status_of_guardians": "3",
+        "Sibling": "2",
+        "#_of_sick_people": "1",
+        "Yrs_in_school": "8"
+    },
+    {
+        "ID": "135",
+        "Year": "2023",
+        "info_note": "3 children in school. Grandparents are elderly and ill, and their mother is seriously ill but manages to take care of herself. The family relies on their father Liu Xiaojun to farm and support the family, and they are facing financial difficulties.",
+        "Family_Composition": "3\u4e2a\u5b69\u5b50\u4e0a\u5b66\uff0c\u7237\u7237\u5976\u5976\u5e74\u8fc8\u591a\u75c5\uff0c\u5988\u5988\u91cd\u75c5\u7f20\u8eab\u52c9\u5f3a\u81ea\u7406\uff0c\u9760\u7238\u7238\u5218\u5c0f\u519b\u4e00\u4eba\u79cd\u5730\u517b\u5bb6\uff0c\u7ecf\u6d4e\u56f0\u96be",
+        "family_size": "7",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "2",
+        "#_of_sick_people": "3",
+        "Father_Work": "1",
+        "Mother_Work": "0",
+        "Parental_Migration": "0",
+        "Yrs_in_school": "6",
+        "ed_attainment_ordinal": "1"
+    },
+    {
+        "ID": "136",
+        "Year": "2023",
+        "info_note": "136-138 3 GS in one family",
+        "Family_Composition": "4\u4e2a\u5b69\u5b50\uff0c3\u4e2a\u4e0a\u5b66\uff0c\u7237\u7237\u5976\u5976\u5e74\u8fc8\u591a\u75c5\u5df2\u7ecf\u5931\u53bb\u52b3\u52a8\u80fd\u529b\uff0c\u5988\u5988\u8001\u5b9e\u5fe0\u539a\u4f46\u6709\u5065\u5eb7\u95ee\u9898\uff0c\u5168\u9760\u7238\u7238\u52a1\u519c\u3001\u6253\u96f6\u5de5\u517b\u5bb6\uff0c\u7ecf\u6d4e\u975e\u5e38\u56f0\u96be",
+        "family_size": "8",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "3",
+        "#_of_sick_people": "3",
+        "Father_Work": "2",
+        "Mother_Work": "0",
+        "Parental_Migration": "0",
+        "Yrs_in_school": "10",
+        "ed_attainment_ordinal": "5"
+    },
+    {
+        "ID": "137",
+        "Year": "2023",
+        "info_note": "136-138 3 GS in one family",
+        "Family_Composition": "4\u4e2a\u5b69\u5b50\uff0c3\u4e2a\u4e0a\u5b66\uff0c\u7237\u7237\u5976\u5976\u5e74\u8fc8\u591a\u75c5\u5df2\u7ecf\u5931\u53bb\u52b3\u52a8\u80fd\u529b\uff0c\u5988\u5988\u8001\u5b9e\u5fe0\u539a\u4f46\u6709\u5065\u5eb7\u95ee\u9898\uff0c\u5168\u9760\u7238\u7238\u52a1\u519c\u3001\u6253\u96f6\u5de5\u517b\u5bb6\uff0c\u7ecf\u6d4e\u975e\u5e38\u56f0\u96be",
+        "family_size": "8",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "3",
+        "#_of_sick_people": "3",
+        "Father_Work": "2",
+        "Mother_Work": "0",
+        "Parental_Migration": "0",
+        "Yrs_in_school": "5",
+        "ed_attainment_ordinal": "2"
+    },
+    {
+        "ID": "138",
+        "Year": "2023",
+        "info_note": "136-138 3 GS in one family",
+        "Family_Composition": "4\u4e2a\u5b69\u5b50\uff0c3\u4e2a\u4e0a\u5b66\uff0c\u7237\u7237\u5976\u5976\u5e74\u8fc8\u591a\u75c5\u5df2\u7ecf\u5931\u53bb\u52b3\u52a8\u80fd\u529b\uff0c\u5988\u5988\u8001\u5b9e\u5fe0\u539a\u4f46\u6709\u5065\u5eb7\u95ee\u9898\uff0c\u5168\u9760\u7238\u7238\u52a1\u519c\u3001\u6253\u96f6\u5de5\u517b\u5bb6\uff0c\u7ecf\u6d4e\u975e\u5e38\u56f0\u96be",
+        "family_size": "8",
+        "status_of_guardians": "3",
+        "#_of_earners": "1",
+        "Sibling": "3",
+        "#_of_sick_people": "3",
+        "Father_Work": "2",
+        "Mother_Work": "0",
+        "Parental_Migration": "0",
+        "Yrs_in_school": "4",
+        "ed_attainment_ordinal": "2"
+    },
+    {
+        "ID": "139",
+        "Year": "2014",
+        "info_note": "4.63",
+        "Family_Composition": "2.68",
+        "family_size": "0",
+        "status_of_guardians": "0",
+        "#_of_earners": "0",
+        "Sibling": "0",
+        "#_of_sick_people": "0",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "140 not GS",
+        "Year": "2016",
+        "info_note": "\u5546\u6d1b\u4e2d\u5b66\uff0c senior student in academic high school"
+    },
+    {
+        "ID": "141 not GS",
+        "Year": "2016",
+        "info_note": "\u5317\u5bbd\u576a\u9547\u521d\u7ea7\u4e2d\u5b66",
+        "Family_Composition": "\u5bb6\u4e2d6\u53e3\u4eba\uff0c\u5976\u5976\u7236\u6bcd\u59d0\u59d0\u5f1f\u5f1f\uff1b\u7236\u6bcd\u8eab\u4f53\u539f\u56e0\u65e0\u6cd5\u5916\u51fa\u6253\u5de5\uff0c\u4f9d\u9760\u79cd\u5730\u517b\u5bb6\uff1b\u59d0\u59d0\u521a\u6bd5\u4e1a\uff0c\u5f1f\u5f1f\u4e0a\u5c0f\u5b66",
+        "family_size": "6",
+        "#_of_sick_people": "2",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "143  not GS ",
+        "Year": "2016",
+        "Family_Composition": "\u7236\u6bcd\u8eab\u4f53\u4e0d\u597d\uff0c\u4f9d\u9760\u52a1\u519c\u4e3a\u751f",
+        "family_size": "3",
+        "#_of_sick_people": "2",
+        "Father_Work": "1",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "143 not GS",
+        "Year": "2019",
+        "Family_Composition": "\u5bb6\u4e2d5\u53e3\u4eba\uff0c\u5976\u5976\u7236\u6bcd\u59b9\u59b9\uff0c\u5976\u5976\u8eab\u4f53\u4e0d\u597d\uff1b\u7236\u6bcd\u662f\u519c\u6c11\uff0c\u7236\u4eb2\u672c\u5730\u6253\u5de5\n\u59b9\u59b9\u5728\u4e0a\u5b66",
+        "family_size": "5",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "1",
+        "Father_Work": "3",
+        "Mother_Work": "1"
+    },
+    {
+        "ID": "144 not GS",
+        "Year": "2019",
+        "Family_Composition": "\u7236\u6bcd\u8eab\u4f53\u5dee\uff0c\u5e26\u75c5\u6253\u5de5\uff0c\u6709\u59b9\u59b9\n\u59b9\u59b9\u5728\u4e0a\u5b66",
+        "family_size": "4",
+        "#_of_earners": "1",
+        "Sibling": "1",
+        "#_of_sick_people": "2",
+        "Father_Work": "3",
+        "Mother_Work": "1"
+    }
+]
