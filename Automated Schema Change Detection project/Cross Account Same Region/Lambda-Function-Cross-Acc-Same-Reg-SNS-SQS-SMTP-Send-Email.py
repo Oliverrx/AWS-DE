@@ -18,13 +18,13 @@ send_message = "hello smtp"
 
 def smtp_send_email(res, acc, reg, db, tb, ch):
     msg = MIMEMultipart("alternative")
-    msg["Subject"] = "Cross Account Cross Region Schema Change Detected"
+    msg["Subject"] = "Cross Account Same Region Schema Change Detected"
     msg["From"] = send_from
     msg["To"] = send_to
     
     body_html = """\
     <html>
-      <head><h1>Cross Account Cross Region Schema Change Detected</h1></head>
+      <head><h1>Cross Account Same Region Schema Change Detected</h1></head>
       <body>
         <p>
             <br>
@@ -50,23 +50,13 @@ def smtp_send_email(res, acc, reg, db, tb, ch):
 
 def send_to_sns(msg):
     client = boto3.client("sns")
-    snsArn = "arn:aws:sns:us-east-1:477953174433:send_Email_SNS_topic"
+    snsArn = "arn:aws:sns:us-east-2:477953174433:send_Email_SNS_topic"
     
     response = client.publish(
         TopicArn = snsArn,
         Message = msg,
-        Subject = "Cross Account Cross Region Schema Change Detected"
+        Subject = "Cross Account Same Region Schema Change Detected"
         )
-
-# def send_to_new_sns(msg):
-#     client = boto3.client("sns")
-#     newsnsArn = "arn:aws:sns:us-east-1:477953174433:receive_event_SNS_topic"
-    
-#     response = client.publish(
-#         TopicArn = newsnsArn,
-#         Message = msg,
-#         Subject = "Same Account Same Region Schema Change Detected - from custom eventbus"
-#         )
 
 
 def lambda_handler(event, context):
@@ -87,4 +77,3 @@ def lambda_handler(event, context):
         
         smtp_send_email(resource, account, region, database, table, change)
         send_to_sns(change)
-        # send_to_new_sns(change)
