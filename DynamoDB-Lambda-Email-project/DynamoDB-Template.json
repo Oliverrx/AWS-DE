@@ -1,5 +1,5 @@
 {
-    "Description": "Third Week first Assignment DynamoBD",
+    "Description": "Third Week first Assignment DynamoDB",
     "Parameters": {
         "AccountID": {
             "Default": "823650347705",
