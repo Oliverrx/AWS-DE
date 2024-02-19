@@ -1,5 +1,5 @@
 {
-    "Description": "Same Account Same Region Event Bus",
+    "Description": "Same Account Same Region Event Bus - Can be ignored due to the default Eventbus in source/default Account can be used directly.",
     "Parameters": {
         "AccountID": {
             "Default": "823650347705",
