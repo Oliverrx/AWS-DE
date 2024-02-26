@@ -166,7 +166,7 @@
                                 "Arn"     
                             ]
                         },
-                        "Id": "SameAccountSameRegionBus"
+                        "Id": "SourceAccountDefalutBus-SameAccountSameRegion"
                     }
                 ]
             }
@@ -210,6 +210,15 @@
                                 "Arn"
                             ]
                         }
+                    },
+                    {
+                        "Arn": {
+                            "Fn::GetAtt": [
+                                "EventBusLogGroup",
+                                "Arn"     
+                            ]
+                        },
+                        "Id": "SourceAccountDefalutBus-SameAccountCrossRegionBus"
                     }
                 ]
             }
@@ -253,6 +262,15 @@
                                 "Arn"
                             ]
                         }
+                    },
+                    {
+                        "Arn": {
+                            "Fn::GetAtt": [
+                                "EventBusLogGroup",
+                                "Arn"     
+                            ]
+                        },
+                        "Id": "SourceAccountDefalutBus-CrossAccountSameRegionBus"
                     }
                 ]
             }
@@ -296,6 +314,15 @@
                                 "Arn"
                             ]
                         }
+                    },
+                    {
+                        "Arn": {
+                            "Fn::GetAtt": [
+                                "EventBusLogGroup",
+                                "Arn"     
+                            ]
+                        },
+                        "Id": "SourceAccountDefalutBus-CrossAccountCrossRegionBus"
                     }
                 ]
             }
